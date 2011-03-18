@@ -1,0 +1,614 @@
+\hypertarget{class_sistema_r_h_1_1_adaptador}{
+\section{Referência da Classe SistemaRH.Adaptador}
+\label{class_sistema_r_h_1_1_adaptador}\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+}
+
+
+Classe usada como repositório de métodos comuns.  
+
+
+Diagrama de Hierarquia para SistemaRH.Adaptador:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_sistema_r_h_1_1_adaptador}
+\end{center}
+\end{figure}
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_af7e434caca70bdf7dfa603c6289b980a}{PesquisarCampos} (string comando)
+\begin{DoxyCompactList}\small\item\em Método usado para pesquisar um comando na base de Documentos. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_a5c8bb5b7d7043e678e4af8d07dbdbcaf}{Todos} ()
+\begin{DoxyCompactList}\small\item\em Método usado para retornar toda a base de Documentos. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_a052c3854a3bf089da17882811d5818a5}{PorColuna} (string select, string coluna, string orderBy)
+\begin{DoxyCompactList}\small\item\em Método usado para listar a base ordenada por coluna. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_adaptador_a9c424957506fe5caa65b27235ce4621f}{AtualizarDocumento} (\hyperlink{class_sistema_r_h_1_1_documento}{Documento} documento, string id)
+\begin{DoxyCompactList}\small\item\em Método usado para atualizar a base de documento. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_adaptador_abe619654cca85145989b360f54bdb5ef}{InserirDocumento} (\hyperlink{class_sistema_r_h_1_1_documento}{Documento} documento)
+\begin{DoxyCompactList}\small\item\em Método usado para inserir um documento na base. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_adaptador_afe3ebb2caaf8ac7eb1a79d40e3162f06}{RemoverDocumento} (int id)
+\begin{DoxyCompactList}\small\item\em Método usado para remover determinado documento. \item\end{DoxyCompactList}\item 
+int \hyperlink{class_sistema_r_h_1_1_adaptador_acac5ac58cd1612687346492460481ed3}{EfetuaLogin} (string nome, string senha)
+\begin{DoxyCompactList}\small\item\em Método que retorna o tipo de usuário no login. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_sistema_r_h_1_1_adaptador_a93d96f4aa60c7f6d31969b9cc30ba709}{AlterarSenha} (string nome, string novaSenha)
+\begin{DoxyCompactList}\small\item\em Método usado para alterar a senha do usuário que esta logado. \item\end{DoxyCompactList}\item 
+\hyperlink{class_sistema_r_h_1_1_documento}{Documento} \hyperlink{class_sistema_r_h_1_1_adaptador_a85a25e43f49a791019e88745c7d2eb4d}{obterDocumentoPorId} (string valor)
+\begin{DoxyCompactList}\small\item\em Método usado para obter o documento pelo id. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_arquivo}{Arquivo} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_a52212aafd317a1a50ab530e9cdd27fd2}{RetornaArquivos} (List$<$ \hyperlink{class_sistema_r_h_1_1_arquivo}{Arquivo} $>$ lista)
+\begin{DoxyCompactList}\small\item\em Método usado para retornar a lista de arquivos passada. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_a244664338b5f1c620b2f26c9ff5e48a5}{TodosLogs} ()
+\begin{DoxyCompactList}\small\item\em Método que retorna toda a base de LOGs. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_adaptador_aeb5690fbd57be126b109ef98ca6e199b}{InserirLog} (\hyperlink{class_sistema_r_h_1_1_log}{Log} log)
+\begin{DoxyCompactList}\small\item\em Método usado para inserir um log na base de LOGs. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_a0fad872479f1b548be84b87aba8421aa}{PorColunaLOG} (string select, string coluna, string orderBy)
+\begin{DoxyCompactList}\small\item\em Método que ordena o LOG por coluna. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_a098e5c1db1115eb9fd04013eff7001b8}{PesquisarCamposLOG} (string comando)
+\begin{DoxyCompactList}\small\item\em Método usado para pesquisar determinado campo na base de LOG. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_sistema_r_h_1_1_adaptador_a412794e35c3ec8f20de141e80e3a089a}{existeMatricula} (string matricula)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se existe a matricula. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_sistema_r_h_1_1_adaptador_a09d2efcbfd034dcc2d52f6174d35c9b6}{existeCPF} (string cpf)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se existe um CPF. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_sistema_r_h_1_1_adaptador_aa432bf5f72ad8945fa623b7d6b63cbc4}{existeLogin} (string login)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se existe um username já usado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_adaptador_ac9b891ce859599ead57c31b556d44aba}{addUsuario} (\hyperlink{class_sistema_r_h_1_1_usuario}{Usuario} usuario)
+\begin{DoxyCompactList}\small\item\em Método usado para inserir um usuário no sistema e na base de usuario. \item\end{DoxyCompactList}\item 
+\hyperlink{class_sistema_r_h_1_1_usuario}{Usuario} \hyperlink{class_sistema_r_h_1_1_adaptador_a801f81c172d67151cb9dd3f822c8ae21}{retornaUsuario} (string login)
+\begin{DoxyCompactList}\small\item\em Método usado para retornar o usuario através do seu username. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_aa39a43568105b2092e82f49e41f3e9d1}{intervaloDatasLogs} (string inicio, string final)
+\begin{DoxyCompactList}\small\item\em Método usado para retornar uma lista de LOGs filtrada por um intervalo de datas. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_adaptador_abc7e2f01b1d0afde19c2600fc6c76c05}{versiona\_\-indexa} (string nome\_\-arquivo)
+\begin{DoxyCompactList}\small\item\em Método usado para versionar um arquivo. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1_adaptador_a55a7011331026bd2220facd10a4c6be2}{obterIdCadastrado} ()
+\begin{DoxyCompactList}\small\item\em Método usado para obter o último id cadastrado. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_arquivo}{Arquivo} $>$ \hyperlink{class_sistema_r_h_1_1_adaptador_af378e623c1a1227ecf8923e340c730ab}{obterIdArquivos} (string id)
+\begin{DoxyCompactList}\small\item\em Método usado para obter os arquivos através do id do documento. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1_adaptador_af6f669026bb75d352298a735c5a27d5d}{montaFormatoTitulacao} (string nomeArquivo, string matricula, string tipo)
+\begin{DoxyCompactList}\small\item\em Método usado para montar o formato do nome dos arquivos de titulação. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe usada como repositório de métodos comuns. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_adaptador_ac9b891ce859599ead57c31b556d44aba}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!addUsuario@{addUsuario}}
+\index{addUsuario@{addUsuario}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{addUsuario}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Adaptador.addUsuario (
+\begin{DoxyParamCaption}
+\item[{{\bf Usuario}}]{ usuario}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_ac9b891ce859599ead57c31b556d44aba}
+
+
+Método usado para inserir um usuário no sistema e na base de usuario. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em usuario} & O usuario a ser inserido.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_adaptador_a93d96f4aa60c7f6d31969b9cc30ba709}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!AlterarSenha@{AlterarSenha}}
+\index{AlterarSenha@{AlterarSenha}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{AlterarSenha}]{\setlength{\rightskip}{0pt plus 5cm}bool SistemaRH.Adaptador.AlterarSenha (
+\begin{DoxyParamCaption}
+\item[{string}]{ nome, }
+\item[{string}]{ novaSenha}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a93d96f4aa60c7f6d31969b9cc30ba709}
+
+
+Método usado para alterar a senha do usuário que esta logado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome} & O username.\\
+\hline
+{\em novaSenha} & A nova senha.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+um booleano informando se foi auterada.
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_a9c424957506fe5caa65b27235ce4621f}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!AtualizarDocumento@{AtualizarDocumento}}
+\index{AtualizarDocumento@{AtualizarDocumento}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{AtualizarDocumento}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Adaptador.AtualizarDocumento (
+\begin{DoxyParamCaption}
+\item[{{\bf Documento}}]{ documento, }
+\item[{string}]{ id}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a9c424957506fe5caa65b27235ce4621f}
+
+
+Método usado para atualizar a base de documento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em documento} & O documento a ser atualizado.\\
+\hline
+{\em id} & O id do documento na base.\\
+\hline
+\end{DoxyParams}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_acac5ac58cd1612687346492460481ed3}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!EfetuaLogin@{EfetuaLogin}}
+\index{EfetuaLogin@{EfetuaLogin}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{EfetuaLogin}]{\setlength{\rightskip}{0pt plus 5cm}int SistemaRH.Adaptador.EfetuaLogin (
+\begin{DoxyParamCaption}
+\item[{string}]{ nome, }
+\item[{string}]{ senha}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_acac5ac58cd1612687346492460481ed3}
+
+
+Método que retorna o tipo de usuário no login. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome} & O username.\\
+\hline
+{\em senha} & A senha.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_a09d2efcbfd034dcc2d52f6174d35c9b6}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!existeCPF@{existeCPF}}
+\index{existeCPF@{existeCPF}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{existeCPF}]{\setlength{\rightskip}{0pt plus 5cm}bool SistemaRH.Adaptador.existeCPF (
+\begin{DoxyParamCaption}
+\item[{string}]{ cpf}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a09d2efcbfd034dcc2d52f6174d35c9b6}
+
+
+Método usado para verificar se existe um CPF. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em cpf} & O CPF.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+um booleado verificando se existe o CPF passado.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_aa432bf5f72ad8945fa623b7d6b63cbc4}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!existeLogin@{existeLogin}}
+\index{existeLogin@{existeLogin}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{existeLogin}]{\setlength{\rightskip}{0pt plus 5cm}bool SistemaRH.Adaptador.existeLogin (
+\begin{DoxyParamCaption}
+\item[{string}]{ login}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_aa432bf5f72ad8945fa623b7d6b63cbc4}
+
+
+Método usado para verificar se existe um username já usado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em login} & O username.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+um booleado verificando se existe o username passado.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_a412794e35c3ec8f20de141e80e3a089a}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!existeMatricula@{existeMatricula}}
+\index{existeMatricula@{existeMatricula}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{existeMatricula}]{\setlength{\rightskip}{0pt plus 5cm}bool SistemaRH.Adaptador.existeMatricula (
+\begin{DoxyParamCaption}
+\item[{string}]{ matricula}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a412794e35c3ec8f20de141e80e3a089a}
+
+
+Método usado para verificar se existe a matricula. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em matricula} & A matricula.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+um booleado verificando se existe a matricula passada.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_abe619654cca85145989b360f54bdb5ef}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!InserirDocumento@{InserirDocumento}}
+\index{InserirDocumento@{InserirDocumento}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{InserirDocumento}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Adaptador.InserirDocumento (
+\begin{DoxyParamCaption}
+\item[{{\bf Documento}}]{ documento}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_abe619654cca85145989b360f54bdb5ef}
+
+
+Método usado para inserir um documento na base. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em documento} & O documento a ser inserido.\\
+\hline
+\end{DoxyParams}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_aeb5690fbd57be126b109ef98ca6e199b}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!InserirLog@{InserirLog}}
+\index{InserirLog@{InserirLog}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{InserirLog}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Adaptador.InserirLog (
+\begin{DoxyParamCaption}
+\item[{{\bf Log}}]{ log}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_aeb5690fbd57be126b109ef98ca6e199b}
+
+
+Método usado para inserir um log na base de LOGs. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em log} & O log a ser inserido.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_adaptador_aa39a43568105b2092e82f49e41f3e9d1}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!intervaloDatasLogs@{intervaloDatasLogs}}
+\index{intervaloDatasLogs@{intervaloDatasLogs}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{intervaloDatasLogs}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Log}$>$ SistemaRH.Adaptador.intervaloDatasLogs (
+\begin{DoxyParamCaption}
+\item[{string}]{ inicio, }
+\item[{string}]{ final}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_aa39a43568105b2092e82f49e41f3e9d1}
+
+
+Método usado para retornar uma lista de LOGs filtrada por um intervalo de datas. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em inicio} & The inicio.\\
+\hline
+{\em final} & The final.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_af6f669026bb75d352298a735c5a27d5d}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!montaFormatoTitulacao@{montaFormatoTitulacao}}
+\index{montaFormatoTitulacao@{montaFormatoTitulacao}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{montaFormatoTitulacao}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.Adaptador.montaFormatoTitulacao (
+\begin{DoxyParamCaption}
+\item[{string}]{ nomeArquivo, }
+\item[{string}]{ matricula, }
+\item[{string}]{ tipo}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_af6f669026bb75d352298a735c5a27d5d}
+
+
+Método usado para montar o formato do nome dos arquivos de titulação. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nomeArquivo} & O nome do arquivo original.\\
+\hline
+{\em matricula} & A matricula.\\
+\hline
+{\em tipo} & O tipo de titulação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+o nome formatado.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_a85a25e43f49a791019e88745c7d2eb4d}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!obterDocumentoPorId@{obterDocumentoPorId}}
+\index{obterDocumentoPorId@{obterDocumentoPorId}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{obterDocumentoPorId}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Documento} SistemaRH.Adaptador.obterDocumentoPorId (
+\begin{DoxyParamCaption}
+\item[{string}]{ valor}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a85a25e43f49a791019e88745c7d2eb4d}
+
+
+Método usado para obter o documento pelo id. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & O id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_af378e623c1a1227ecf8923e340c730ab}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!obterIdArquivos@{obterIdArquivos}}
+\index{obterIdArquivos@{obterIdArquivos}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{obterIdArquivos}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Arquivo}$>$ SistemaRH.Adaptador.obterIdArquivos (
+\begin{DoxyParamCaption}
+\item[{string}]{ id}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_af378e623c1a1227ecf8923e340c730ab}
+
+
+Método usado para obter os arquivos através do id do documento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em id} & O id do documento.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+a lista com os arquivos do determinado documento.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_a55a7011331026bd2220facd10a4c6be2}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!obterIdCadastrado@{obterIdCadastrado}}
+\index{obterIdCadastrado@{obterIdCadastrado}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{obterIdCadastrado}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.Adaptador.obterIdCadastrado (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a55a7011331026bd2220facd10a4c6be2}
+
+
+Método usado para obter o último id cadastrado. 
+
+\begin{DoxyReturn}{Retorna}
+uma string com o ultimo id cadastrado.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_af7e434caca70bdf7dfa603c6289b980a}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!PesquisarCampos@{PesquisarCampos}}
+\index{PesquisarCampos@{PesquisarCampos}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{PesquisarCampos}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Documento}$>$ SistemaRH.Adaptador.PesquisarCampos (
+\begin{DoxyParamCaption}
+\item[{string}]{ comando}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_af7e434caca70bdf7dfa603c6289b980a}
+
+
+Método usado para pesquisar um comando na base de Documentos. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em comando} & O script de comando.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+lista de documentos filtrados pelo comando.
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_a098e5c1db1115eb9fd04013eff7001b8}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!PesquisarCamposLOG@{PesquisarCamposLOG}}
+\index{PesquisarCamposLOG@{PesquisarCamposLOG}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{PesquisarCamposLOG}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Log}$>$ SistemaRH.Adaptador.PesquisarCamposLOG (
+\begin{DoxyParamCaption}
+\item[{string}]{ comando}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a098e5c1db1115eb9fd04013eff7001b8}
+
+
+Método usado para pesquisar determinado campo na base de LOG. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em comando} & O comando a ser executado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_a052c3854a3bf089da17882811d5818a5}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!PorColuna@{PorColuna}}
+\index{PorColuna@{PorColuna}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{PorColuna}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Documento}$>$ SistemaRH.Adaptador.PorColuna (
+\begin{DoxyParamCaption}
+\item[{string}]{ select, }
+\item[{string}]{ coluna, }
+\item[{string}]{ orderBy}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a052c3854a3bf089da17882811d5818a5}
+
+
+Método usado para listar a base ordenada por coluna. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em select} & O comando select.\\
+\hline
+{\em coluna} & A coluna a ser ordenada.\\
+\hline
+{\em orderBy} & A ordem, se ascendente ou descendente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_a0fad872479f1b548be84b87aba8421aa}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!PorColunaLOG@{PorColunaLOG}}
+\index{PorColunaLOG@{PorColunaLOG}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{PorColunaLOG}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Log}$>$ SistemaRH.Adaptador.PorColunaLOG (
+\begin{DoxyParamCaption}
+\item[{string}]{ select, }
+\item[{string}]{ coluna, }
+\item[{string}]{ orderBy}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a0fad872479f1b548be84b87aba8421aa}
+
+
+Método que ordena o LOG por coluna. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em select} & O comando select.\\
+\hline
+{\em coluna} & A coluna a ser ordenada.\\
+\hline
+{\em orderBy} & O tipo da ordem.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_afe3ebb2caaf8ac7eb1a79d40e3162f06}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!RemoverDocumento@{RemoverDocumento}}
+\index{RemoverDocumento@{RemoverDocumento}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{RemoverDocumento}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Adaptador.RemoverDocumento (
+\begin{DoxyParamCaption}
+\item[{int}]{ id}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_afe3ebb2caaf8ac7eb1a79d40e3162f06}
+
+
+Método usado para remover determinado documento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em id} & O id do documento a ser removido.\\
+\hline
+\end{DoxyParams}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_a52212aafd317a1a50ab530e9cdd27fd2}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!RetornaArquivos@{RetornaArquivos}}
+\index{RetornaArquivos@{RetornaArquivos}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{RetornaArquivos}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Arquivo}$>$ SistemaRH.Adaptador.RetornaArquivos (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Arquivo} $>$}]{ lista}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a52212aafd317a1a50ab530e9cdd27fd2}
+
+
+Método usado para retornar a lista de arquivos passada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em lista} & Lista de arquivos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_a801f81c172d67151cb9dd3f822c8ae21}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!retornaUsuario@{retornaUsuario}}
+\index{retornaUsuario@{retornaUsuario}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{retornaUsuario}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Usuario} SistemaRH.Adaptador.retornaUsuario (
+\begin{DoxyParamCaption}
+\item[{string}]{ login}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a801f81c172d67151cb9dd3f822c8ae21}
+
+
+Método usado para retornar o usuario através do seu username. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em login} & O username.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_a5c8bb5b7d7043e678e4af8d07dbdbcaf}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!Todos@{Todos}}
+\index{Todos@{Todos}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{Todos}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Documento}$>$ SistemaRH.Adaptador.Todos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a5c8bb5b7d7043e678e4af8d07dbdbcaf}
+
+
+Método usado para retornar toda a base de Documentos. 
+
+\begin{DoxyReturn}{Retorna}
+retorna a base de Documentos.
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{interface_sistema_r_h_1_1_i_adaptador}{SistemaRH.IAdaptador}.
+
+\hypertarget{class_sistema_r_h_1_1_adaptador_a244664338b5f1c620b2f26c9ff5e48a5}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!TodosLogs@{TodosLogs}}
+\index{TodosLogs@{TodosLogs}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{TodosLogs}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Log}$>$ SistemaRH.Adaptador.TodosLogs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_a244664338b5f1c620b2f26c9ff5e48a5}
+
+
+Método que retorna toda a base de LOGs. 
+
+\begin{DoxyReturn}{Retorna}
+a base de LOGs
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_adaptador_abc7e2f01b1d0afde19c2600fc6c76c05}{
+\index{SistemaRH::Adaptador@{SistemaRH::Adaptador}!versiona\_\-indexa@{versiona\_\-indexa}}
+\index{versiona\_\-indexa@{versiona\_\-indexa}!SistemaRH::Adaptador@{SistemaRH::Adaptador}}
+\subsubsection[{versiona\_\-indexa}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Adaptador.versiona\_\-indexa (
+\begin{DoxyParamCaption}
+\item[{string}]{ nome\_\-arquivo}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_adaptador_abc7e2f01b1d0afde19c2600fc6c76c05}
+
+
+Método usado para versionar um arquivo. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\_\-arquivo} & O nome do arquivo.\\
+\hline
+\end{DoxyParams}
+
+
+A documentação para esta classe foi gerada a partir do seguinte arquivo:\begin{DoxyCompactItemize}
+\item 
+Adaptador.cs\end{DoxyCompactItemize}

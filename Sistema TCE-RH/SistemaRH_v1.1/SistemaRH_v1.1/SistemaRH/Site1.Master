@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SistemaRH.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sistema RH Digital</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header" style="z-index: 2">
+            <table id="tabelaSuperior" cellspacing="0" cellpadding="0">
+                <tr style="padding-bottom: 0px; width: 100%">
+                    <td style="padding-left: 10px; padding-top: 3px; padding-bottom: 0px;">
+                        <asp:Image ID="ImageGED" runat="server" ImageUrl="~/imagens/logo_rhdigital3.png"
+                            Height="46px" Width="220px" />
+                    </td>
+                    <td align="center" valign="bottom">
+                        <div id="tabs">
+                            <ul>
+                                <li>
+                                <a id="inicio" href="home.aspx"><span>Início</span></a>
+                                </li>
+                                <li><a id="cadastro" href="cadastroDefault.aspx"><span>Cadastro</span></a></li>
+                                <li><a id="busca" href="busca.aspx"><span>Busca</span></a></li>
+                                <li><a id="listar" href="listar.aspx"><span>Listar</span></a></li>
+                                <li><asp:LinkButton ID="LinkButtonLog" runat="server"
+                                        CausesValidation="False" onclick="LinkButtonLog_Click"><span>Log</span></asp:LinkButton></li>
+                                <li><a id="alterar" href="alterarSenha.aspx"><span>Alterar Senha</span></a></li>
+                                <li>
+                                    <asp:LinkButton ID="LinkButtonSair" runat="server" OnClick="LinkButtonSair_Click"
+                                        CausesValidation="False"><span>Sair</span></asp:LinkButton></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td align="center" valign="middle">
+                        <asp:Image ID="ImageTCE" runat="server" ImageUrl="~/imagens/botao_TCE.png" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="content"  style="z-index: -1">
+            <asp:ContentPlaceHolder ID="cphContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer"  style="z-index: 2">
+            <table id="tabelaInferior" cellspacing="0">
+                <tr>
+                    <td align="center" valign="middle">
+                        <asp:Image ID="ImageZDoc" runat="server" ImageUrl="~/imagens/zcr.png" Height="40px" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

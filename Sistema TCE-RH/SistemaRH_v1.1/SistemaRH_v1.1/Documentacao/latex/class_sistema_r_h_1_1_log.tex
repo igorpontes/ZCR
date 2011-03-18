@@ -1,0 +1,152 @@
+\hypertarget{class_sistema_r_h_1_1_log}{
+\section{Referência da Classe SistemaRH.Log}
+\label{class_sistema_r_h_1_1_log}\index{SistemaRH::Log@{SistemaRH::Log}}
+}
+
+
+Classe responsável pela estrutura do LOG da base.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_sistema_r_h_1_1_log_a75d4a78eb8da8071981fa6f2f7f1f69a}{CompareTo} (\hyperlink{class_sistema_r_h_1_1_log}{Log} other)
+\begin{DoxyCompactList}\small\item\em Método usado para comparar dois Logs. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Estáticos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+static Comparison$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_log_a0a57e152a8d61d7df6fe897d9843fce0}{DataComparison}
+\begin{DoxyCompactList}\small\item\em Método estático usado para comprar duas datas de dois LOGs. \item\end{DoxyCompactList}\item 
+static Comparison$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_log_a56bcfc31cd67e8bc471cdb1c39b95625}{UsuarioComparison}
+\begin{DoxyCompactList}\small\item\em Método estático usado para comprar dois usuários de dois LOGs. \item\end{DoxyCompactList}\item 
+static Comparison$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_log_a46bedfe624dbeecabcdf8750d71d8503}{TipoAcaoComparison}
+\begin{DoxyCompactList}\small\item\em Método estático usado para comprar dois tipos de ação de dois LOGs. \item\end{DoxyCompactList}\item 
+static Comparison$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_log_a51daea04f14453613b4a9b0d68f5679e}{MensagemComparison}
+\begin{DoxyCompactList}\small\item\em Método estático usado para comprar duas mensagens de dois LOGs. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Propriedades}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_sistema_r_h_1_1_log_a7b87a0b24d7c5fe16c8e5b4dc74f290c}{
+int {\bfseries id}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_sistema_r_h_1_1_log_a7b87a0b24d7c5fe16c8e5b4dc74f290c}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_log_a87219201d0a6a602d59965e626f36e4d}{
+string {\bfseries usuario\_\-log}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_sistema_r_h_1_1_log_a87219201d0a6a602d59965e626f36e4d}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_log_a7f8527ef16fa5e8ed6431c776785cb7c}{
+string {\bfseries tipo\_\-acao\_\-log}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_sistema_r_h_1_1_log_a7f8527ef16fa5e8ed6431c776785cb7c}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_log_a1065efcd7795fc0c055039edb6a93433}{
+string {\bfseries mensagem\_\-acao\_\-log}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_sistema_r_h_1_1_log_a1065efcd7795fc0c055039edb6a93433}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_log_a13fb91cebc627c3e0613fa643462fc34}{
+DateTime {\bfseries data\_\-log}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_sistema_r_h_1_1_log_a13fb91cebc627c3e0613fa643462fc34}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe responsável pela estrutura do LOG da base. Implementa a interface IComparable. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_log_a75d4a78eb8da8071981fa6f2f7f1f69a}{
+\index{SistemaRH::Log@{SistemaRH::Log}!CompareTo@{CompareTo}}
+\index{CompareTo@{CompareTo}!SistemaRH::Log@{SistemaRH::Log}}
+\subsubsection[{CompareTo}]{\setlength{\rightskip}{0pt plus 5cm}int SistemaRH.Log.CompareTo (
+\begin{DoxyParamCaption}
+\item[{{\bf Log}}]{ other}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_log_a75d4a78eb8da8071981fa6f2f7f1f69a}
+
+
+Método usado para comparar dois Logs. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em other} & Outro LOG.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Um inteiro de comparação
+\end{DoxyReturn}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1_log_a0a57e152a8d61d7df6fe897d9843fce0}{
+\index{SistemaRH::Log@{SistemaRH::Log}!DataComparison@{DataComparison}}
+\index{DataComparison@{DataComparison}!SistemaRH::Log@{SistemaRH::Log}}
+\subsubsection[{DataComparison}]{\setlength{\rightskip}{0pt plus 5cm}Comparison$<${\bf Log}$>$ {\bf SistemaRH.Log.DataComparison}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_sistema_r_h_1_1_log_a0a57e152a8d61d7df6fe897d9843fce0}
+{\bfseries Valor Inicial:}
+\begin{DoxyCode}
+ delegate(Log log1, Log log2)
+        {
+            return log1.data_log.CompareTo(log2.data_log);
+        }
+\end{DoxyCode}
+
+
+Método estático usado para comprar duas datas de dois LOGs. 
+
+\hypertarget{class_sistema_r_h_1_1_log_a51daea04f14453613b4a9b0d68f5679e}{
+\index{SistemaRH::Log@{SistemaRH::Log}!MensagemComparison@{MensagemComparison}}
+\index{MensagemComparison@{MensagemComparison}!SistemaRH::Log@{SistemaRH::Log}}
+\subsubsection[{MensagemComparison}]{\setlength{\rightskip}{0pt plus 5cm}Comparison$<${\bf Log}$>$ {\bf SistemaRH.Log.MensagemComparison}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_sistema_r_h_1_1_log_a51daea04f14453613b4a9b0d68f5679e}
+{\bfseries Valor Inicial:}
+\begin{DoxyCode}
+ delegate(Log log1, Log log2)
+        {
+            return log1.mensagem_acao_log.CompareTo(log2.mensagem_acao_log);
+        }
+\end{DoxyCode}
+
+
+Método estático usado para comprar duas mensagens de dois LOGs. 
+
+\hypertarget{class_sistema_r_h_1_1_log_a46bedfe624dbeecabcdf8750d71d8503}{
+\index{SistemaRH::Log@{SistemaRH::Log}!TipoAcaoComparison@{TipoAcaoComparison}}
+\index{TipoAcaoComparison@{TipoAcaoComparison}!SistemaRH::Log@{SistemaRH::Log}}
+\subsubsection[{TipoAcaoComparison}]{\setlength{\rightskip}{0pt plus 5cm}Comparison$<${\bf Log}$>$ {\bf SistemaRH.Log.TipoAcaoComparison}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_sistema_r_h_1_1_log_a46bedfe624dbeecabcdf8750d71d8503}
+{\bfseries Valor Inicial:}
+\begin{DoxyCode}
+ delegate(Log log1, Log log2)
+        {
+            return log1.tipo_acao_log.CompareTo(log2.tipo_acao_log);
+        }
+\end{DoxyCode}
+
+
+Método estático usado para comprar dois tipos de ação de dois LOGs. 
+
+\hypertarget{class_sistema_r_h_1_1_log_a56bcfc31cd67e8bc471cdb1c39b95625}{
+\index{SistemaRH::Log@{SistemaRH::Log}!UsuarioComparison@{UsuarioComparison}}
+\index{UsuarioComparison@{UsuarioComparison}!SistemaRH::Log@{SistemaRH::Log}}
+\subsubsection[{UsuarioComparison}]{\setlength{\rightskip}{0pt plus 5cm}Comparison$<${\bf Log}$>$ {\bf SistemaRH.Log.UsuarioComparison}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_sistema_r_h_1_1_log_a56bcfc31cd67e8bc471cdb1c39b95625}
+{\bfseries Valor Inicial:}
+\begin{DoxyCode}
+ delegate(Log log1, Log log2)
+        {
+            return log1.usuario_log.CompareTo(log2.usuario_log);
+        }
+\end{DoxyCode}
+
+
+Método estático usado para comprar dois usuários de dois LOGs. 
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte arquivo:\begin{DoxyCompactItemize}
+\item 
+Log.cs\end{DoxyCompactItemize}

@@ -1,0 +1,200 @@
+\hypertarget{class_sistema_r_h_1_1listar}{
+\section{Referência da Classe SistemaRH.listar}
+\label{class_sistema_r_h_1_1listar}\index{SistemaRH::listar@{SistemaRH::listar}}
+}
+
+
+Classe da página usada para listar todos os colaboradores do banco de dados.  
+
+
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1listar_a14a9ce80dd323a7fd5186b94ca800c55}{Page\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se o usuario esta autentificado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1listar_aef85cc5a40aa5bbaf0eb0c7036dc6692}{GridView1\_\-RowCommand} (object sender, GridViewCommandEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método que trata o evento RowCommand do GridView1 control. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1listar_a41de597acc5ee4a79ed634e5a83fbec8}{GridView1\_\-PageIndexChanging} (object sender, GridViewPageEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para mudar a página do GridView1 control. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1listar_a8283fe0a51426b39d017e7d764d6711e}{GridView1\_\-Sorting1} (object sender, GridViewSortEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para ordenar GridView1 control. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ \hyperlink{class_sistema_r_h_1_1listar_a0acb4e720380b1323dbfc0d0bff7ab74}{bindGrid} (string opcao)
+\begin{DoxyCompactList}\small\item\em Método usado para ordenar ou mudar a página do gridView. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1listar_a9e923dea80a39d42e26a2ccd5e8e163f}{Label1}
+\begin{DoxyCompactList}\small\item\em Label1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1listar_ad8d65c5b374cd071739c7e011d564984}{ImageAttention}
+\begin{DoxyCompactList}\small\item\em ImageAttention control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1listar_a099249f6f879d191f79410dcf13b5027}{LabelErro}
+\begin{DoxyCompactList}\small\item\em LabelErro control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.GridView \hyperlink{class_sistema_r_h_1_1listar_a48e63b5bdc208679f4a6d29b0800e40f}{GridView1}
+\begin{DoxyCompactList}\small\item\em GridView1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ObjectDataSource \hyperlink{class_sistema_r_h_1_1listar_adc28839cecb1dcfb2e5629dc4d78222d}{ObjectDataSourceDocumento}
+\begin{DoxyCompactList}\small\item\em ObjectDataSourceDocumento control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe da página usada para listar todos os colaboradores do banco de dados. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1listar_a0acb4e720380b1323dbfc0d0bff7ab74}{
+\index{SistemaRH::listar@{SistemaRH::listar}!bindGrid@{bindGrid}}
+\index{bindGrid@{bindGrid}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{bindGrid}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Documento}$>$ SistemaRH.listar.bindGrid (
+\begin{DoxyParamCaption}
+\item[{string}]{ opcao}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_a0acb4e720380b1323dbfc0d0bff7ab74}
+
+
+Método usado para ordenar ou mudar a página do gridView. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em opcao} & opcao indica se quer ordenar ou mudar a página do gridView.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+uma lista de Documentos já ordenada ou com outro indice.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1listar_a41de597acc5ee4a79ed634e5a83fbec8}{
+\index{SistemaRH::listar@{SistemaRH::listar}!GridView1\_\-PageIndexChanging@{GridView1\_\-PageIndexChanging}}
+\index{GridView1\_\-PageIndexChanging@{GridView1\_\-PageIndexChanging}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{GridView1\_\-PageIndexChanging}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.listar.GridView1\_\-PageIndexChanging (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewPageEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_a41de597acc5ee4a79ed634e5a83fbec8}
+
+
+Método usado para mudar a página do GridView1 control. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewPageEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1listar_aef85cc5a40aa5bbaf0eb0c7036dc6692}{
+\index{SistemaRH::listar@{SistemaRH::listar}!GridView1\_\-RowCommand@{GridView1\_\-RowCommand}}
+\index{GridView1\_\-RowCommand@{GridView1\_\-RowCommand}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{GridView1\_\-RowCommand}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.listar.GridView1\_\-RowCommand (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewCommandEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_aef85cc5a40aa5bbaf0eb0c7036dc6692}
+
+
+Método que trata o evento RowCommand do GridView1 control. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewCommandEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1listar_a8283fe0a51426b39d017e7d764d6711e}{
+\index{SistemaRH::listar@{SistemaRH::listar}!GridView1\_\-Sorting1@{GridView1\_\-Sorting1}}
+\index{GridView1\_\-Sorting1@{GridView1\_\-Sorting1}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{GridView1\_\-Sorting1}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.listar.GridView1\_\-Sorting1 (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewSortEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_a8283fe0a51426b39d017e7d764d6711e}
+
+
+Método usado para ordenar GridView1 control. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewSortEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1listar_a14a9ce80dd323a7fd5186b94ca800c55}{
+\index{SistemaRH::listar@{SistemaRH::listar}!Page\_\-Load@{Page\_\-Load}}
+\index{Page\_\-Load@{Page\_\-Load}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{Page\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.listar.Page\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_a14a9ce80dd323a7fd5186b94ca800c55}
+
+
+Método usado para verificar se o usuario esta autentificado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1listar_a48e63b5bdc208679f4a6d29b0800e40f}{
+\index{SistemaRH::listar@{SistemaRH::listar}!GridView1@{GridView1}}
+\index{GridView1@{GridView1}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{GridView1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.GridView {\bf SistemaRH.listar.GridView1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_a48e63b5bdc208679f4a6d29b0800e40f}
+
+
+GridView1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1listar_ad8d65c5b374cd071739c7e011d564984}{
+\index{SistemaRH::listar@{SistemaRH::listar}!ImageAttention@{ImageAttention}}
+\index{ImageAttention@{ImageAttention}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{ImageAttention}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.listar.ImageAttention}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_ad8d65c5b374cd071739c7e011d564984}
+
+
+ImageAttention control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1listar_a9e923dea80a39d42e26a2ccd5e8e163f}{
+\index{SistemaRH::listar@{SistemaRH::listar}!Label1@{Label1}}
+\index{Label1@{Label1}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{Label1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.listar.Label1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_a9e923dea80a39d42e26a2ccd5e8e163f}
+
+
+Label1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1listar_a099249f6f879d191f79410dcf13b5027}{
+\index{SistemaRH::listar@{SistemaRH::listar}!LabelErro@{LabelErro}}
+\index{LabelErro@{LabelErro}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{LabelErro}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.listar.LabelErro}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_a099249f6f879d191f79410dcf13b5027}
+
+
+LabelErro control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1listar_adc28839cecb1dcfb2e5629dc4d78222d}{
+\index{SistemaRH::listar@{SistemaRH::listar}!ObjectDataSourceDocumento@{ObjectDataSourceDocumento}}
+\index{ObjectDataSourceDocumento@{ObjectDataSourceDocumento}!SistemaRH::listar@{SistemaRH::listar}}
+\subsubsection[{ObjectDataSourceDocumento}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ObjectDataSource {\bf SistemaRH.listar.ObjectDataSourceDocumento}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1listar_adc28839cecb1dcfb2e5629dc4d78222d}
+
+
+ObjectDataSourceDocumento control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+listar.aspx.cs\item 
+listar.aspx.designer.cs\end{DoxyCompactItemize}

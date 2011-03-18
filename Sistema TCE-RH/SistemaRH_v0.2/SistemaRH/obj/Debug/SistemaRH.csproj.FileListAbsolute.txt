@@ -1,0 +1,30 @@
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\SistemaRH.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\SistemaRH.pdb
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\AjaxControlToolkit.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\LightInfocon.GoldenAccess.General.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\LightInfocon.GoldenIndex.General.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\AjaxControlToolkit.pdb
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ar\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\cs\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\de\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\es\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\fr\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\he\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\hi\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\it\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ja\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ko\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\nl\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\pt\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ru\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\obj\Debug\SistemaRH.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\bin\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\bin\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\obj\Debug\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\obj\Debug\SistemaRH.pdb

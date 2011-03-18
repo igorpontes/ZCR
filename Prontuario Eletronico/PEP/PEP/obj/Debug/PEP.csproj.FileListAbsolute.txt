@@ -1,0 +1,42 @@
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\PEP.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\PEP.pdb
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\obj\Debug\PEP.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\obj\Debug\PEP.pdb
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\AjaxControlToolkit.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\AjaxControlToolkit.pdb
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\ar\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\cs\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\de\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\es\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\fr\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\he\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\hi\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\it\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\ja\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\ko\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\nl\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\pt\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\ru\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\PEP\PEP\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\anderson\Desktop\PEP\PEP\PEP\bin\PEP.dll
+C:\Users\anderson\Desktop\PEP\PEP\PEP\bin\PEP.pdb
+C:\Users\anderson\Desktop\PEP\PEP\PEP\bin\LightInfocon.GoldenAccess.General.dll
+C:\Users\anderson\Desktop\PEP\PEP\PEP\bin\LightInfocon.GoldenIndex.General.dll
+C:\Users\anderson\Desktop\PEP\PEP\PEP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anderson\Desktop\PEP\PEP\PEP\obj\Debug\PEP.dll
+C:\Users\anderson\Desktop\PEP\PEP\PEP\obj\Debug\PEP.pdb
+C:\Users\anderson\Desktop\PEP\PEP\bin\PEP.dll
+C:\Users\anderson\Desktop\PEP\PEP\bin\PEP.pdb
+C:\Users\anderson\Desktop\PEP\PEP\bin\LightInfocon.GoldenAccess.General.dll
+C:\Users\anderson\Desktop\PEP\PEP\bin\LightInfocon.GoldenIndex.General.dll
+C:\Users\anderson\Desktop\PEP\PEP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anderson\Desktop\PEP\PEP\obj\Debug\PEP.dll
+C:\Users\anderson\Desktop\PEP\PEP\obj\Debug\PEP.pdb
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\PEP\PEP\bin\PEP.dll
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\PEP\PEP\bin\PEP.pdb
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\PEP\PEP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\PEP\PEP\obj\Debug\PEP.dll
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\PEP\PEP\obj\Debug\PEP.pdb

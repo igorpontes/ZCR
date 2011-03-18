@@ -1,0 +1,71 @@
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador}{
+\section{Referência da Interface SistemaRH.IAdaptador}
+\label{interface_sistema_r_h_1_1_i_adaptador}\index{SistemaRH::IAdaptador@{SistemaRH::IAdaptador}}
+}
+
+
+Interface da classe \hyperlink{class_sistema_r_h_1_1_adaptador}{Adaptador}.  
+
+
+Diagrama de Hierarquia para SistemaRH.IAdaptador:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_sistema_r_h_1_1_i_adaptador}
+\end{center}
+\end{figure}
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_a00b31acb9f17c41e3010b81210d80e3a}{
+void {\bfseries AtualizarDocumento} (\hyperlink{class_sistema_r_h_1_1_documento}{Documento} documento, string id)}
+\label{interface_sistema_r_h_1_1_i_adaptador_a00b31acb9f17c41e3010b81210d80e3a}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_a5b2e814d3103c4f2220e649c003e9446}{
+void {\bfseries InserirDocumento} (\hyperlink{class_sistema_r_h_1_1_documento}{Documento} documento)}
+\label{interface_sistema_r_h_1_1_i_adaptador_a5b2e814d3103c4f2220e649c003e9446}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_a9a701db6c0e7c67738ccb25f8cb681a0}{
+void {\bfseries RemoverDocumento} (int id)}
+\label{interface_sistema_r_h_1_1_i_adaptador_a9a701db6c0e7c67738ccb25f8cb681a0}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_af13fd0ccce6a983ebcbcb332afe3f897}{
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ {\bfseries Todos} ()}
+\label{interface_sistema_r_h_1_1_i_adaptador_af13fd0ccce6a983ebcbcb332afe3f897}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_a5c06901c86c9adb2ccf10dce8e7f4790}{
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ {\bfseries PorColuna} (string select, string coluna, string orderBy)}
+\label{interface_sistema_r_h_1_1_i_adaptador_a5c06901c86c9adb2ccf10dce8e7f4790}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_a0ee97425dadae1f749c4e723cfb06e23}{
+int {\bfseries EfetuaLogin} (string nome, string senha)}
+\label{interface_sistema_r_h_1_1_i_adaptador_a0ee97425dadae1f749c4e723cfb06e23}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_a2762ff75efce372d733731cdbce5b21f}{
+bool {\bfseries AlterarSenha} (string nome, string novaSenha)}
+\label{interface_sistema_r_h_1_1_i_adaptador_a2762ff75efce372d733731cdbce5b21f}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_ac028b90b9103689275755eb8473638ff}{
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ {\bfseries PesquisarCampos} (string comando)}
+\label{interface_sistema_r_h_1_1_i_adaptador_ac028b90b9103689275755eb8473638ff}
+
+\item 
+\hypertarget{interface_sistema_r_h_1_1_i_adaptador_a545fed60793e83c241af722d783d6438}{
+List$<$ \hyperlink{class_sistema_r_h_1_1_arquivo}{Arquivo} $>$ {\bfseries RetornaArquivos} (List$<$ \hyperlink{class_sistema_r_h_1_1_arquivo}{Arquivo} $>$ lista)}
+\label{interface_sistema_r_h_1_1_i_adaptador_a545fed60793e83c241af722d783d6438}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Interface da classe \hyperlink{class_sistema_r_h_1_1_adaptador}{Adaptador}. 
+
+A documentação para esta interface foi gerada a partir do seguinte arquivo:\begin{DoxyCompactItemize}
+\item 
+IAdaptador.cs\end{DoxyCompactItemize}

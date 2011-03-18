@@ -1,0 +1,282 @@
+\hypertarget{class_sistema_r_h_1_1_pesquisar}{
+\section{Referência da Classe SistemaRH.Pesquisar}
+\label{class_sistema_r_h_1_1_pesquisar}\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+}
+
+
+Classe responsável pela página que lista a pesquisa feita.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_sistema_r_h_1_1_pesquisar_ae21e33af51baae9a5b23ab37e1eb6715}{montarComando} (string pComando)
+\begin{DoxyCompactList}\small\item\em Método usado para montar o comando de pesquisa. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1_pesquisar_ad812e1cd6c53c94becdff3470d76d5f5}{Page\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método Load que garante o usuário autenticado e preenche o GridView com a pesquisa realizada. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_pesquisar_a5c8f3da7b34e89252aacb7ec33629c34}{GridView1\_\-RowCommand} (object sender, GridViewCommandEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método do evento RowCommand que controla o GridView. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_pesquisar_afb80a7522437f0e3556f59a20668b798}{GridView1\_\-Sorting1} (object sender, GridViewSortEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para ordenar o GridView. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_pesquisar_a9022aa15e787eaae4f2a6c60706c1e39}{GridView1\_\-PageIndexChanging} (object sender, GridViewPageEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para mudar o indice do GridView. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_documento}{Documento} $>$ \hyperlink{class_sistema_r_h_1_1_pesquisar_aa43a71ec0dd0944ea937c465ea8af273}{bindGrid} (string opcao)
+\begin{DoxyCompactList}\small\item\em Método usado para retornar uma lista ordenada ou uma lista com um indice diferente. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_pesquisar_ab03792434165c1bfc547deeee66ad8c9}{ButtonEnviarPesquisa\_\-Click} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para processar a pesquisa dentro da lista de Colaboradores. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_pesquisar_a170f9006967454b5b0bda89191fe4555}{Label1}
+\begin{DoxyCompactList}\small\item\em Label1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1_pesquisar_a131eb4f5f365d86398a16541cfa83920}{ImageAttention}
+\begin{DoxyCompactList}\small\item\em ImageAttention control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_pesquisar_afd48762baccfaf1cc5996bd2d7646839}{LabelErro}
+\begin{DoxyCompactList}\small\item\em LabelErro control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_pesquisar_a873d1b813fa7f47e8b18a9a1bb7b2d18}{Label2}
+\begin{DoxyCompactList}\small\item\em Label2 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_pesquisar_ad167e10b78a58d8192c25cb0125dc20d}{TextBoxPesquisa}
+\begin{DoxyCompactList}\small\item\em TextBoxPesquisa control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_pesquisar_ada5643710f0e8e14d2c54c7efeb968a1}{ImageButtonEnviarPesquisa}
+\begin{DoxyCompactList}\small\item\em ImageButtonEnviarPesquisa control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.GridView \hyperlink{class_sistema_r_h_1_1_pesquisar_a28919d9426169a099b8ea857b139ebfe}{GridView1}
+\begin{DoxyCompactList}\small\item\em GridView1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ObjectDataSource \hyperlink{class_sistema_r_h_1_1_pesquisar_a6e9ec0cf29ddddee97dc6be2a836e397}{ObjectDataSourceDocumento}
+\begin{DoxyCompactList}\small\item\em ObjectDataSourceDocumento control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe responsável pela página que lista a pesquisa feita. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_aa43a71ec0dd0944ea937c465ea8af273}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!bindGrid@{bindGrid}}
+\index{bindGrid@{bindGrid}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{bindGrid}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Documento}$>$ SistemaRH.Pesquisar.bindGrid (
+\begin{DoxyParamCaption}
+\item[{string}]{ opcao}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_aa43a71ec0dd0944ea937c465ea8af273}
+
+
+Método usado para retornar uma lista ordenada ou uma lista com um indice diferente. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em opcao} & Opção escolhida se é de ordenaçao ou mudança de indice.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+a lista modificada.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_ab03792434165c1bfc547deeee66ad8c9}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!ButtonEnviarPesquisa\_\-Click@{ButtonEnviarPesquisa\_\-Click}}
+\index{ButtonEnviarPesquisa\_\-Click@{ButtonEnviarPesquisa\_\-Click}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{ButtonEnviarPesquisa\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Pesquisar.ButtonEnviarPesquisa\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_ab03792434165c1bfc547deeee66ad8c9}
+
+
+Método usado para processar a pesquisa dentro da lista de Colaboradores. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_a9022aa15e787eaae4f2a6c60706c1e39}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!GridView1\_\-PageIndexChanging@{GridView1\_\-PageIndexChanging}}
+\index{GridView1\_\-PageIndexChanging@{GridView1\_\-PageIndexChanging}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{GridView1\_\-PageIndexChanging}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Pesquisar.GridView1\_\-PageIndexChanging (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewPageEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_a9022aa15e787eaae4f2a6c60706c1e39}
+
+
+Método usado para mudar o indice do GridView. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewPageEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_a5c8f3da7b34e89252aacb7ec33629c34}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!GridView1\_\-RowCommand@{GridView1\_\-RowCommand}}
+\index{GridView1\_\-RowCommand@{GridView1\_\-RowCommand}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{GridView1\_\-RowCommand}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Pesquisar.GridView1\_\-RowCommand (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewCommandEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_a5c8f3da7b34e89252aacb7ec33629c34}
+
+
+Método do evento RowCommand que controla o GridView. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewCommandEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_afb80a7522437f0e3556f59a20668b798}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!GridView1\_\-Sorting1@{GridView1\_\-Sorting1}}
+\index{GridView1\_\-Sorting1@{GridView1\_\-Sorting1}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{GridView1\_\-Sorting1}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Pesquisar.GridView1\_\-Sorting1 (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewSortEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_afb80a7522437f0e3556f59a20668b798}
+
+
+Método usado para ordenar o GridView. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewSortEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_ae21e33af51baae9a5b23ab37e1eb6715}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!montarComando@{montarComando}}
+\index{montarComando@{montarComando}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{montarComando}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.Pesquisar.montarComando (
+\begin{DoxyParamCaption}
+\item[{string}]{ pComando}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_pesquisar_ae21e33af51baae9a5b23ab37e1eb6715}
+
+
+Método usado para montar o comando de pesquisa. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em pComando} & A string a ser tratada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+a string tratada do comando.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_ad812e1cd6c53c94becdff3470d76d5f5}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!Page\_\-Load@{Page\_\-Load}}
+\index{Page\_\-Load@{Page\_\-Load}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{Page\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Pesquisar.Page\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_ad812e1cd6c53c94becdff3470d76d5f5}
+
+
+Método Load que garante o usuário autenticado e preenche o GridView com a pesquisa realizada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1_pesquisar_a28919d9426169a099b8ea857b139ebfe}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!GridView1@{GridView1}}
+\index{GridView1@{GridView1}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{GridView1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.GridView {\bf SistemaRH.Pesquisar.GridView1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_a28919d9426169a099b8ea857b139ebfe}
+
+
+GridView1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_pesquisar_a131eb4f5f365d86398a16541cfa83920}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!ImageAttention@{ImageAttention}}
+\index{ImageAttention@{ImageAttention}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{ImageAttention}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.Pesquisar.ImageAttention}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_a131eb4f5f365d86398a16541cfa83920}
+
+
+ImageAttention control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_pesquisar_ada5643710f0e8e14d2c54c7efeb968a1}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!ImageButtonEnviarPesquisa@{ImageButtonEnviarPesquisa}}
+\index{ImageButtonEnviarPesquisa@{ImageButtonEnviarPesquisa}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{ImageButtonEnviarPesquisa}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.Pesquisar.ImageButtonEnviarPesquisa}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_ada5643710f0e8e14d2c54c7efeb968a1}
+
+
+ImageButtonEnviarPesquisa control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_pesquisar_a170f9006967454b5b0bda89191fe4555}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!Label1@{Label1}}
+\index{Label1@{Label1}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{Label1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Pesquisar.Label1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_a170f9006967454b5b0bda89191fe4555}
+
+
+Label1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_pesquisar_a873d1b813fa7f47e8b18a9a1bb7b2d18}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!Label2@{Label2}}
+\index{Label2@{Label2}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{Label2}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Pesquisar.Label2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_a873d1b813fa7f47e8b18a9a1bb7b2d18}
+
+
+Label2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_pesquisar_afd48762baccfaf1cc5996bd2d7646839}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!LabelErro@{LabelErro}}
+\index{LabelErro@{LabelErro}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{LabelErro}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Pesquisar.LabelErro}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_afd48762baccfaf1cc5996bd2d7646839}
+
+
+LabelErro control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_pesquisar_a6e9ec0cf29ddddee97dc6be2a836e397}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!ObjectDataSourceDocumento@{ObjectDataSourceDocumento}}
+\index{ObjectDataSourceDocumento@{ObjectDataSourceDocumento}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{ObjectDataSourceDocumento}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ObjectDataSource {\bf SistemaRH.Pesquisar.ObjectDataSourceDocumento}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_a6e9ec0cf29ddddee97dc6be2a836e397}
+
+
+ObjectDataSourceDocumento control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_pesquisar_ad167e10b78a58d8192c25cb0125dc20d}{
+\index{SistemaRH::Pesquisar@{SistemaRH::Pesquisar}!TextBoxPesquisa@{TextBoxPesquisa}}
+\index{TextBoxPesquisa@{TextBoxPesquisa}!SistemaRH::Pesquisar@{SistemaRH::Pesquisar}}
+\subsubsection[{TextBoxPesquisa}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.Pesquisar.TextBoxPesquisa}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_pesquisar_ad167e10b78a58d8192c25cb0125dc20d}
+
+
+TextBoxPesquisa control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+pesquisar.aspx.cs\item 
+pesquisar.aspx.designer.cs\end{DoxyCompactItemize}

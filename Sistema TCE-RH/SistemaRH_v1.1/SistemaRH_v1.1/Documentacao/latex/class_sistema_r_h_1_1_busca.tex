@@ -1,0 +1,213 @@
+\hypertarget{class_sistema_r_h_1_1_busca}{
+\section{Referência da Classe SistemaRH.Busca}
+\label{class_sistema_r_h_1_1_busca}\index{SistemaRH::Busca@{SistemaRH::Busca}}
+}
+
+
+Classe usada na busca de colaboradores e dos seus respectivos documentos.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_sistema_r_h_1_1_busca_acc50318b66f3f708eb72073237a82ebe}{montarComandoPorPalavra} (string pComando)
+\begin{DoxyCompactList}\small\item\em Trata o comando por cada parâmetro passado. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1_busca_a44d1bb062c7a7b778b35433399ee0e68}{montarComandoPorExpressao} (string pComando)
+\begin{DoxyCompactList}\small\item\em Trata o comando montando uma expressão. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1_busca_a5d158cafd0ed83f8ede39d606f6bffc8}{Page\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Verifica se o usuario está autenticado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_busca_a495153d2c08337272920fb776d2e897c}{ImageButtonEnviar\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método que verifica se o formulário de busca foi feito de maneira correta e envia os parâmetros para próxima página. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_busca_a7cb1087d5d1300385bedcae52bfb289b}{Label1}
+\begin{DoxyCompactList}\small\item\em Label1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1_busca_a44820908a1c287b97dec8206ce9a1c42}{ImageAttention}
+\begin{DoxyCompactList}\small\item\em ImageAttention control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_busca_a535cca174a161b66a326757ba473f202}{LabelErro}
+\begin{DoxyCompactList}\small\item\em LabelErro control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_busca_a7081dc004d6d73d3fb4faa50620918ac}{LabelBuscaPorPalavra}
+\begin{DoxyCompactList}\small\item\em LabelBuscaPorPalavra control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_busca_a9cca7f526f1fa4264ab29f4588746555}{TextBoxBuscaPorPalavra}
+\begin{DoxyCompactList}\small\item\em TextBoxBuscaPorPalavra control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_busca_a867cb379b40334a7a0f8807eb420cc14}{LabelBuscaPorExpressao}
+\begin{DoxyCompactList}\small\item\em LabelBuscaPorExpressao control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_busca_a310a2c065d6da1281b68388fd69f5bdd}{TextBoxBuscaPorExpressao}
+\begin{DoxyCompactList}\small\item\em TextBoxBuscaPorExpressao control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_busca_ae1413ccf43863ae7a6a7baf33d8778b7}{ImageButtonEnviar}
+\begin{DoxyCompactList}\small\item\em ImageButtonEnviar control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe usada na busca de colaboradores e dos seus respectivos documentos. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_busca_a495153d2c08337272920fb776d2e897c}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!ImageButtonEnviar\_\-Click@{ImageButtonEnviar\_\-Click}}
+\index{ImageButtonEnviar\_\-Click@{ImageButtonEnviar\_\-Click}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{ImageButtonEnviar\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Busca.ImageButtonEnviar\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a495153d2c08337272920fb776d2e897c}
+
+
+Método que verifica se o formulário de busca foi feito de maneira correta e envia os parâmetros para próxima página. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_busca_a44d1bb062c7a7b778b35433399ee0e68}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!montarComandoPorExpressao@{montarComandoPorExpressao}}
+\index{montarComandoPorExpressao@{montarComandoPorExpressao}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{montarComandoPorExpressao}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.Busca.montarComandoPorExpressao (
+\begin{DoxyParamCaption}
+\item[{string}]{ pComando}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_busca_a44d1bb062c7a7b778b35433399ee0e68}
+
+
+Trata o comando montando uma expressão. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em pComando} & string com vários parâmetros a ser usado na busca.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+o comando tratado
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_busca_acc50318b66f3f708eb72073237a82ebe}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!montarComandoPorPalavra@{montarComandoPorPalavra}}
+\index{montarComandoPorPalavra@{montarComandoPorPalavra}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{montarComandoPorPalavra}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.Busca.montarComandoPorPalavra (
+\begin{DoxyParamCaption}
+\item[{string}]{ pComando}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_busca_acc50318b66f3f708eb72073237a82ebe}
+
+
+Trata o comando por cada parâmetro passado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em pComando} & string com vários parâmetros a ser usado na busca.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+o comando tratado
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_busca_a5d158cafd0ed83f8ede39d606f6bffc8}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!Page\_\-Load@{Page\_\-Load}}
+\index{Page\_\-Load@{Page\_\-Load}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{Page\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Busca.Page\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a5d158cafd0ed83f8ede39d606f6bffc8}
+
+
+Verifica se o usuario está autenticado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1_busca_a44820908a1c287b97dec8206ce9a1c42}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!ImageAttention@{ImageAttention}}
+\index{ImageAttention@{ImageAttention}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{ImageAttention}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.Busca.ImageAttention}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a44820908a1c287b97dec8206ce9a1c42}
+
+
+ImageAttention control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_busca_ae1413ccf43863ae7a6a7baf33d8778b7}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!ImageButtonEnviar@{ImageButtonEnviar}}
+\index{ImageButtonEnviar@{ImageButtonEnviar}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{ImageButtonEnviar}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.Busca.ImageButtonEnviar}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_ae1413ccf43863ae7a6a7baf33d8778b7}
+
+
+ImageButtonEnviar control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_busca_a7cb1087d5d1300385bedcae52bfb289b}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!Label1@{Label1}}
+\index{Label1@{Label1}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{Label1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Busca.Label1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a7cb1087d5d1300385bedcae52bfb289b}
+
+
+Label1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_busca_a867cb379b40334a7a0f8807eb420cc14}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!LabelBuscaPorExpressao@{LabelBuscaPorExpressao}}
+\index{LabelBuscaPorExpressao@{LabelBuscaPorExpressao}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{LabelBuscaPorExpressao}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Busca.LabelBuscaPorExpressao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a867cb379b40334a7a0f8807eb420cc14}
+
+
+LabelBuscaPorExpressao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_busca_a7081dc004d6d73d3fb4faa50620918ac}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!LabelBuscaPorPalavra@{LabelBuscaPorPalavra}}
+\index{LabelBuscaPorPalavra@{LabelBuscaPorPalavra}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{LabelBuscaPorPalavra}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Busca.LabelBuscaPorPalavra}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a7081dc004d6d73d3fb4faa50620918ac}
+
+
+LabelBuscaPorPalavra control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_busca_a535cca174a161b66a326757ba473f202}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!LabelErro@{LabelErro}}
+\index{LabelErro@{LabelErro}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{LabelErro}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Busca.LabelErro}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a535cca174a161b66a326757ba473f202}
+
+
+LabelErro control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_busca_a310a2c065d6da1281b68388fd69f5bdd}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!TextBoxBuscaPorExpressao@{TextBoxBuscaPorExpressao}}
+\index{TextBoxBuscaPorExpressao@{TextBoxBuscaPorExpressao}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{TextBoxBuscaPorExpressao}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.Busca.TextBoxBuscaPorExpressao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a310a2c065d6da1281b68388fd69f5bdd}
+
+
+TextBoxBuscaPorExpressao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_busca_a9cca7f526f1fa4264ab29f4588746555}{
+\index{SistemaRH::Busca@{SistemaRH::Busca}!TextBoxBuscaPorPalavra@{TextBoxBuscaPorPalavra}}
+\index{TextBoxBuscaPorPalavra@{TextBoxBuscaPorPalavra}!SistemaRH::Busca@{SistemaRH::Busca}}
+\subsubsection[{TextBoxBuscaPorPalavra}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.Busca.TextBoxBuscaPorPalavra}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_busca_a9cca7f526f1fa4264ab29f4588746555}
+
+
+TextBoxBuscaPorPalavra control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+busca.aspx.cs\item 
+busca.aspx.designer.cs\end{DoxyCompactItemize}

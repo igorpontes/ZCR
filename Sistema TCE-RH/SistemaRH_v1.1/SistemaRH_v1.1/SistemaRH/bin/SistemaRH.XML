@@ -1,0 +1,3216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SistemaRH</name>
+    </assembly>
+    <members>
+        <member name="T:SistemaRH.CadastroDocs">
+            <summary>
+            Classe responsável pelo cadastro dos Colaboradores e dos sesus respectivos documentos no banco de dados.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.ImageFoto">
+            <summary>
+            ImageFoto control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.LabelMatricula">
+            <summary>
+            LabelMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TextBoxMatricula">
+            <summary>
+            TextBoxMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.CustomValidatorMatricula">
+            <summary>
+            CustomValidatorMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.LabelCPF">
+            <summary>
+            LabelCPF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TextBoxCPF">
+            <summary>
+            TextBoxCPF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.RegularExpressionValidator1">
+            <summary>
+            RegularExpressionValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.CustomValidatorCPF">
+            <summary>
+            CustomValidatorCPF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.LabelNome_Colaborador">
+            <summary>
+            LabelNome_Colaborador control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TextNome_Colaborador">
+            <summary>
+            TextNome_Colaborador control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.LabelCarregarFoto">
+            <summary>
+            LabelCarregarFoto control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.FileUpload1">
+            <summary>
+            FileUpload1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.ImageButtonCarregarImagem">
+            <summary>
+            ImageButtonCarregarImagem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.LabelDocs">
+            <summary>
+            LabelDocs control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.ToolkitScriptManager2">
+            <summary>
+            ToolkitScriptManager2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.UpdatePanelTabContainer">
+            <summary>
+            UpdatePanelTabContainer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabContainer1">
+            <summary>
+            TabContainer1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelPessoais">
+            <summary>
+            TabPanelPessoais control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCPessoais">
+            <summary>
+            btnDisparaUCPessoais control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default1">
+            <summary>
+            tab_default1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelTitulacao">
+            <summary>
+            TabPanelTitulacao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCTitulacao">
+            <summary>
+            btnDisparaUCTitulacao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default2">
+            <summary>
+            tab_default2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelPortaria">
+            <summary>
+            TabPanelPortaria control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCPortaria">
+            <summary>
+            btnDisparaUCPortaria control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default3">
+            <summary>
+            tab_default3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelPortariaComProcesso">
+            <summary>
+            TabPanelPortariaComProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCPortariasComProcesso">
+            <summary>
+            btnDisparaUCPortariasComProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default4">
+            <summary>
+            tab_default4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelCI">
+            <summary>
+            TabPanelCI control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCCI">
+            <summary>
+            btnDisparaUCCI control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default5">
+            <summary>
+            tab_default5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelAviso">
+            <summary>
+            TabPanelAviso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCAviso">
+            <summary>
+            btnDisparaUCAviso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default6">
+            <summary>
+            tab_default6 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelRequerimento">
+            <summary>
+            TabPanelRequerimento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCRequerimento">
+            <summary>
+            btnDisparaUCRequerimento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default7">
+            <summary>
+            tab_default7 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.TabPanelOutros">
+            <summary>
+            TabPanelOutros control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.btnDisparaUCOutros">
+            <summary>
+            btnDisparaUCOutros control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.tab_default8">
+            <summary>
+            tab_default8 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDocs.ImageButton1">
+            <summary>
+            ImageButton1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.Page_Init(System.Object,System.EventArgs)">
+            <summary>
+            Inicia com a inicialização de algumas sessões usadas mais a frente.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Verifica se o usuário está autenticado.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.obterIdCadastrado">
+            <summary>
+            Método usado para obter o último ID cadastrado
+            </summary>
+            <returns>o id</returns>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.montarFormatoGD(System.String,System.String)">
+            <summary>
+            Montar o formato de nome dos documentos.
+            </summary>
+            <param name="id">A matrícula do colaborador.</param>
+            <param name="nome_Arquivo">O nome do arquivo.</param>
+            <returns>o nome já formatado</returns>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.TabContainer1_ActiveTabChanged(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para atualizar a aba ativa.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.versiona_indexa(System.String)">
+            <summary>
+            Versiona um arquivo para futura indexação com o GoldenIndex.
+            </summary>
+            <param name="nome_arquivo">nome do arquivo.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.TabContainer1_Init(System.Object,System.EventArgs)">
+            <summary>
+            Inicializa o TabContainer1 control com a primeira aba visível e o resto invisível.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.TabContainer1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Carrega o TabContainer1 control dependendo da aba ativa.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.ImageButton1_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para cadastrar o colaborador e seus respectivos documentos.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.ImageButtonCarregarImagem_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Carrega a foto do colaborador no sistema.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.TextBoxMatricula_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Método que atualiza o atributo matricula assim que o TextBox é editado.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.CustomValidatorMatricula_ServerValidate(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs)">
+            <summary>
+            Método usado para verificar se já existe a matrícula passada.
+            </summary>
+            <param name="source">The source of the event.</param>
+            <param name="args">The <see cref="T:System.Web.UI.WebControls.ServerValidateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroDocs.CustomValidatorCPF_ServerValidate(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs)">
+            <summary>
+            Método usado para verificar se já existe o CPF passado.
+            </summary>
+            <param name="source">The source of the event.</param>
+            <param name="args">The <see cref="T:System.Web.UI.WebControls.ServerValidateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:SistemaRH.Indexador">
+            <summary>
+            Classe responsável pela indexaçao do conteúdo dos arquivos.
+            </summary>
+        </member>
+        <member name="M:SistemaRH.Indexador.Indexe(SistemaRH.Arquivo)">
+            <summary>
+            Método usado para extrair o conteúdo de um arquivo específico.
+            </summary>
+            <param name="arq">O arquivo a ser indexado.</param>
+        </member>
+        <member name="M:SistemaRH.Indexador.versiona_indexa(System.String)">
+            <summary>
+            Método usado para versionar um arquivo.
+            </summary>
+            <param name="nome_arquivo">O nome do arquivo.</param>
+        </member>
+        <member name="M:SistemaRH.Indexador.obterIdCadastrado">
+            <summary>
+            Método usado para obters o último id cadastrado.
+            </summary>
+            <returns>o id encontrado.</returns>
+        </member>
+        <member name="M:SistemaRH.Indexador.obterIdArquivos(System.String)">
+            <summary>
+            Método usado para obter os arquivos pelo id do documento.
+            </summary>
+            <param name="id">O id.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SistemaRH.CadastroUser">
+            <summary>
+            Classe responsável pelo cadastro de usuários do sistema.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabeMatricula">
+            <summary>
+            LabeMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.TextBoxMatricula">
+            <summary>
+            TextBoxMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.CustomValidatorMatricula">
+            <summary>
+            CustomValidatorMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelLogin">
+            <summary>
+            LabelLogin control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.TextBoxLogin">
+            <summary>
+            TextBoxLogin control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.CustomValidatorLogin">
+            <summary>
+            CustomValidatorLogin control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelSenha">
+            <summary>
+            LabelSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.TextSenha">
+            <summary>
+            TextSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelConfirmaSenha">
+            <summary>
+            LabelConfirmaSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.TextConfirmaSenha">
+            <summary>
+            TextConfirmaSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.CompareValidator1">
+            <summary>
+            CompareValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelDocs">
+            <summary>
+            LabelDocs control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelLeitura">
+            <summary>
+            LabelLeitura control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelAlteracao">
+            <summary>
+            LabelAlteracao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LabelNenhum">
+            <summary>
+            LabelNenhum control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraPessoais">
+            <summary>
+            LeituraPessoais control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoPessoais">
+            <summary>
+            AlteracaoPessoais control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumPessoais">
+            <summary>
+            NenhumPessoais control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraTitulacao">
+            <summary>
+            LeituraTitulacao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoTitulacao">
+            <summary>
+            AlteracaoTitulacao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumTitulacao">
+            <summary>
+            NenhumTitulacao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraPortaria1">
+            <summary>
+            LeituraPortaria1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoPortaria">
+            <summary>
+            AlteracaoPortaria control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumPortaria">
+            <summary>
+            NenhumPortaria control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraPortariaProcesso">
+            <summary>
+            LeituraPortariaProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoPortariaProcesso">
+            <summary>
+            AlteracaoPortariaProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumPortariaProcesso">
+            <summary>
+            NenhumPortariaProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraCI">
+            <summary>
+            LeituraCI control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoCI">
+            <summary>
+            AlteracaoCI control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumCI">
+            <summary>
+            NenhumCI control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraAviso">
+            <summary>
+            LeituraAviso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoAviso">
+            <summary>
+            AlteracaoAviso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumAviso">
+            <summary>
+            NenhumAviso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraRequerimento">
+            <summary>
+            LeituraRequerimento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoRequerimento">
+            <summary>
+            AlteracaoRequerimento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumRequerimento">
+            <summary>
+            NenhumRequerimento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.LeituraOutros">
+            <summary>
+            LeituraOutros control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.AlteracaoOutros">
+            <summary>
+            AlteracaoOutros control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.NenhumOutros">
+            <summary>
+            NenhumOutros control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroUser.ImageButtonEnviar">
+            <summary>
+            ImageButtonEnviar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:SistemaRH.CadastroUser.ImageButtonEnviar_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para cadastrar o usuário no banco.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroUser.CustomValidatorLogin_ServerValidate(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs)">
+            <summary>
+            Método usado para verificar se já existe o Login passado.
+            </summary>
+            <param name="source">The source of the event.</param>
+            <param name="args">The <see cref="T:System.Web.UI.WebControls.ServerValidateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroUser.CustomValidatorMatricula_ServerValidate(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs)">
+            <summary>
+            Método usado para verificar se já existe a matrícula passada.
+            </summary>
+            <param name="source">The source of the event.</param>
+            <param name="args">The <see cref="T:System.Web.UI.WebControls.ServerValidateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.CadastroUser.retornaListaPermissoes">
+            <summary>
+            Método usado para retornar a lista de permissões do usuário a ser cadastrado.
+            </summary>
+            <returns>retorna uma lista de permissões</returns>
+        </member>
+        <member name="T:SistemaRH.Usuario">
+            <summary>
+            Classe responsável pela definição da base de usuário.
+            </summary>
+        </member>
+        <member name="T:SistemaRH.listar">
+            <summary>
+            Classe da página usada para listar todos os colaboradores do banco de dados
+            </summary>
+        </member>
+        <member name="M:SistemaRH.listar.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para verificar se o usuario esta autentificado.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.listar.GridView1_RowCommand(System.Object,System.Web.UI.WebControls.GridViewCommandEventArgs)">
+            <summary>
+            Método que trata o evento RowCommand do GridView1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewCommandEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.listar.GridView1_PageIndexChanging(System.Object,System.Web.UI.WebControls.GridViewPageEventArgs)">
+            <summary>
+            Método usado para mudar a página do GridView1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewPageEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.listar.GridView1_Sorting1(System.Object,System.Web.UI.WebControls.GridViewSortEventArgs)">
+            <summary>
+            Método usado para ordenar GridView1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewSortEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.listar.bindGrid(System.String)">
+            <summary>
+            Método usado para ordenar ou mudar a página do gridView.
+            </summary>
+            <param name="opcao">opcao indica se quer ordenar ou mudar a página do gridView.</param>
+            <returns>uma lista de Documentos já ordenada ou com outro indice.</returns>
+        </member>
+        <member name="F:SistemaRH.listar.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.listar.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.listar.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.listar.GridView1">
+            <summary>
+            GridView1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.listar.ObjectDataSourceDocumento">
+            <summary>
+            ObjectDataSourceDocumento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.Arquivo">
+            <summary>
+            Classe contendo a definição do multivalorado Arquivos.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.WebForm1.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.LabelUsuario">
+            <summary>
+            LabelUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.TextBoxUsuario">
+            <summary>
+            TextBoxUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.RequiredFieldValidatorUsuario">
+            <summary>
+            RequiredFieldValidatorUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.LabelSenha">
+            <summary>
+            LabelSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.TextBoxSenha">
+            <summary>
+            TextBoxSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm1.ImageButtonEnviar">
+            <summary>
+            ImageButtonEnviar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.WebFormLog">
+            <summary>
+            Classe responsável pela listagem do LOG do sistema
+            </summary>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.ToolkitScriptManager1">
+            <summary>
+            ToolkitScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.Label3">
+            <summary>
+            Label3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.TextBoxPesquisa">
+            <summary>
+            TextBoxPesquisa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.ImageButtonEnviarPesquisa">
+            <summary>
+            ImageButtonEnviarPesquisa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.TextBoxDataInicio">
+            <summary>
+            TextBoxDataInicio control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.CalendarExtenderInicio">
+            <summary>
+            CalendarExtenderInicio control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.TextBoxDataFinal">
+            <summary>
+            TextBoxDataFinal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.CalendarExtenderFinal">
+            <summary>
+            CalendarExtenderFinal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.ImageButtonPesquisaIntervaloDatas">
+            <summary>
+            ImageButtonPesquisaIntervaloDatas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.GridView1">
+            <summary>
+            GridView1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebFormLog.ObjectDataSource1">
+            <summary>
+            ObjectDataSource1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Método que verifica se o usuário está autenticado e preenche o grid com a listagem de LOG.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.GridView1_PageIndexChanging(System.Object,System.Web.UI.WebControls.GridViewPageEventArgs)">
+            <summary>
+            Método usado para mudar a página do GridView1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewPageEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.GridView1_Sorting(System.Object,System.Web.UI.WebControls.GridViewSortEventArgs)">
+            <summary>
+            Método usado para ordenar GridView1 control usando as classes internas de ordenação.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewSortEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.ButtonEnviarPesquisa_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para fazer pesquisa dentro da lista de LOGs.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.montaParametros(System.String)">
+            <summary>
+            Método usado para montar parte de um comando da LightBase com os parametros passados.
+            </summary>
+            <param name="parametros">Parametros de pesquisa.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.montarComando(System.String)">
+            <summary>
+            Método usado para montar o comando de pesquisa.
+            </summary>
+            <param name="pComando">A string a ser tratada.</param>
+            <returns>a string tratada do comando.</returns>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.ImageButtonPesquisaIntervaloDatas_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para fazer um filtro por um intervalo de datas.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.WebFormLog.intervaloDatas(System.Collections.Generic.List{SistemaRH.Log},System.DateTime,System.DateTime)">
+            <summary>
+            Método usado para retornar uma lista filtrada com o intervalo de datas.
+            </summary>
+            <param name="lista">Lista de LOG.</param>
+            <param name="dataInicio">A data inicial.</param>
+            <param name="dataFinal">A data final.</param>
+            <returns>a lista filtrada</returns>
+        </member>
+        <member name="T:SistemaRH.Site1">
+            <summary>
+            Classe da master page usada no sistema.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.Site1.head">
+            <summary>
+            head control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Site1.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Site1.ImageGED">
+            <summary>
+            ImageGED control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Site1.LinkButtonLog">
+            <summary>
+            LinkButtonLog control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Site1.LinkButtonSair">
+            <summary>
+            LinkButtonSair control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Site1.ImageTCE">
+            <summary>
+            ImageTCE control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Site1.cphContent">
+            <summary>
+            cphContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Site1.ImageZDoc">
+            <summary>
+            ImageZDoc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:SistemaRH.Site1.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para verificar se o usuário esta autenticado.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Site1.LinkButtonSair_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para sair do sistema e abandona a sessão.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Site1.LinkButtonLog_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para linkar o botão do LOG a sua respectiva página.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:SistemaRH.Login">
+            <summary>
+            Classe responsável pelo Login no sistema.
+            </summary>
+        </member>
+        <member name="M:SistemaRH.Login.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Método Load. Deixa o foco no campo do usuário.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Login.ImageButtonEnviar_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para logar no sistema, e caso autenticado, transfere para a pagina inicial.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SistemaRH.Login.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.logo">
+            <summary>
+            logo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.ImageTCE">
+            <summary>
+            ImageTCE control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.LabelUsuario">
+            <summary>
+            LabelUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.TextBoxUsuario">
+            <summary>
+            TextBoxUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.RequiredFieldValidatorUsuario">
+            <summary>
+            RequiredFieldValidatorUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.LabelSenha">
+            <summary>
+            LabelSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.TextBoxSenha">
+            <summary>
+            TextBoxSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.ImageButtonEnviar">
+            <summary>
+            ImageButtonEnviar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Login.ImageZDoc">
+            <summary>
+            ImageZDoc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.Home">
+            <summary>
+            Classe da página inicial do sistema após o usuário se logar.
+            </summary>
+        </member>
+        <member name="M:SistemaRH.Home.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para verificar se o usuário está autenticado.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Home.ImageButtonPesquisar_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado pelo campo de pesquisa rápida. Transfere para a página que mostra o resultado de pesquisa.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Home.montarComando(System.String)">
+            <summary>
+            Método usado para tratar o comando por cada parâmetro passado.
+            </summary>
+            <param name="pComando">string com vários parâmetros a ser usado na busca.</param>
+            <returns>o comando tratado</returns>
+        </member>
+        <member name="F:SistemaRH.Home.LabelBuscaPorPalavra">
+            <summary>
+            LabelBuscaPorPalavra control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Home.TextBoxBuscaPorPalavra">
+            <summary>
+            TextBoxBuscaPorPalavra control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Home.RequiredFieldValidatorUsuario">
+            <summary>
+            RequiredFieldValidatorUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Home.ImageButtonPesquisar">
+            <summary>
+            ImageButtonPesquisar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.Busca">
+            <summary>
+            Classe usada na busca de colaboradores e dos seus respectivos documentos.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.Busca.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Busca.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Busca.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Busca.LabelBuscaPorPalavra">
+            <summary>
+            LabelBuscaPorPalavra control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Busca.TextBoxBuscaPorPalavra">
+            <summary>
+            TextBoxBuscaPorPalavra control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Busca.LabelBuscaPorExpressao">
+            <summary>
+            LabelBuscaPorExpressao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Busca.TextBoxBuscaPorExpressao">
+            <summary>
+            TextBoxBuscaPorExpressao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Busca.ImageButtonEnviar">
+            <summary>
+            ImageButtonEnviar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:SistemaRH.Busca.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Verifica se o usuario está autenticado
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Busca.ImageButtonEnviar_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método que verifica se o formulário de busca foi feito de maneira correta e envia os parâmetros para próxima página.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Busca.montarComandoPorPalavra(System.String)">
+            <summary>
+            Trata o comando por cada parâmetro passado.
+            </summary>
+            <param name="pComando">string com vários parâmetros a ser usado na busca.</param>
+            <returns>o comando tratado</returns>
+        </member>
+        <member name="M:SistemaRH.Busca.montarComandoPorExpressao(System.String)">
+            <summary>
+            Trata o comando montando uma expressão.
+            </summary>
+            <param name="pComando">string com vários parâmetros a ser usado na busca.</param>
+            <returns>o comando tratado</returns>
+        </member>
+        <member name="T:SistemaRH.AlteraSenha">
+            <summary>
+            Classe usada para edição da senha do usuário logado
+            </summary>
+        </member>
+        <member name="M:SistemaRH.AlteraSenha.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Metodo usado para autencicar o usuário.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.AlteraSenha.ImageButtonConfirmar_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para confirmar a alteração da senha verificando a senha antiga e cadastrando a nova.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.LabelUsuario">
+            <summary>
+            LabelUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.LabelSenhaAtual">
+            <summary>
+            LabelSenhaAtual control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.TextBoxSenhaAtual">
+            <summary>
+            TextBoxSenhaAtual control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.RequiredFieldValidatorSenhaAtual">
+            <summary>
+            RequiredFieldValidatorSenhaAtual control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.LabelNovaSenha">
+            <summary>
+            LabelNovaSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.TextBoxNovaSenha">
+            <summary>
+            TextBoxNovaSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.RequiredFieldValidatorNovaSenha">
+            <summary>
+            RequiredFieldValidatorNovaSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.LabelConfirmacaoSenha">
+            <summary>
+            LabelConfirmacaoSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.TextBoxConfirmacaoSenha">
+            <summary>
+            TextBoxConfirmacaoSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.RequiredFieldValidatorConfirmacaoSenha">
+            <summary>
+            RequiredFieldValidatorConfirmacaoSenha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlteraSenha.ImageButtonConfirmar">
+            <summary>
+            ImageButtonConfirmar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.tab_default">
+            <summary>
+            Classe responsável pelo UserControl usado nas abas de tipos de documentos.
+            </summary>
+        </member>
+        <member name="M:SistemaRH.tab_default.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para carregar a aba do tipo especifico do documento e verificar se é um cadastro ou edição .
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.ImageButtonSalvar_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para salvar o arquivo no disco e quando necessário fazer um merge no arquivo.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.ImageButtonVer_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método do botão usado para visualizar o arquivo selecionado.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.ImageButtonDelete_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método do botão usado para deletar o arquivo selecionado.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.obterMatricula">
+            <summary>
+            Método usado para obter a matrícula do colaborador.
+            </summary>
+            <returns>a matrícula que está no TextBox.</returns>
+        </member>
+        <member name="M:SistemaRH.tab_default.retornaMatricula(System.String)">
+            <summary>
+            Método usado para obter a matrícula do colaborador usando a base de dados.
+            </summary>
+            <param name="id1">O id do colaborador.</param>
+            <returns>a matrícula buscada no banco de dados.</returns>
+        </member>
+        <member name="M:SistemaRH.tab_default.montarFormatoGD(System.String,System.String)">
+            <summary>
+            Método usado para montar o nome do arquivo.
+            </summary>
+            <param name="id">A matrícula do colaborador.</param>
+            <param name="nome_Arquivo">O nome do arquivo.</param>
+            <returns>retorna o comando tratado</returns>
+        </member>
+        <member name="M:SistemaRH.tab_default.retornaAbaAtiva">
+            <summary>
+            Método usado para retornar uma string com a aba ativa dos tipos de documentos.
+            </summary>
+            <returns>retorna a aba ativa</returns>
+        </member>
+        <member name="M:SistemaRH.tab_default.ImageButtonDeletePagina_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para deletar uma página especifica do documento.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.ImageButtonDeleteIntervalo_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Método usado para deletar um intervalo de páginas do documento.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.carrega_Grid(System.String)">
+            <summary>
+            Método usado para carregar o grid com a lista dos documentos por opção de tipo de documento.
+            </summary>
+            <param name="opcao">A opção informa o tipo de documento a preencher.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.GridView1_RowCommand(System.Object,System.Web.UI.WebControls.GridViewCommandEventArgs)">
+            <summary>
+            Método do evento RowCommand que controla o GridView1.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewCommandEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.tab_default.retornaTipoTitulacao">
+            <summary>
+            Método que retorna o tipo de titulação usada no DropDownList.
+            </summary>
+            <returns>Tipo de titulação.</returns>
+        </member>
+        <member name="F:SistemaRH.tab_default.UpdatePanel1">
+            <summary>
+            UpdatePanel1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.FileUpload1">
+            <summary>
+            FileUpload1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.GridView1">
+            <summary>
+            GridView1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ObjectDataSource1">
+            <summary>
+            ObjectDataSource1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.LabelTipoProcesso">
+            <summary>
+            LabelTipoProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.DropDownListTipoProcesso">
+            <summary>
+            DropDownListTipoProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableArquivo">
+            <summary>
+            TableArquivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableRow2">
+            <summary>
+            TableRow2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell2">
+            <summary>
+            TableCell2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ImageAnexo">
+            <summary>
+            ImageAnexo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell3">
+            <summary>
+            TableCell3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.LabelArquivo">
+            <summary>
+            LabelArquivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell5">
+            <summary>
+            TableCell5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ImageButtonDelete">
+            <summary>
+            ImageButtonDelete control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableRow3">
+            <summary>
+            TableRow3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell6">
+            <summary>
+            TableCell6 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ImageTrash">
+            <summary>
+            ImageTrash control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell7">
+            <summary>
+            TableCell7 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.Label3">
+            <summary>
+            Label3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TextBoxDeletePagina">
+            <summary>
+            TextBoxDeletePagina control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell8">
+            <summary>
+            TableCell8 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ImageButtonDeletePagina">
+            <summary>
+            ImageButtonDeletePagina control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableRow4">
+            <summary>
+            TableRow4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell9">
+            <summary>
+            TableCell9 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.Image1">
+            <summary>
+            Image1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell10">
+            <summary>
+            TableCell10 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.Label4">
+            <summary>
+            Label4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TextBoxDeleteInicio">
+            <summary>
+            TextBoxDeleteInicio control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TextBoxDeleteFinal">
+            <summary>
+            TextBoxDeleteFinal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.TableCell11">
+            <summary>
+            TableCell11 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ImageButton1">
+            <summary>
+            ImageButton1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.tab_default.ImageButtonSalvar">
+            <summary>
+            ImageButtonSalvar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.Adaptador">
+            <summary>
+            Classe usada como repositório de métodos comuns.
+            </summary>
+        </member>
+        <member name="T:SistemaRH.IAdaptador">
+            <summary>
+            Interface da classe Adaptador.
+            </summary>
+        </member>
+        <member name="M:SistemaRH.Adaptador.PesquisarCampos(System.String)">
+            <summary>
+            Método usado para pesquisar um comando na base de Documentos.
+            </summary>
+            <param name="comando">O script de comando.</param>
+            <returns>lista de documentos filtrados pelo comando.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.Todos">
+            <summary>
+            Método usado para retornar toda a base de Documentos.
+            </summary>
+            <returns>retorna a base de Documentos.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.PorColuna(System.String,System.String,System.String)">
+            <summary>
+            Método usado para listar a base ordenada por coluna.
+            </summary>
+            <param name="select">O comando select.</param>
+            <param name="coluna">A coluna a ser ordenada.</param>
+            <param name="orderBy">A ordem, se ascendente ou descendente.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.AtualizarDocumento(SistemaRH.Documento,System.String)">
+            <summary>
+            Método usado para atualizar a base de documento.
+            </summary>
+            <param name="documento">O documento a ser atualizado.</param>
+            <param name="id">O id do documento na base.</param>
+        </member>
+        <member name="M:SistemaRH.Adaptador.InserirDocumento(SistemaRH.Documento)">
+            <summary>
+            Método usado para inserir um documento na base.
+            </summary>
+            <param name="documento">O documento a ser inserido.</param>
+        </member>
+        <member name="M:SistemaRH.Adaptador.RemoverDocumento(System.Int32)">
+            <summary>
+            Método usado para remover determinado documento.
+            </summary>
+            <param name="id">O id do documento a ser removido.</param>
+        </member>
+        <member name="M:SistemaRH.Adaptador.EfetuaLogin(System.String,System.String)">
+            <summary>
+            Método que retorna o tipo de usuário no login.
+            </summary>
+            <param name="nome">O username.</param>
+            <param name="senha">A senha.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.AlterarSenha(System.String,System.String)">
+            <summary>
+            Método usado para alterar a senha do usuário que esta logado.
+            </summary>
+            <param name="nome">O username.</param>
+            <param name="novaSenha">A nova senha.</param>
+            <returns>um booleano informando se foi auterada.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.obterDocumentoPorId(System.String)">
+            <summary>
+            Método usado para obter o documento pelo id.
+            </summary>
+            <param name="valor">O id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.RetornaArquivos(System.Collections.Generic.List{SistemaRH.Arquivo})">
+            <summary>
+            Método usado para retornar a lista de arquivos passada.
+            </summary>
+            <param name="lista">Lista de arquivos.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.TodosLogs">
+            <summary>
+            Método que retorna toda a base de LOGs.
+            </summary>
+            <returns>a base de LOGs</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.InserirLog(SistemaRH.Log)">
+            <summary>
+            Método usado para inserir um log na base de LOGs.
+            </summary>
+            <param name="log">O log a ser inserido.</param>
+        </member>
+        <member name="M:SistemaRH.Adaptador.PorColunaLOG(System.String,System.String,System.String)">
+            <summary>
+            Método que ordena o LOG por coluna.
+            </summary>
+            <param name="select">O comando select.</param>
+            <param name="coluna">A coluna a ser ordenada.</param>
+            <param name="orderBy">O tipo da ordem.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.PesquisarCamposLOG(System.String)">
+            <summary>
+            Método usado para pesquisar determinado campo na base de LOG.
+            </summary>
+            <param name="comando">O comando a ser executado.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.existeMatricula(System.String)">
+            <summary>
+            Método usado para verificar se existe a matricula.
+            </summary>
+            <param name="matricula">A matricula.</param>
+            <returns>um booleado verificando se existe a matricula passada.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.existeCPF(System.String)">
+            <summary>
+             Método usado para verificar se existe um CPF.
+            </summary>
+            <param name="cpf">O CPF.</param>
+            <returns>um booleado verificando se existe o CPF passado.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.existeLogin(System.String)">
+            <summary>
+            Método usado para verificar se existe um username já usado.
+            </summary>
+            <param name="login">O username.</param>
+            <returns>um booleado verificando se existe o username passado.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.addUsuario(SistemaRH.Usuario)">
+            <summary>
+            Método usado para inserir um usuário no sistema e na base de usuario.
+            </summary>
+            <param name="usuario">O usuario a ser inserido.</param>
+        </member>
+        <member name="M:SistemaRH.Adaptador.retornaUsuario(System.String)">
+            <summary>
+            Método usado para retornar o usuario através do seu username.
+            </summary>
+            <param name="login">O username.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.intervaloDatasLogs(System.String,System.String)">
+            <summary>
+            Método usado para retornar uma lista de LOGs filtrada por um intervalo de datas.
+            </summary>
+            <param name="inicio">The inicio.</param>
+            <param name="final">The final.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.versiona_indexa(System.String)">
+            <summary>
+            Método usado para versionar um arquivo.
+            </summary>
+            <param name="nome_arquivo">O nome do arquivo.</param>
+        </member>
+        <member name="M:SistemaRH.Adaptador.obterIdCadastrado">
+            <summary>
+            Método usado para obter o último id cadastrado.
+            </summary>
+            <returns>uma string com o ultimo id cadastrado.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.obterIdArquivos(System.String)">
+            <summary>
+            Método usado para obter os arquivos através do id do documento.
+            </summary>
+            <param name="id">O id do documento.</param>
+            <returns>a lista com os arquivos do determinado documento.</returns>
+        </member>
+        <member name="M:SistemaRH.Adaptador.montaFormatoTitulacao(System.String,System.String,System.String)">
+            <summary>
+            Método usado para montar o formato do nome dos arquivos de titulação.
+            </summary>
+            <param name="nomeArquivo">O nome do arquivo original.</param>
+            <param name="matricula">A matricula.</param>
+            <param name="tipo">O tipo de titulação.</param>
+            <returns>o nome formatado.</returns>
+        </member>
+        <member name="T:SistemaRH.Versao">
+            <summary>
+            Classe responsável pelo versionamento de um arquivo.
+            </summary>
+        </member>
+        <member name="T:SistemaRH.AlterarColaborador">
+            <summary>
+            Classe usada para Editar os colaboradores já cadastrados no sistema.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.ImageFoto">
+            <summary>
+            ImageFoto control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.LabelMatricula">
+            <summary>
+            LabelMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TextBoxMatricula">
+            <summary>
+            TextBoxMatricula control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.LabelCPF">
+            <summary>
+            LabelCPF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TextBoxCPF">
+            <summary>
+            TextBoxCPF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.LabelNome_Colaborador">
+            <summary>
+            LabelNome_Colaborador control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TextNome_Colaborador">
+            <summary>
+            TextNome_Colaborador control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.LabelCarregarFoto">
+            <summary>
+            LabelCarregarFoto control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.FileUpload1">
+            <summary>
+            FileUpload1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.ImageButtonCarregarImagem">
+            <summary>
+            ImageButtonCarregarImagem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.LabelDocs">
+            <summary>
+            LabelDocs control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.ToolkitScriptManager2">
+            <summary>
+            ToolkitScriptManager2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.UpdatePanelTabContainer">
+            <summary>
+            UpdatePanelTabContainer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabContainer1">
+            <summary>
+            TabContainer1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelPessoais">
+            <summary>
+            TabPanelPessoais control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCPessoais">
+            <summary>
+            btnDisparaUCPessoais control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default1">
+            <summary>
+            tab_default1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelTitulacao">
+            <summary>
+            TabPanelTitulacao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCTitulacao">
+            <summary>
+            btnDisparaUCTitulacao control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default2">
+            <summary>
+            tab_default2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelPortaria">
+            <summary>
+            TabPanelPortaria control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCPortaria">
+            <summary>
+            btnDisparaUCPortaria control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default3">
+            <summary>
+            tab_default3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelPortariaComProcesso">
+            <summary>
+            TabPanelPortariaComProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCPortariaComProcesso">
+            <summary>
+            btnDisparaUCPortariaComProcesso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default8">
+            <summary>
+            tab_default8 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelCI">
+            <summary>
+            TabPanelCI control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCCI">
+            <summary>
+            btnDisparaUCCI control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default4">
+            <summary>
+            tab_default4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelAviso">
+            <summary>
+            TabPanelAviso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCAviso">
+            <summary>
+            btnDisparaUCAviso control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default5">
+            <summary>
+            tab_default5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelRequerimento">
+            <summary>
+            TabPanelRequerimento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCRequerimento">
+            <summary>
+            btnDisparaUCRequerimento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default6">
+            <summary>
+            tab_default6 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.TabPanelOutros">
+            <summary>
+            TabPanelOutros control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.btnDisparaUCOutros">
+            <summary>
+            btnDisparaUCOutros control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.tab_default7">
+            <summary>
+            tab_default7 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.AlterarColaborador.ImageButtonEnviar">
+            <summary>
+            ImageButtonEnviar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.Page_Init(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Init event of the Page control.
+            </summary>
+            <remarks>Busca na sessão o ID do colaborador, inicia-se várias sessões para ser usadas ao mudar as abas e por último chama um método para montar a tela.</remarks>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the Page control.
+            </summary>
+            <remarks>Verifica se o usuário está autenticado</remarks>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.MontaTela(System.String)">
+            <summary>
+            Preenche os campos da tela com as informações do colaborador a ser editado.
+            </summary>
+            <param name="id">O ID do colaborador a ser editado.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.ImageButtonEnviar_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Atualiza os dados do colaborador.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.atualizaSessaoDeArquivos(System.String,SistemaRH.Arquivo)">
+            <summary>
+            Atualiza a sessao de arquivos.
+            </summary>
+            <param name="opcao">opcao indica a aba ativa.</param>
+            <param name="item">item indica um arquivo a ser adicionado na sessão.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.retornaArquivos(System.String)">
+            <summary>
+            Método que retorna o arquivo de determinada aba.
+            </summary>
+            <param name="opcao">opcao incida a aba ativa.</param>
+            <returns>Um arquivo contido na sessão de determinada aba</returns>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.TabContainer1_Init(System.Object,System.EventArgs)">
+            <summary>
+            Inicia o TabContainer1 control como a primeira aba visível e o resto invisível.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.TabContainer1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Carrega o TabContainer1 control de acordo com a aba ativa. Deixando visivel só a aba ativa.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.TabContainer1_ActiveTabChanged(System.Object,System.EventArgs)">
+            <summary>
+            O evento ActiveTabChanged do TabContainer1 control é disparado para atualizar a sessão com a aba ativa.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.AlterarColaborador.ImageButtonCarregarImagem_Click(System.Object,System.Web.UI.ImageClickEventArgs)">
+            <summary>
+            Carrega a foto do colaborador para visualizar no próprio sistema.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.ImageClickEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:SistemaRH.CadastroDefault">
+            <summary>
+            Classe da página de CadastroDefalt usada para escolher entre os dois tipos de cadastro.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.CadastroDefault.ImageButton1">
+            <summary>
+            ImageButton1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDefault.HyperLink1">
+            <summary>
+            HyperLink1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDefault.ImageButton4">
+            <summary>
+            ImageButton4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.CadastroDefault.HyperLink2">
+            <summary>
+            HyperLink2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.Permissoes">
+            <summary>
+            Classe responsável pelo multivalorado de permissões da base de usuário
+            </summary>
+        </member>
+        <member name="F:SistemaRH.WebForm2.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm2.GridView1">
+            <summary>
+            GridView1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.WebForm2.ObjectDataSource1">
+            <summary>
+            ObjectDataSource1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:SistemaRH.Pesquisar">
+            <summary>
+            Classe responsável pela página que lista a pesquisa feita.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.ImageAttention">
+            <summary>
+            ImageAttention control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.LabelErro">
+            <summary>
+            LabelErro control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.TextBoxPesquisa">
+            <summary>
+            TextBoxPesquisa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.ImageButtonEnviarPesquisa">
+            <summary>
+            ImageButtonEnviarPesquisa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.GridView1">
+            <summary>
+            GridView1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:SistemaRH.Pesquisar.ObjectDataSourceDocumento">
+            <summary>
+            ObjectDataSourceDocumento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:SistemaRH.Pesquisar.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Método Load que garante o usuário autenticado e preenche o GridView com a pesquisa realizada.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Pesquisar.GridView1_RowCommand(System.Object,System.Web.UI.WebControls.GridViewCommandEventArgs)">
+            <summary>
+            Método do evento RowCommand que controla o GridView.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewCommandEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Pesquisar.GridView1_Sorting1(System.Object,System.Web.UI.WebControls.GridViewSortEventArgs)">
+            <summary>
+            Método usado para ordenar o GridView.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewSortEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Pesquisar.GridView1_PageIndexChanging(System.Object,System.Web.UI.WebControls.GridViewPageEventArgs)">
+            <summary>
+            Método usado para mudar o indice do GridView.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Web.UI.WebControls.GridViewPageEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SistemaRH.Pesquisar.bindGrid(System.String)">
+            <summary>
+            Método usado para retornar uma lista ordenada ou uma lista com um indice diferente.
+            </summary>
+            <param name="opcao">Opção escolhida se é de ordenaçao ou mudança de indice.</param>
+            <returns>a lista modificada.</returns>
+        </member>
+        <member name="M:SistemaRH.Pesquisar.montarComando(System.String)">
+            <summary>
+            Método usado para montar o comando de pesquisa.
+            </summary>
+            <param name="pComando">A string a ser tratada.</param>
+            <returns>a string tratada do comando.</returns>
+        </member>
+        <member name="M:SistemaRH.Pesquisar.ButtonEnviarPesquisa_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método usado para processar a pesquisa dentro da lista de Colaboradores.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:SistemaRH.Documento">
+            <summary>
+            Classe contendo a definiçao da base de Documentos.
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Usuario_ASC">
+            <summary>
+            Realiza Comparações pelo Usuario Ascendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Usuario_DESC">
+            <summary>
+            Realiza Comparações pelo Usuario Descendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Tipo_ASC">
+            <summary>
+            Realiza Comparações pelo Tipo Ascendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Tipo_DESC">
+            <summary>
+            Realiza Comparações pelo Tipo Descendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Mensagem_ASC">
+            <summary>
+            Realiza Comparações pela Mensagem Ascendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Mensagem_DESC">
+            <summary>
+            Realiza Comparações pela Mensagem Descendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Data_ASC">
+            <summary>
+            Realiza Comparações pela Data Ascendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.LogSort_Data_DESC">
+            <summary>
+            Realiza Comparações pela Data Descendente
+            </summary>
+        </member>
+        <member name="T:SistemaRH.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SistemaRH.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SistemaRH.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:SistemaRH.Log">
+            <summary>
+            Classe responsável pela estrutura do LOG da base.
+            </summary>
+            <remarks>Implementa a interface IComparable.</remarks>
+        </member>
+        <member name="M:SistemaRH.Log.CompareTo(SistemaRH.Log)">
+            <summary>
+            Método usado para comparar dois Logs.
+            </summary>
+            <param name="other">Outro LOG.</param>
+            <returns>Um inteiro de comparação</returns>
+        </member>
+        <member name="F:SistemaRH.Log.DataComparison">
+            <summary>
+            Método estático usado para comprar duas datas de dois LOGs.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.Log.UsuarioComparison">
+            <summary>
+            Método estático usado para comprar dois usuários de dois LOGs.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.Log.TipoAcaoComparison">
+            <summary>
+            Método estático usado para comprar dois tipos de ação de dois LOGs.
+            </summary>
+        </member>
+        <member name="F:SistemaRH.Log.MensagemComparison">
+            <summary>
+            Método estático usado para comprar duas mensagens de dois LOGs.
+            </summary>
+        </member>
+    </members>
+</doc>

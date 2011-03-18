@@ -1,0 +1,590 @@
+\hypertarget{class_sistema_r_h_1_1_cadastro_user}{
+\section{Referência da Classe SistemaRH.CadastroUser}
+\label{class_sistema_r_h_1_1_cadastro_user}\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+}
+
+
+Classe responsável pelo cadastro de usuários do sistema.  
+
+
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_user_aa3f1da03cef7548e855d0a578f01cf00}{ImageButtonEnviar\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para cadastrar o usuário no banco. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_user_afeaa30d0a9edc0995bbbcda853789d7a}{CustomValidatorLogin\_\-ServerValidate} (object source, ServerValidateEventArgs args)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se já existe o \hyperlink{class_sistema_r_h_1_1_login}{Login} passado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_user_ad526a607459146ee16c66c51445c6125}{CustomValidatorMatricula\_\-ServerValidate} (object source, ServerValidateEventArgs args)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se já existe a matrícula passada. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_permissoes}{Permissoes} $>$ \hyperlink{class_sistema_r_h_1_1_cadastro_user_a0f0cc591384ee169a503a3f6e11606f3}{retornaListaPermissoes} ()
+\begin{DoxyCompactList}\small\item\em Método usado para retornar a lista de permissões do usuário a ser cadastrado. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_ab5f9d7756583be8406155b783f3a25cd}{Label2}
+\begin{DoxyCompactList}\small\item\em Label2 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1_cadastro_user_ac26a207db24e271bfd6d2a88a0e30148}{ImageAttention}
+\begin{DoxyCompactList}\small\item\em ImageAttention control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_aaccd2e2ae995aa1d687ca7a609eb9a4c}{LabelErro}
+\begin{DoxyCompactList}\small\item\em LabelErro control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_a704a4700661e48721cd40a9f0760d023}{LabeMatricula}
+\begin{DoxyCompactList}\small\item\em LabeMatricula control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_cadastro_user_a1b31ea83fdaa5e27197df523cf89da85}{TextBoxMatricula}
+\begin{DoxyCompactList}\small\item\em TextBoxMatricula control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.CustomValidator \hyperlink{class_sistema_r_h_1_1_cadastro_user_a851aa0b26928f5d46156761af83bc076}{CustomValidatorMatricula}
+\begin{DoxyCompactList}\small\item\em CustomValidatorMatricula control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_a886a753f3edbe32db892c14f54480907}{LabelLogin}
+\begin{DoxyCompactList}\small\item\em LabelLogin control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_cadastro_user_a8379e624d20a34d9c20a2d3f4d1682f9}{TextBoxLogin}
+\begin{DoxyCompactList}\small\item\em TextBoxLogin control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.CustomValidator \hyperlink{class_sistema_r_h_1_1_cadastro_user_a399f5701c728310d19ac0885208f581b}{CustomValidatorLogin}
+\begin{DoxyCompactList}\small\item\em CustomValidatorLogin control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_aa130d6fb4abf5d140e894524e5190ef3}{LabelSenha}
+\begin{DoxyCompactList}\small\item\em LabelSenha control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_cadastro_user_a14b49b07f7bd5643d72c04cd3edc3f4b}{TextSenha}
+\begin{DoxyCompactList}\small\item\em TextSenha control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_a126707960e75632de045def06f799c54}{LabelConfirmaSenha}
+\begin{DoxyCompactList}\small\item\em LabelConfirmaSenha control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_cadastro_user_a229680f0d1904176b3326e112b2e08b4}{TextConfirmaSenha}
+\begin{DoxyCompactList}\small\item\em TextConfirmaSenha control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.CompareValidator \hyperlink{class_sistema_r_h_1_1_cadastro_user_adb506525ca9a486d2a2af45ca2ebfeea}{CompareValidator1}
+\begin{DoxyCompactList}\small\item\em CompareValidator1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_aaeb55ba4d615da19496bdd9cca8830d0}{LabelDocs}
+\begin{DoxyCompactList}\small\item\em LabelDocs control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_a5854d3064b2bd301797b09d1da2575f6}{LabelLeitura}
+\begin{DoxyCompactList}\small\item\em LabelLeitura control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_af660906708afbeb2ef5533a8cb9e3e05}{LabelAlteracao}
+\begin{DoxyCompactList}\small\item\em LabelAlteracao control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_user_a28628279d4844482bbdd9bd6343e74fd}{LabelNenhum}
+\begin{DoxyCompactList}\small\item\em LabelNenhum control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_aebe687cb1296669e740ba400287861d4}{LeituraPessoais}
+\begin{DoxyCompactList}\small\item\em LeituraPessoais control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a9874f855765f57c9d29cb9aec040237f}{AlteracaoPessoais}
+\begin{DoxyCompactList}\small\item\em AlteracaoPessoais control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_ac6a633e5e73cd93d92f3c269ee98b678}{NenhumPessoais}
+\begin{DoxyCompactList}\small\item\em NenhumPessoais control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_ae4fb6be405068ea2ae744a63799a4a83}{LeituraTitulacao}
+\begin{DoxyCompactList}\small\item\em LeituraTitulacao control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_ae60cafd69a6fb8646a6e934bcb01e418}{AlteracaoTitulacao}
+\begin{DoxyCompactList}\small\item\em AlteracaoTitulacao control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_afe9c666ae3a9054f5816e78228440256}{NenhumTitulacao}
+\begin{DoxyCompactList}\small\item\em NenhumTitulacao control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_acbcd6b0df4328d0be4d9b71f8151a4f2}{LeituraPortaria1}
+\begin{DoxyCompactList}\small\item\em LeituraPortaria1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a2095d4e90a9bedd977437adbac8c3c08}{AlteracaoPortaria}
+\begin{DoxyCompactList}\small\item\em AlteracaoPortaria control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a0de4c38e7297ba6b7ce80aef864562d5}{NenhumPortaria}
+\begin{DoxyCompactList}\small\item\em NenhumPortaria control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_abaf30d02ff01cd234cd2c48a2465c48c}{LeituraPortariaProcesso}
+\begin{DoxyCompactList}\small\item\em LeituraPortariaProcesso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_add7a4033b512309e1db5f806a68d2c9a}{AlteracaoPortariaProcesso}
+\begin{DoxyCompactList}\small\item\em AlteracaoPortariaProcesso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a4b42684da57180266ab3af8489391f8c}{NenhumPortariaProcesso}
+\begin{DoxyCompactList}\small\item\em NenhumPortariaProcesso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a8946e4f8ad86ff95fccd7addf69c24c4}{LeituraCI}
+\begin{DoxyCompactList}\small\item\em LeituraCI control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_aff41ea22a6a0792bdea569a01bd8728b}{AlteracaoCI}
+\begin{DoxyCompactList}\small\item\em AlteracaoCI control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_ae4b7e53f819b4ebb952f046dc38e9b55}{NenhumCI}
+\begin{DoxyCompactList}\small\item\em NenhumCI control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a2cc5c0efea3d1e92ef8f2cc32282cb1c}{LeituraAviso}
+\begin{DoxyCompactList}\small\item\em LeituraAviso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_abb276f2edcd294396021a816b7be69f1}{AlteracaoAviso}
+\begin{DoxyCompactList}\small\item\em AlteracaoAviso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_ab52561cadeaba4e91a2bff50eaa10944}{NenhumAviso}
+\begin{DoxyCompactList}\small\item\em NenhumAviso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a7e33448bca7dd95cae0bef4afd3f0d27}{LeituraRequerimento}
+\begin{DoxyCompactList}\small\item\em LeituraRequerimento control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a9ede310987a21320038bf58b3938345e}{AlteracaoRequerimento}
+\begin{DoxyCompactList}\small\item\em AlteracaoRequerimento control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a0b816cc331505340b5471c43a6056ae6}{NenhumRequerimento}
+\begin{DoxyCompactList}\small\item\em NenhumRequerimento control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a222688f378ab406208912699aee5b624}{LeituraOutros}
+\begin{DoxyCompactList}\small\item\em LeituraOutros control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_aff33b5e443d82ec7ae5cb1ad0e80ca00}{AlteracaoOutros}
+\begin{DoxyCompactList}\small\item\em AlteracaoOutros control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RadioButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a0071562337337028175da44e079fef63}{NenhumOutros}
+\begin{DoxyCompactList}\small\item\em NenhumOutros control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_cadastro_user_a16ac9fdb9bf9fff0937b6ebd68d5700d}{ImageButtonEnviar}
+\begin{DoxyCompactList}\small\item\em ImageButtonEnviar control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe responsável pelo cadastro de usuários do sistema. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_cadastro_user_afeaa30d0a9edc0995bbbcda853789d7a}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!CustomValidatorLogin\_\-ServerValidate@{CustomValidatorLogin\_\-ServerValidate}}
+\index{CustomValidatorLogin\_\-ServerValidate@{CustomValidatorLogin\_\-ServerValidate}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{CustomValidatorLogin\_\-ServerValidate}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroUser.CustomValidatorLogin\_\-ServerValidate (
+\begin{DoxyParamCaption}
+\item[{object}]{ source, }
+\item[{ServerValidateEventArgs}]{ args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_afeaa30d0a9edc0995bbbcda853789d7a}
+
+
+Método usado para verificar se já existe o \hyperlink{class_sistema_r_h_1_1_login}{Login} passado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em source} & The source of the event.\\
+\hline
+{\em args} & The System.Web.UI.WebControls.ServerValidateEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_user_ad526a607459146ee16c66c51445c6125}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!CustomValidatorMatricula\_\-ServerValidate@{CustomValidatorMatricula\_\-ServerValidate}}
+\index{CustomValidatorMatricula\_\-ServerValidate@{CustomValidatorMatricula\_\-ServerValidate}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{CustomValidatorMatricula\_\-ServerValidate}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroUser.CustomValidatorMatricula\_\-ServerValidate (
+\begin{DoxyParamCaption}
+\item[{object}]{ source, }
+\item[{ServerValidateEventArgs}]{ args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ad526a607459146ee16c66c51445c6125}
+
+
+Método usado para verificar se já existe a matrícula passada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em source} & The source of the event.\\
+\hline
+{\em args} & The System.Web.UI.WebControls.ServerValidateEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_user_aa3f1da03cef7548e855d0a578f01cf00}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!ImageButtonEnviar\_\-Click@{ImageButtonEnviar\_\-Click}}
+\index{ImageButtonEnviar\_\-Click@{ImageButtonEnviar\_\-Click}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{ImageButtonEnviar\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroUser.ImageButtonEnviar\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_aa3f1da03cef7548e855d0a578f01cf00}
+
+
+Método usado para cadastrar o usuário no banco. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_user_a0f0cc591384ee169a503a3f6e11606f3}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!retornaListaPermissoes@{retornaListaPermissoes}}
+\index{retornaListaPermissoes@{retornaListaPermissoes}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{retornaListaPermissoes}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Permissoes}$>$ SistemaRH.CadastroUser.retornaListaPermissoes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a0f0cc591384ee169a503a3f6e11606f3}
+
+
+Método usado para retornar a lista de permissões do usuário a ser cadastrado. 
+
+\begin{DoxyReturn}{Retorna}
+retorna uma lista de permissões
+\end{DoxyReturn}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1_cadastro_user_abb276f2edcd294396021a816b7be69f1}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoAviso@{AlteracaoAviso}}
+\index{AlteracaoAviso@{AlteracaoAviso}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoAviso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoAviso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_abb276f2edcd294396021a816b7be69f1}
+
+
+AlteracaoAviso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_aff41ea22a6a0792bdea569a01bd8728b}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoCI@{AlteracaoCI}}
+\index{AlteracaoCI@{AlteracaoCI}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoCI}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoCI}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_aff41ea22a6a0792bdea569a01bd8728b}
+
+
+AlteracaoCI control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_aff33b5e443d82ec7ae5cb1ad0e80ca00}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoOutros@{AlteracaoOutros}}
+\index{AlteracaoOutros@{AlteracaoOutros}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoOutros}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoOutros}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_aff33b5e443d82ec7ae5cb1ad0e80ca00}
+
+
+AlteracaoOutros control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a9874f855765f57c9d29cb9aec040237f}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoPessoais@{AlteracaoPessoais}}
+\index{AlteracaoPessoais@{AlteracaoPessoais}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoPessoais}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoPessoais}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a9874f855765f57c9d29cb9aec040237f}
+
+
+AlteracaoPessoais control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a2095d4e90a9bedd977437adbac8c3c08}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoPortaria@{AlteracaoPortaria}}
+\index{AlteracaoPortaria@{AlteracaoPortaria}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoPortaria}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoPortaria}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a2095d4e90a9bedd977437adbac8c3c08}
+
+
+AlteracaoPortaria control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_add7a4033b512309e1db5f806a68d2c9a}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoPortariaProcesso@{AlteracaoPortariaProcesso}}
+\index{AlteracaoPortariaProcesso@{AlteracaoPortariaProcesso}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoPortariaProcesso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoPortariaProcesso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_add7a4033b512309e1db5f806a68d2c9a}
+
+
+AlteracaoPortariaProcesso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a9ede310987a21320038bf58b3938345e}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoRequerimento@{AlteracaoRequerimento}}
+\index{AlteracaoRequerimento@{AlteracaoRequerimento}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoRequerimento}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoRequerimento}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a9ede310987a21320038bf58b3938345e}
+
+
+AlteracaoRequerimento control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_ae60cafd69a6fb8646a6e934bcb01e418}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!AlteracaoTitulacao@{AlteracaoTitulacao}}
+\index{AlteracaoTitulacao@{AlteracaoTitulacao}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{AlteracaoTitulacao}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.AlteracaoTitulacao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ae60cafd69a6fb8646a6e934bcb01e418}
+
+
+AlteracaoTitulacao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_adb506525ca9a486d2a2af45ca2ebfeea}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!CompareValidator1@{CompareValidator1}}
+\index{CompareValidator1@{CompareValidator1}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{CompareValidator1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.CompareValidator {\bf SistemaRH.CadastroUser.CompareValidator1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_adb506525ca9a486d2a2af45ca2ebfeea}
+
+
+CompareValidator1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a399f5701c728310d19ac0885208f581b}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!CustomValidatorLogin@{CustomValidatorLogin}}
+\index{CustomValidatorLogin@{CustomValidatorLogin}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{CustomValidatorLogin}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.CustomValidator {\bf SistemaRH.CadastroUser.CustomValidatorLogin}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a399f5701c728310d19ac0885208f581b}
+
+
+CustomValidatorLogin control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a851aa0b26928f5d46156761af83bc076}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!CustomValidatorMatricula@{CustomValidatorMatricula}}
+\index{CustomValidatorMatricula@{CustomValidatorMatricula}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{CustomValidatorMatricula}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.CustomValidator {\bf SistemaRH.CadastroUser.CustomValidatorMatricula}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a851aa0b26928f5d46156761af83bc076}
+
+
+CustomValidatorMatricula control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_ac26a207db24e271bfd6d2a88a0e30148}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!ImageAttention@{ImageAttention}}
+\index{ImageAttention@{ImageAttention}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{ImageAttention}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.CadastroUser.ImageAttention}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ac26a207db24e271bfd6d2a88a0e30148}
+
+
+ImageAttention control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a16ac9fdb9bf9fff0937b6ebd68d5700d}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!ImageButtonEnviar@{ImageButtonEnviar}}
+\index{ImageButtonEnviar@{ImageButtonEnviar}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{ImageButtonEnviar}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.CadastroUser.ImageButtonEnviar}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a16ac9fdb9bf9fff0937b6ebd68d5700d}
+
+
+ImageButtonEnviar control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_ab5f9d7756583be8406155b783f3a25cd}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!Label2@{Label2}}
+\index{Label2@{Label2}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{Label2}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.Label2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ab5f9d7756583be8406155b783f3a25cd}
+
+
+Label2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_af660906708afbeb2ef5533a8cb9e3e05}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelAlteracao@{LabelAlteracao}}
+\index{LabelAlteracao@{LabelAlteracao}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelAlteracao}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelAlteracao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_af660906708afbeb2ef5533a8cb9e3e05}
+
+
+LabelAlteracao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a126707960e75632de045def06f799c54}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelConfirmaSenha@{LabelConfirmaSenha}}
+\index{LabelConfirmaSenha@{LabelConfirmaSenha}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelConfirmaSenha}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelConfirmaSenha}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a126707960e75632de045def06f799c54}
+
+
+LabelConfirmaSenha control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_aaeb55ba4d615da19496bdd9cca8830d0}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelDocs@{LabelDocs}}
+\index{LabelDocs@{LabelDocs}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelDocs}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelDocs}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_aaeb55ba4d615da19496bdd9cca8830d0}
+
+
+LabelDocs control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_aaccd2e2ae995aa1d687ca7a609eb9a4c}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelErro@{LabelErro}}
+\index{LabelErro@{LabelErro}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelErro}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelErro}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_aaccd2e2ae995aa1d687ca7a609eb9a4c}
+
+
+LabelErro control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a5854d3064b2bd301797b09d1da2575f6}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelLeitura@{LabelLeitura}}
+\index{LabelLeitura@{LabelLeitura}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelLeitura}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelLeitura}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a5854d3064b2bd301797b09d1da2575f6}
+
+
+LabelLeitura control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a886a753f3edbe32db892c14f54480907}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelLogin@{LabelLogin}}
+\index{LabelLogin@{LabelLogin}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelLogin}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelLogin}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a886a753f3edbe32db892c14f54480907}
+
+
+LabelLogin control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a28628279d4844482bbdd9bd6343e74fd}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelNenhum@{LabelNenhum}}
+\index{LabelNenhum@{LabelNenhum}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelNenhum}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelNenhum}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a28628279d4844482bbdd9bd6343e74fd}
+
+
+LabelNenhum control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_aa130d6fb4abf5d140e894524e5190ef3}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabelSenha@{LabelSenha}}
+\index{LabelSenha@{LabelSenha}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabelSenha}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabelSenha}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_aa130d6fb4abf5d140e894524e5190ef3}
+
+
+LabelSenha control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a704a4700661e48721cd40a9f0760d023}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LabeMatricula@{LabeMatricula}}
+\index{LabeMatricula@{LabeMatricula}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LabeMatricula}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroUser.LabeMatricula}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a704a4700661e48721cd40a9f0760d023}
+
+
+LabeMatricula control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a2cc5c0efea3d1e92ef8f2cc32282cb1c}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraAviso@{LeituraAviso}}
+\index{LeituraAviso@{LeituraAviso}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraAviso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraAviso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a2cc5c0efea3d1e92ef8f2cc32282cb1c}
+
+
+LeituraAviso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a8946e4f8ad86ff95fccd7addf69c24c4}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraCI@{LeituraCI}}
+\index{LeituraCI@{LeituraCI}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraCI}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraCI}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a8946e4f8ad86ff95fccd7addf69c24c4}
+
+
+LeituraCI control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a222688f378ab406208912699aee5b624}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraOutros@{LeituraOutros}}
+\index{LeituraOutros@{LeituraOutros}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraOutros}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraOutros}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a222688f378ab406208912699aee5b624}
+
+
+LeituraOutros control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_aebe687cb1296669e740ba400287861d4}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraPessoais@{LeituraPessoais}}
+\index{LeituraPessoais@{LeituraPessoais}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraPessoais}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraPessoais}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_aebe687cb1296669e740ba400287861d4}
+
+
+LeituraPessoais control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_acbcd6b0df4328d0be4d9b71f8151a4f2}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraPortaria1@{LeituraPortaria1}}
+\index{LeituraPortaria1@{LeituraPortaria1}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraPortaria1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraPortaria1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_acbcd6b0df4328d0be4d9b71f8151a4f2}
+
+
+LeituraPortaria1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_abaf30d02ff01cd234cd2c48a2465c48c}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraPortariaProcesso@{LeituraPortariaProcesso}}
+\index{LeituraPortariaProcesso@{LeituraPortariaProcesso}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraPortariaProcesso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraPortariaProcesso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_abaf30d02ff01cd234cd2c48a2465c48c}
+
+
+LeituraPortariaProcesso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a7e33448bca7dd95cae0bef4afd3f0d27}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraRequerimento@{LeituraRequerimento}}
+\index{LeituraRequerimento@{LeituraRequerimento}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraRequerimento}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraRequerimento}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a7e33448bca7dd95cae0bef4afd3f0d27}
+
+
+LeituraRequerimento control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_ae4fb6be405068ea2ae744a63799a4a83}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!LeituraTitulacao@{LeituraTitulacao}}
+\index{LeituraTitulacao@{LeituraTitulacao}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{LeituraTitulacao}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.LeituraTitulacao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ae4fb6be405068ea2ae744a63799a4a83}
+
+
+LeituraTitulacao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_ab52561cadeaba4e91a2bff50eaa10944}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumAviso@{NenhumAviso}}
+\index{NenhumAviso@{NenhumAviso}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumAviso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumAviso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ab52561cadeaba4e91a2bff50eaa10944}
+
+
+NenhumAviso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_ae4b7e53f819b4ebb952f046dc38e9b55}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumCI@{NenhumCI}}
+\index{NenhumCI@{NenhumCI}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumCI}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumCI}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ae4b7e53f819b4ebb952f046dc38e9b55}
+
+
+NenhumCI control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a0071562337337028175da44e079fef63}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumOutros@{NenhumOutros}}
+\index{NenhumOutros@{NenhumOutros}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumOutros}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumOutros}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a0071562337337028175da44e079fef63}
+
+
+NenhumOutros control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_ac6a633e5e73cd93d92f3c269ee98b678}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumPessoais@{NenhumPessoais}}
+\index{NenhumPessoais@{NenhumPessoais}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumPessoais}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumPessoais}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_ac6a633e5e73cd93d92f3c269ee98b678}
+
+
+NenhumPessoais control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a0de4c38e7297ba6b7ce80aef864562d5}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumPortaria@{NenhumPortaria}}
+\index{NenhumPortaria@{NenhumPortaria}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumPortaria}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumPortaria}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a0de4c38e7297ba6b7ce80aef864562d5}
+
+
+NenhumPortaria control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a4b42684da57180266ab3af8489391f8c}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumPortariaProcesso@{NenhumPortariaProcesso}}
+\index{NenhumPortariaProcesso@{NenhumPortariaProcesso}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumPortariaProcesso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumPortariaProcesso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a4b42684da57180266ab3af8489391f8c}
+
+
+NenhumPortariaProcesso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a0b816cc331505340b5471c43a6056ae6}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumRequerimento@{NenhumRequerimento}}
+\index{NenhumRequerimento@{NenhumRequerimento}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumRequerimento}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumRequerimento}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a0b816cc331505340b5471c43a6056ae6}
+
+
+NenhumRequerimento control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_afe9c666ae3a9054f5816e78228440256}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!NenhumTitulacao@{NenhumTitulacao}}
+\index{NenhumTitulacao@{NenhumTitulacao}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{NenhumTitulacao}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RadioButton {\bf SistemaRH.CadastroUser.NenhumTitulacao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_afe9c666ae3a9054f5816e78228440256}
+
+
+NenhumTitulacao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a8379e624d20a34d9c20a2d3f4d1682f9}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!TextBoxLogin@{TextBoxLogin}}
+\index{TextBoxLogin@{TextBoxLogin}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{TextBoxLogin}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.CadastroUser.TextBoxLogin}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a8379e624d20a34d9c20a2d3f4d1682f9}
+
+
+TextBoxLogin control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a1b31ea83fdaa5e27197df523cf89da85}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!TextBoxMatricula@{TextBoxMatricula}}
+\index{TextBoxMatricula@{TextBoxMatricula}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{TextBoxMatricula}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.CadastroUser.TextBoxMatricula}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a1b31ea83fdaa5e27197df523cf89da85}
+
+
+TextBoxMatricula control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a229680f0d1904176b3326e112b2e08b4}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!TextConfirmaSenha@{TextConfirmaSenha}}
+\index{TextConfirmaSenha@{TextConfirmaSenha}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{TextConfirmaSenha}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.CadastroUser.TextConfirmaSenha}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a229680f0d1904176b3326e112b2e08b4}
+
+
+TextConfirmaSenha control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_user_a14b49b07f7bd5643d72c04cd3edc3f4b}{
+\index{SistemaRH::CadastroUser@{SistemaRH::CadastroUser}!TextSenha@{TextSenha}}
+\index{TextSenha@{TextSenha}!SistemaRH::CadastroUser@{SistemaRH::CadastroUser}}
+\subsubsection[{TextSenha}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.CadastroUser.TextSenha}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_user_a14b49b07f7bd5643d72c04cd3edc3f4b}
+
+
+TextSenha control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+cadastroUser.aspx.cs\item 
+cadastroUser.aspx.designer.cs\end{DoxyCompactItemize}

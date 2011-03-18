@@ -1,0 +1,366 @@
+\hypertarget{class_sistema_r_h_1_1_web_form_log}{
+\section{Referência da Classe SistemaRH.WebFormLog}
+\label{class_sistema_r_h_1_1_web_form_log}\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+}
+
+
+Classe responsável pela listagem do LOG do sistema.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_sistema_r_h_1_1_web_form_log_ab4219c4b65e3136b76c8dc53ce60a192}{montaParametros} (string parametros)
+\begin{DoxyCompactList}\small\item\em Método usado para montar parte de um comando da LightBase com os parametros passados. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1_web_form_log_afcb5adbb688d05267c369a2f269dd65c}{montarComando} (string pComando)
+\begin{DoxyCompactList}\small\item\em Método usado para montar o comando de pesquisa. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1_web_form_log_a934fa0ad608c8c1ad38b5fce4cb61e81}{Page\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método que verifica se o usuário está autenticado e preenche o grid com a listagem de LOG. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_web_form_log_aaa386223920ab688525b79911ab0ed88}{GridView1\_\-PageIndexChanging} (object sender, GridViewPageEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para mudar a página do GridView1 control. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_web_form_log_add81d7c238ceb1cb7d016a0078661d53}{GridView1\_\-Sorting} (object sender, GridViewSortEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para ordenar GridView1 control usando as classes internas de ordenação. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_web_form_log_a6596e8d034db786494cdbad33e3c463a}{ButtonEnviarPesquisa\_\-Click} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para fazer pesquisa dentro da lista de LOGs. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_web_form_log_a97359d921062a8688707a40c342b5c60}{ImageButtonPesquisaIntervaloDatas\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para fazer um filtro por um intervalo de datas. \item\end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ \hyperlink{class_sistema_r_h_1_1_web_form_log_a14b0e74871b41a680f4fdfc63a704423}{intervaloDatas} (List$<$ \hyperlink{class_sistema_r_h_1_1_log}{Log} $>$ lista, DateTime dataInicio, DateTime dataFinal)
+\begin{DoxyCompactList}\small\item\em Método usado para retornar uma lista filtrada com o intervalo de datas. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::AjaxControlToolkit.ToolkitScriptManager \hyperlink{class_sistema_r_h_1_1_web_form_log_a4d4defd71dc13bad20e662b952d41987}{ToolkitScriptManager1}
+\begin{DoxyCompactList}\small\item\em ToolkitScriptManager1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_web_form_log_ab6184334e610eb3f6392a2e5dc16c167}{Label1}
+\begin{DoxyCompactList}\small\item\em Label1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_web_form_log_a8c408c2975991423128b56334b0a5320}{Label3}
+\begin{DoxyCompactList}\small\item\em Label3 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_web_form_log_adfb04da26612dd2d1f2e35b5363422bb}{TextBoxPesquisa}
+\begin{DoxyCompactList}\small\item\em TextBoxPesquisa control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_web_form_log_a6162fa2a5747787d0ad79ce5aa725cbb}{ImageButtonEnviarPesquisa}
+\begin{DoxyCompactList}\small\item\em ImageButtonEnviarPesquisa control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_web_form_log_a038a355f0032298568246d0516bdc4a2}{Label2}
+\begin{DoxyCompactList}\small\item\em Label2 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_web_form_log_a1ecc5ff7da62cca489aa8fc7a67ef093}{TextBoxDataInicio}
+\begin{DoxyCompactList}\small\item\em TextBoxDataInicio control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.CalendarExtender \hyperlink{class_sistema_r_h_1_1_web_form_log_ab4f2a2e6c4083fdf161d797b91e580b7}{CalendarExtenderInicio}
+\begin{DoxyCompactList}\small\item\em CalendarExtenderInicio control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_web_form_log_af57139f8a14c6b29e741f291c4f30641}{TextBoxDataFinal}
+\begin{DoxyCompactList}\small\item\em TextBoxDataFinal control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.CalendarExtender \hyperlink{class_sistema_r_h_1_1_web_form_log_afedc6e98dce2f06f83f395de6e001c94}{CalendarExtenderFinal}
+\begin{DoxyCompactList}\small\item\em CalendarExtenderFinal control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_web_form_log_a68907ca0bcba3d5806d5c248eaa5665f}{ImageButtonPesquisaIntervaloDatas}
+\begin{DoxyCompactList}\small\item\em ImageButtonPesquisaIntervaloDatas control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.GridView \hyperlink{class_sistema_r_h_1_1_web_form_log_ae581455a5ace4f4cbf79e350caf770fb}{GridView1}
+\begin{DoxyCompactList}\small\item\em GridView1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ObjectDataSource \hyperlink{class_sistema_r_h_1_1_web_form_log_a91bd5e65c14588e4cb150967d17c38e0}{ObjectDataSource1}
+\begin{DoxyCompactList}\small\item\em ObjectDataSource1 control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe responsável pela listagem do LOG do sistema. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_a6596e8d034db786494cdbad33e3c463a}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!ButtonEnviarPesquisa\_\-Click@{ButtonEnviarPesquisa\_\-Click}}
+\index{ButtonEnviarPesquisa\_\-Click@{ButtonEnviarPesquisa\_\-Click}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{ButtonEnviarPesquisa\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.WebFormLog.ButtonEnviarPesquisa\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a6596e8d034db786494cdbad33e3c463a}
+
+
+Método usado para fazer pesquisa dentro da lista de LOGs. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_aaa386223920ab688525b79911ab0ed88}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!GridView1\_\-PageIndexChanging@{GridView1\_\-PageIndexChanging}}
+\index{GridView1\_\-PageIndexChanging@{GridView1\_\-PageIndexChanging}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{GridView1\_\-PageIndexChanging}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.WebFormLog.GridView1\_\-PageIndexChanging (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewPageEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_aaa386223920ab688525b79911ab0ed88}
+
+
+Método usado para mudar a página do GridView1 control. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewPageEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_add81d7c238ceb1cb7d016a0078661d53}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!GridView1\_\-Sorting@{GridView1\_\-Sorting}}
+\index{GridView1\_\-Sorting@{GridView1\_\-Sorting}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{GridView1\_\-Sorting}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.WebFormLog.GridView1\_\-Sorting (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewSortEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_add81d7c238ceb1cb7d016a0078661d53}
+
+
+Método usado para ordenar GridView1 control usando as classes internas de ordenação. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewSortEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_a97359d921062a8688707a40c342b5c60}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!ImageButtonPesquisaIntervaloDatas\_\-Click@{ImageButtonPesquisaIntervaloDatas\_\-Click}}
+\index{ImageButtonPesquisaIntervaloDatas\_\-Click@{ImageButtonPesquisaIntervaloDatas\_\-Click}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{ImageButtonPesquisaIntervaloDatas\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.WebFormLog.ImageButtonPesquisaIntervaloDatas\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a97359d921062a8688707a40c342b5c60}
+
+
+Método usado para fazer um filtro por um intervalo de datas. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_a14b0e74871b41a680f4fdfc63a704423}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!intervaloDatas@{intervaloDatas}}
+\index{intervaloDatas@{intervaloDatas}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{intervaloDatas}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Log}$>$ SistemaRH.WebFormLog.intervaloDatas (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Log} $>$}]{ lista, }
+\item[{DateTime}]{ dataInicio, }
+\item[{DateTime}]{ dataFinal}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a14b0e74871b41a680f4fdfc63a704423}
+
+
+Método usado para retornar uma lista filtrada com o intervalo de datas. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em lista} & Lista de LOG.\\
+\hline
+{\em dataInicio} & A data inicial.\\
+\hline
+{\em dataFinal} & A data final.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+a lista filtrada
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_ab4219c4b65e3136b76c8dc53ce60a192}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!montaParametros@{montaParametros}}
+\index{montaParametros@{montaParametros}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{montaParametros}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.WebFormLog.montaParametros (
+\begin{DoxyParamCaption}
+\item[{string}]{ parametros}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_web_form_log_ab4219c4b65e3136b76c8dc53ce60a192}
+
+
+Método usado para montar parte de um comando da LightBase com os parametros passados. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em parametros} & Parametros de pesquisa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_afcb5adbb688d05267c369a2f269dd65c}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!montarComando@{montarComando}}
+\index{montarComando@{montarComando}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{montarComando}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.WebFormLog.montarComando (
+\begin{DoxyParamCaption}
+\item[{string}]{ pComando}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_web_form_log_afcb5adbb688d05267c369a2f269dd65c}
+
+
+Método usado para montar o comando de pesquisa. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em pComando} & A string a ser tratada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+a string tratada do comando.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_a934fa0ad608c8c1ad38b5fce4cb61e81}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!Page\_\-Load@{Page\_\-Load}}
+\index{Page\_\-Load@{Page\_\-Load}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{Page\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.WebFormLog.Page\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a934fa0ad608c8c1ad38b5fce4cb61e81}
+
+
+Método que verifica se o usuário está autenticado e preenche o grid com a listagem de LOG. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1_web_form_log_afedc6e98dce2f06f83f395de6e001c94}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!CalendarExtenderFinal@{CalendarExtenderFinal}}
+\index{CalendarExtenderFinal@{CalendarExtenderFinal}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{CalendarExtenderFinal}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.CalendarExtender {\bf SistemaRH.WebFormLog.CalendarExtenderFinal}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_afedc6e98dce2f06f83f395de6e001c94}
+
+
+CalendarExtenderFinal control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_ab4f2a2e6c4083fdf161d797b91e580b7}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!CalendarExtenderInicio@{CalendarExtenderInicio}}
+\index{CalendarExtenderInicio@{CalendarExtenderInicio}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{CalendarExtenderInicio}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.CalendarExtender {\bf SistemaRH.WebFormLog.CalendarExtenderInicio}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_ab4f2a2e6c4083fdf161d797b91e580b7}
+
+
+CalendarExtenderInicio control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_ae581455a5ace4f4cbf79e350caf770fb}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!GridView1@{GridView1}}
+\index{GridView1@{GridView1}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{GridView1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.GridView {\bf SistemaRH.WebFormLog.GridView1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_ae581455a5ace4f4cbf79e350caf770fb}
+
+
+GridView1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_a6162fa2a5747787d0ad79ce5aa725cbb}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!ImageButtonEnviarPesquisa@{ImageButtonEnviarPesquisa}}
+\index{ImageButtonEnviarPesquisa@{ImageButtonEnviarPesquisa}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{ImageButtonEnviarPesquisa}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.WebFormLog.ImageButtonEnviarPesquisa}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a6162fa2a5747787d0ad79ce5aa725cbb}
+
+
+ImageButtonEnviarPesquisa control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_a68907ca0bcba3d5806d5c248eaa5665f}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!ImageButtonPesquisaIntervaloDatas@{ImageButtonPesquisaIntervaloDatas}}
+\index{ImageButtonPesquisaIntervaloDatas@{ImageButtonPesquisaIntervaloDatas}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{ImageButtonPesquisaIntervaloDatas}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.WebFormLog.ImageButtonPesquisaIntervaloDatas}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a68907ca0bcba3d5806d5c248eaa5665f}
+
+
+ImageButtonPesquisaIntervaloDatas control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_ab6184334e610eb3f6392a2e5dc16c167}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!Label1@{Label1}}
+\index{Label1@{Label1}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{Label1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.WebFormLog.Label1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_ab6184334e610eb3f6392a2e5dc16c167}
+
+
+Label1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_a038a355f0032298568246d0516bdc4a2}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!Label2@{Label2}}
+\index{Label2@{Label2}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{Label2}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.WebFormLog.Label2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a038a355f0032298568246d0516bdc4a2}
+
+
+Label2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_a8c408c2975991423128b56334b0a5320}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!Label3@{Label3}}
+\index{Label3@{Label3}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{Label3}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.WebFormLog.Label3}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a8c408c2975991423128b56334b0a5320}
+
+
+Label3 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_a91bd5e65c14588e4cb150967d17c38e0}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!ObjectDataSource1@{ObjectDataSource1}}
+\index{ObjectDataSource1@{ObjectDataSource1}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{ObjectDataSource1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ObjectDataSource {\bf SistemaRH.WebFormLog.ObjectDataSource1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a91bd5e65c14588e4cb150967d17c38e0}
+
+
+ObjectDataSource1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_af57139f8a14c6b29e741f291c4f30641}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!TextBoxDataFinal@{TextBoxDataFinal}}
+\index{TextBoxDataFinal@{TextBoxDataFinal}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{TextBoxDataFinal}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.WebFormLog.TextBoxDataFinal}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_af57139f8a14c6b29e741f291c4f30641}
+
+
+TextBoxDataFinal control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_a1ecc5ff7da62cca489aa8fc7a67ef093}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!TextBoxDataInicio@{TextBoxDataInicio}}
+\index{TextBoxDataInicio@{TextBoxDataInicio}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{TextBoxDataInicio}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.WebFormLog.TextBoxDataInicio}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a1ecc5ff7da62cca489aa8fc7a67ef093}
+
+
+TextBoxDataInicio control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_adfb04da26612dd2d1f2e35b5363422bb}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!TextBoxPesquisa@{TextBoxPesquisa}}
+\index{TextBoxPesquisa@{TextBoxPesquisa}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{TextBoxPesquisa}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.WebFormLog.TextBoxPesquisa}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_adfb04da26612dd2d1f2e35b5363422bb}
+
+
+TextBoxPesquisa control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_web_form_log_a4d4defd71dc13bad20e662b952d41987}{
+\index{SistemaRH::WebFormLog@{SistemaRH::WebFormLog}!ToolkitScriptManager1@{ToolkitScriptManager1}}
+\index{ToolkitScriptManager1@{ToolkitScriptManager1}!SistemaRH::WebFormLog@{SistemaRH::WebFormLog}}
+\subsubsection[{ToolkitScriptManager1}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.ToolkitScriptManager {\bf SistemaRH.WebFormLog.ToolkitScriptManager1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_web_form_log_a4d4defd71dc13bad20e662b952d41987}
+
+
+ToolkitScriptManager1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+log.aspx.cs\item 
+log.aspx.designer.cs\end{DoxyCompactItemize}

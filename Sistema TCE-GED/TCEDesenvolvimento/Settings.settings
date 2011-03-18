@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GED_TCESE.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="conexaoLBW" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">user=lbw;password=lbw;udb=defudb;server=localhost</Value>
+    </Setting>
+    <Setting Name="usuarioGoldenIndex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">adm</Value>
+    </Setting>
+    <Setting Name="senhaGoldenIndex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sysadm</Value>
+    </Setting>
+    <Setting Name="PortaGoldenIndex" Type="System.UInt32" Scope="Application">
+      <Value Profile="(Default)">8085</Value>
+    </Setting>
+    <Setting Name="UriGoldenIndex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GoldenIndex.soap</Value>
+    </Setting>
+    <Setting Name="ProtocoloGoldenIndex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http</Value>
+    </Setting>
+    <Setting Name="MaquinaGoldenIndex" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="CaminhoDoRepositorioJurisprudencia" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">d:\repositorios\tcese\juriprudencia</Value>
+    </Setting>
+    <Setting Name="CaminhoDoRepositorioProtocolo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">d:\repositorios\tcese\protocolo</Value>
+    </Setting>
+    <Setting Name="CaminhoDoRepositorioProcessoDespesa" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">d:\repositorios\tcese\processodespesa</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

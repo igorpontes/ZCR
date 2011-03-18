@@ -1,0 +1,10 @@
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\WSProntuario\WSProntuario\bin\WSProntuario.dll
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\WSProntuario\WSProntuario\bin\WSProntuario.pdb
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\WSProntuario\WSProntuario\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\WSProntuario\WSProntuario\obj\Debug\WSProntuario.dll
+C:\Users\anderson\Documents\Visual Studio 2008\Projects\WSProntuario\WSProntuario\obj\Debug\WSProntuario.pdb
+C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\WSProntuario\bin\WSProntuario.dll
+C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\WSProntuario\bin\WSProntuario.pdb
+C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\WSProntuario\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\WSProntuario\obj\Debug\WSProntuario.dll
+C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\WSProntuario\obj\Debug\WSProntuario.pdb

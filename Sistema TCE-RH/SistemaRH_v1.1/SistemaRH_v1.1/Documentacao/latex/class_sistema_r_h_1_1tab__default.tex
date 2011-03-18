@@ -1,0 +1,702 @@
+\hypertarget{class_sistema_r_h_1_1tab__default}{
+\section{Referência da Classe SistemaRH.tab\_\-default}
+\label{class_sistema_r_h_1_1tab__default}\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}}
+}
+
+
+Classe responsável pelo UserControl usado nas abas de tipos de documentos.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_sistema_r_h_1_1tab__default_ace403d6c98f154544b734c1dda9a6fbf}{obterMatricula} ()
+\begin{DoxyCompactList}\small\item\em Método usado para obter a matrícula do colaborador. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1tab__default_af8f4a5067e0c8bee6578d934014e9b5f}{retornaMatricula} (string id1)
+\begin{DoxyCompactList}\small\item\em Método usado para obter a matrícula do colaborador usando a base de dados. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1tab__default_a1f9872759569204e9b450735b8171bab}{montarFormatoGD} (string id, string nome\_\-Arquivo)
+\begin{DoxyCompactList}\small\item\em Método usado para montar o nome do arquivo. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_a6f7bdf41b1f65136eb16431718232486}{Page\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para carregar a aba do tipo especifico do documento e verificar se é um cadastro ou edição . \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_a673703cbe9e36170af1678d1921c8b32}{ImageButtonSalvar\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para salvar o arquivo no disco e quando necessário fazer um merge no arquivo. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_ae4ec4900b7c4224ca747059fc54294c9}{ImageButtonVer\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método do botão usado para visualizar o arquivo selecionado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_aec381d82705001e007b6975a51f9e6f2}{ImageButtonDelete\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método do botão usado para deletar o arquivo selecionado. \item\end{DoxyCompactList}\item 
+String \hyperlink{class_sistema_r_h_1_1tab__default_a964b5ec3554c39674019836fe98c38f4}{retornaAbaAtiva} ()
+\begin{DoxyCompactList}\small\item\em Método usado para retornar uma string com a aba ativa dos tipos de documentos. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_a21082e20d4c73b3290ee755f2359e801}{ImageButtonDeletePagina\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para deletar uma página especifica do documento. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_a7120662ca3ff42c83429a1ecb0302c37}{ImageButtonDeleteIntervalo\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para deletar um intervalo de páginas do documento. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_a4a1a1b10e339e1ddd8a24dab9994a989}{carrega\_\-Grid} (string opcao)
+\begin{DoxyCompactList}\small\item\em Método usado para carregar o grid com a lista dos documentos por opção de tipo de documento. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1tab__default_af277cfa0a7ea2cfba2d170950380e555}{GridView1\_\-RowCommand} (object sender, GridViewCommandEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método do evento RowCommand que controla o GridView1. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1tab__default_a826d27e70679bf581ad1fba079588776}{retornaTipoTitulacao} ()
+\begin{DoxyCompactList}\small\item\em Método que retorna o tipo de titulação usada no DropDownList. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::System.Web.UI.UpdatePanel \hyperlink{class_sistema_r_h_1_1tab__default_a087fd2d5738e05ce1ba4f31207048641}{UpdatePanel1}
+\begin{DoxyCompactList}\small\item\em UpdatePanel1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1tab__default_ab080e6d7fb0497834adccfc2544fb7ac}{ImageAttention}
+\begin{DoxyCompactList}\small\item\em ImageAttention control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1tab__default_a63a27ef346cfd16fe3437aa19926f88c}{LabelErro}
+\begin{DoxyCompactList}\small\item\em LabelErro control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1tab__default_a5ec7e9c30f86846ab33a8adb67e2f53d}{Label1}
+\begin{DoxyCompactList}\small\item\em Label1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.FileUpload \hyperlink{class_sistema_r_h_1_1tab__default_a7b17d6066082461e0e2fdbf73f0866e6}{FileUpload1}
+\begin{DoxyCompactList}\small\item\em FileUpload1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.GridView \hyperlink{class_sistema_r_h_1_1tab__default_a4418a76da62516a6d4330b0137cbf234}{GridView1}
+\begin{DoxyCompactList}\small\item\em GridView1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ObjectDataSource \hyperlink{class_sistema_r_h_1_1tab__default_a0cd653428e8c98d939aff2d11ff144dd}{ObjectDataSource1}
+\begin{DoxyCompactList}\small\item\em ObjectDataSource1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1tab__default_a7f6a793b6c42067e9b0ca36c49ee889f}{LabelTipoProcesso}
+\begin{DoxyCompactList}\small\item\em LabelTipoProcesso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.DropDownList \hyperlink{class_sistema_r_h_1_1tab__default_ac3fee4391b73e5c9eb11b9e4a711a61d}{DropDownListTipoProcesso}
+\begin{DoxyCompactList}\small\item\em DropDownListTipoProcesso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Table \hyperlink{class_sistema_r_h_1_1tab__default_a644d387b1dacfff7e019013eb3f9e5fb}{TableArquivo}
+\begin{DoxyCompactList}\small\item\em TableArquivo control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableRow \hyperlink{class_sistema_r_h_1_1tab__default_a0817cbd25c8af6f28f40a2bf0d430c54}{TableRow2}
+\begin{DoxyCompactList}\small\item\em TableRow2 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_afdae065ed4fd2471b86d637916b9180c}{TableCell2}
+\begin{DoxyCompactList}\small\item\em TableCell2 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1tab__default_a2d617f7626169ff53ee136b71a78b744}{ImageAnexo}
+\begin{DoxyCompactList}\small\item\em ImageAnexo control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_ad0bab6914417f679125b7429feb8f4aa}{TableCell3}
+\begin{DoxyCompactList}\small\item\em TableCell3 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1tab__default_a13f80589969241dafbbeb6700eb7b4c3}{LabelArquivo}
+\begin{DoxyCompactList}\small\item\em LabelArquivo control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_a8d253bd47bccc6da774fe0d5b08a094c}{TableCell5}
+\begin{DoxyCompactList}\small\item\em TableCell5 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1tab__default_a8041c6b74b0c50b86441a8818a7cd7f5}{ImageButtonDelete}
+\begin{DoxyCompactList}\small\item\em ImageButtonDelete control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableRow \hyperlink{class_sistema_r_h_1_1tab__default_aa06e2671b7d9e402a13308f8b34dece2}{TableRow3}
+\begin{DoxyCompactList}\small\item\em TableRow3 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_aad8487f0eaefdcb616cdc3d2cc21245e}{TableCell6}
+\begin{DoxyCompactList}\small\item\em TableCell6 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1tab__default_a9e9bfdd15165e2404eadd752129626b6}{ImageTrash}
+\begin{DoxyCompactList}\small\item\em ImageTrash control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_ac0d184d5ba7688ee9b13fd5baa0758a9}{TableCell7}
+\begin{DoxyCompactList}\small\item\em TableCell7 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1tab__default_a66450fda5aa860689df3339b3c39ca3f}{Label3}
+\begin{DoxyCompactList}\small\item\em Label3 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1tab__default_a538e763744e1d0202d6c5bfef2ff3b7f}{TextBoxDeletePagina}
+\begin{DoxyCompactList}\small\item\em TextBoxDeletePagina control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_a8bb9079f84e1f6527220772d29f5cca4}{TableCell8}
+\begin{DoxyCompactList}\small\item\em TableCell8 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1tab__default_a71b7957bed07d2d8e9026175d3ecdaf0}{ImageButtonDeletePagina}
+\begin{DoxyCompactList}\small\item\em ImageButtonDeletePagina control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableRow \hyperlink{class_sistema_r_h_1_1tab__default_a107b1ffc0d66d24e04ded294ad6f6af3}{TableRow4}
+\begin{DoxyCompactList}\small\item\em TableRow4 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_a71bd839cd0b72c6908b79ef17d3ab10b}{TableCell9}
+\begin{DoxyCompactList}\small\item\em TableCell9 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1tab__default_a0954d3e08f2141911994f69af31982db}{Image1}
+\begin{DoxyCompactList}\small\item\em Image1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_a134d4af0391d97f909a183ec253058d3}{TableCell10}
+\begin{DoxyCompactList}\small\item\em TableCell10 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1tab__default_af63d88312a2d87cff111d336edf7d127}{Label4}
+\begin{DoxyCompactList}\small\item\em Label4 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1tab__default_a2a3d69806b2f9a7dc9725ad82fa805b2}{TextBoxDeleteInicio}
+\begin{DoxyCompactList}\small\item\em TextBoxDeleteInicio control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1tab__default_a39fd36375294cf2a913cfb885371f852}{TextBoxDeleteFinal}
+\begin{DoxyCompactList}\small\item\em TextBoxDeleteFinal control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TableCell \hyperlink{class_sistema_r_h_1_1tab__default_a28bbf96948ee761dda20f4529b4fe0ba}{TableCell11}
+\begin{DoxyCompactList}\small\item\em TableCell11 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1tab__default_a6dd7cd8bc8b80635edeae03f4b52e33b}{ImageButton1}
+\begin{DoxyCompactList}\small\item\em ImageButton1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1tab__default_a53d313f4e3b486e261b611885056e62b}{ImageButtonSalvar}
+\begin{DoxyCompactList}\small\item\em ImageButtonSalvar control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe responsável pelo UserControl usado nas abas de tipos de documentos. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1tab__default_a4a1a1b10e339e1ddd8a24dab9994a989}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!carrega\_\-Grid@{carrega\_\-Grid}}
+\index{carrega\_\-Grid@{carrega\_\-Grid}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{carrega\_\-Grid}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.carrega\_\-Grid (
+\begin{DoxyParamCaption}
+\item[{string}]{ opcao}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a4a1a1b10e339e1ddd8a24dab9994a989}
+
+
+Método usado para carregar o grid com a lista dos documentos por opção de tipo de documento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em opcao} & A opção informa o tipo de documento a preencher.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_af277cfa0a7ea2cfba2d170950380e555}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!GridView1\_\-RowCommand@{GridView1\_\-RowCommand}}
+\index{GridView1\_\-RowCommand@{GridView1\_\-RowCommand}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{GridView1\_\-RowCommand}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.GridView1\_\-RowCommand (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{GridViewCommandEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_af277cfa0a7ea2cfba2d170950380e555}
+
+
+Método do evento RowCommand que controla o GridView1. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.WebControls.GridViewCommandEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_aec381d82705001e007b6975a51f9e6f2}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonDelete\_\-Click@{ImageButtonDelete\_\-Click}}
+\index{ImageButtonDelete\_\-Click@{ImageButtonDelete\_\-Click}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonDelete\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.ImageButtonDelete\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_aec381d82705001e007b6975a51f9e6f2}
+
+
+Método do botão usado para deletar o arquivo selecionado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_a7120662ca3ff42c83429a1ecb0302c37}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonDeleteIntervalo\_\-Click@{ImageButtonDeleteIntervalo\_\-Click}}
+\index{ImageButtonDeleteIntervalo\_\-Click@{ImageButtonDeleteIntervalo\_\-Click}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonDeleteIntervalo\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.ImageButtonDeleteIntervalo\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a7120662ca3ff42c83429a1ecb0302c37}
+
+
+Método usado para deletar um intervalo de páginas do documento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_a21082e20d4c73b3290ee755f2359e801}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonDeletePagina\_\-Click@{ImageButtonDeletePagina\_\-Click}}
+\index{ImageButtonDeletePagina\_\-Click@{ImageButtonDeletePagina\_\-Click}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonDeletePagina\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.ImageButtonDeletePagina\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a21082e20d4c73b3290ee755f2359e801}
+
+
+Método usado para deletar uma página especifica do documento. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_a673703cbe9e36170af1678d1921c8b32}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonSalvar\_\-Click@{ImageButtonSalvar\_\-Click}}
+\index{ImageButtonSalvar\_\-Click@{ImageButtonSalvar\_\-Click}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonSalvar\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.ImageButtonSalvar\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a673703cbe9e36170af1678d1921c8b32}
+
+
+Método usado para salvar o arquivo no disco e quando necessário fazer um merge no arquivo. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_ae4ec4900b7c4224ca747059fc54294c9}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonVer\_\-Click@{ImageButtonVer\_\-Click}}
+\index{ImageButtonVer\_\-Click@{ImageButtonVer\_\-Click}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonVer\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.ImageButtonVer\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_ae4ec4900b7c4224ca747059fc54294c9}
+
+
+Método do botão usado para visualizar o arquivo selecionado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_a1f9872759569204e9b450735b8171bab}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!montarFormatoGD@{montarFormatoGD}}
+\index{montarFormatoGD@{montarFormatoGD}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{montarFormatoGD}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.tab\_\-default.montarFormatoGD (
+\begin{DoxyParamCaption}
+\item[{string}]{ id, }
+\item[{string}]{ nome\_\-Arquivo}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1tab__default_a1f9872759569204e9b450735b8171bab}
+
+
+Método usado para montar o nome do arquivo. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em id} & A matrícula do colaborador.\\
+\hline
+{\em nome\_\-Arquivo} & O nome do arquivo.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+retorna o comando tratado
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1tab__default_ace403d6c98f154544b734c1dda9a6fbf}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!obterMatricula@{obterMatricula}}
+\index{obterMatricula@{obterMatricula}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{obterMatricula}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.tab\_\-default.obterMatricula (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1tab__default_ace403d6c98f154544b734c1dda9a6fbf}
+
+
+Método usado para obter a matrícula do colaborador. 
+
+\begin{DoxyReturn}{Retorna}
+a matrícula que está no TextBox.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1tab__default_a6f7bdf41b1f65136eb16431718232486}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!Page\_\-Load@{Page\_\-Load}}
+\index{Page\_\-Load@{Page\_\-Load}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{Page\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.tab\_\-default.Page\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a6f7bdf41b1f65136eb16431718232486}
+
+
+Método usado para carregar a aba do tipo especifico do documento e verificar se é um cadastro ou edição . 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1tab__default_a964b5ec3554c39674019836fe98c38f4}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!retornaAbaAtiva@{retornaAbaAtiva}}
+\index{retornaAbaAtiva@{retornaAbaAtiva}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{retornaAbaAtiva}]{\setlength{\rightskip}{0pt plus 5cm}String SistemaRH.tab\_\-default.retornaAbaAtiva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a964b5ec3554c39674019836fe98c38f4}
+
+
+Método usado para retornar uma string com a aba ativa dos tipos de documentos. 
+
+\begin{DoxyReturn}{Retorna}
+retorna a aba ativa
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1tab__default_af8f4a5067e0c8bee6578d934014e9b5f}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!retornaMatricula@{retornaMatricula}}
+\index{retornaMatricula@{retornaMatricula}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{retornaMatricula}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.tab\_\-default.retornaMatricula (
+\begin{DoxyParamCaption}
+\item[{string}]{ id1}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1tab__default_af8f4a5067e0c8bee6578d934014e9b5f}
+
+
+Método usado para obter a matrícula do colaborador usando a base de dados. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em id1} & O id do colaborador.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+a matrícula buscada no banco de dados.
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1tab__default_a826d27e70679bf581ad1fba079588776}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!retornaTipoTitulacao@{retornaTipoTitulacao}}
+\index{retornaTipoTitulacao@{retornaTipoTitulacao}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{retornaTipoTitulacao}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.tab\_\-default.retornaTipoTitulacao (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a826d27e70679bf581ad1fba079588776}
+
+
+Método que retorna o tipo de titulação usada no DropDownList. 
+
+\begin{DoxyReturn}{Retorna}
+Tipo de titulação.
+\end{DoxyReturn}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1tab__default_ac3fee4391b73e5c9eb11b9e4a711a61d}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!DropDownListTipoProcesso@{DropDownListTipoProcesso}}
+\index{DropDownListTipoProcesso@{DropDownListTipoProcesso}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{DropDownListTipoProcesso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.DropDownList {\bf SistemaRH.tab\_\-default.DropDownListTipoProcesso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_ac3fee4391b73e5c9eb11b9e4a711a61d}
+
+
+DropDownListTipoProcesso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a7b17d6066082461e0e2fdbf73f0866e6}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!FileUpload1@{FileUpload1}}
+\index{FileUpload1@{FileUpload1}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{FileUpload1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.FileUpload {\bf SistemaRH.tab\_\-default.FileUpload1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a7b17d6066082461e0e2fdbf73f0866e6}
+
+
+FileUpload1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a4418a76da62516a6d4330b0137cbf234}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!GridView1@{GridView1}}
+\index{GridView1@{GridView1}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{GridView1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.GridView {\bf SistemaRH.tab\_\-default.GridView1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a4418a76da62516a6d4330b0137cbf234}
+
+
+GridView1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a0954d3e08f2141911994f69af31982db}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!Image1@{Image1}}
+\index{Image1@{Image1}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{Image1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.tab\_\-default.Image1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a0954d3e08f2141911994f69af31982db}
+
+
+Image1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a2d617f7626169ff53ee136b71a78b744}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageAnexo@{ImageAnexo}}
+\index{ImageAnexo@{ImageAnexo}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageAnexo}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.tab\_\-default.ImageAnexo}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a2d617f7626169ff53ee136b71a78b744}
+
+
+ImageAnexo control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_ab080e6d7fb0497834adccfc2544fb7ac}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageAttention@{ImageAttention}}
+\index{ImageAttention@{ImageAttention}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageAttention}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.tab\_\-default.ImageAttention}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_ab080e6d7fb0497834adccfc2544fb7ac}
+
+
+ImageAttention control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a6dd7cd8bc8b80635edeae03f4b52e33b}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButton1@{ImageButton1}}
+\index{ImageButton1@{ImageButton1}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButton1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.tab\_\-default.ImageButton1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a6dd7cd8bc8b80635edeae03f4b52e33b}
+
+
+ImageButton1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a8041c6b74b0c50b86441a8818a7cd7f5}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonDelete@{ImageButtonDelete}}
+\index{ImageButtonDelete@{ImageButtonDelete}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonDelete}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.tab\_\-default.ImageButtonDelete}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a8041c6b74b0c50b86441a8818a7cd7f5}
+
+
+ImageButtonDelete control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a71b7957bed07d2d8e9026175d3ecdaf0}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonDeletePagina@{ImageButtonDeletePagina}}
+\index{ImageButtonDeletePagina@{ImageButtonDeletePagina}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonDeletePagina}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.tab\_\-default.ImageButtonDeletePagina}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a71b7957bed07d2d8e9026175d3ecdaf0}
+
+
+ImageButtonDeletePagina control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a53d313f4e3b486e261b611885056e62b}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageButtonSalvar@{ImageButtonSalvar}}
+\index{ImageButtonSalvar@{ImageButtonSalvar}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageButtonSalvar}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.tab\_\-default.ImageButtonSalvar}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a53d313f4e3b486e261b611885056e62b}
+
+
+ImageButtonSalvar control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a9e9bfdd15165e2404eadd752129626b6}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ImageTrash@{ImageTrash}}
+\index{ImageTrash@{ImageTrash}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ImageTrash}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.tab\_\-default.ImageTrash}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a9e9bfdd15165e2404eadd752129626b6}
+
+
+ImageTrash control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a5ec7e9c30f86846ab33a8adb67e2f53d}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!Label1@{Label1}}
+\index{Label1@{Label1}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{Label1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.tab\_\-default.Label1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a5ec7e9c30f86846ab33a8adb67e2f53d}
+
+
+Label1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a66450fda5aa860689df3339b3c39ca3f}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!Label3@{Label3}}
+\index{Label3@{Label3}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{Label3}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.tab\_\-default.Label3}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a66450fda5aa860689df3339b3c39ca3f}
+
+
+Label3 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_af63d88312a2d87cff111d336edf7d127}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!Label4@{Label4}}
+\index{Label4@{Label4}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{Label4}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.tab\_\-default.Label4}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_af63d88312a2d87cff111d336edf7d127}
+
+
+Label4 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a13f80589969241dafbbeb6700eb7b4c3}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!LabelArquivo@{LabelArquivo}}
+\index{LabelArquivo@{LabelArquivo}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{LabelArquivo}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.tab\_\-default.LabelArquivo}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a13f80589969241dafbbeb6700eb7b4c3}
+
+
+LabelArquivo control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a63a27ef346cfd16fe3437aa19926f88c}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!LabelErro@{LabelErro}}
+\index{LabelErro@{LabelErro}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{LabelErro}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.tab\_\-default.LabelErro}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a63a27ef346cfd16fe3437aa19926f88c}
+
+
+LabelErro control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a7f6a793b6c42067e9b0ca36c49ee889f}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!LabelTipoProcesso@{LabelTipoProcesso}}
+\index{LabelTipoProcesso@{LabelTipoProcesso}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{LabelTipoProcesso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.tab\_\-default.LabelTipoProcesso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a7f6a793b6c42067e9b0ca36c49ee889f}
+
+
+LabelTipoProcesso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a0cd653428e8c98d939aff2d11ff144dd}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!ObjectDataSource1@{ObjectDataSource1}}
+\index{ObjectDataSource1@{ObjectDataSource1}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{ObjectDataSource1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ObjectDataSource {\bf SistemaRH.tab\_\-default.ObjectDataSource1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a0cd653428e8c98d939aff2d11ff144dd}
+
+
+ObjectDataSource1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a644d387b1dacfff7e019013eb3f9e5fb}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableArquivo@{TableArquivo}}
+\index{TableArquivo@{TableArquivo}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableArquivo}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Table {\bf SistemaRH.tab\_\-default.TableArquivo}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a644d387b1dacfff7e019013eb3f9e5fb}
+
+
+TableArquivo control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a134d4af0391d97f909a183ec253058d3}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell10@{TableCell10}}
+\index{TableCell10@{TableCell10}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell10}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell10}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a134d4af0391d97f909a183ec253058d3}
+
+
+TableCell10 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a28bbf96948ee761dda20f4529b4fe0ba}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell11@{TableCell11}}
+\index{TableCell11@{TableCell11}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell11}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell11}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a28bbf96948ee761dda20f4529b4fe0ba}
+
+
+TableCell11 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_afdae065ed4fd2471b86d637916b9180c}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell2@{TableCell2}}
+\index{TableCell2@{TableCell2}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell2}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_afdae065ed4fd2471b86d637916b9180c}
+
+
+TableCell2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_ad0bab6914417f679125b7429feb8f4aa}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell3@{TableCell3}}
+\index{TableCell3@{TableCell3}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell3}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell3}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_ad0bab6914417f679125b7429feb8f4aa}
+
+
+TableCell3 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a8d253bd47bccc6da774fe0d5b08a094c}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell5@{TableCell5}}
+\index{TableCell5@{TableCell5}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell5}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell5}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a8d253bd47bccc6da774fe0d5b08a094c}
+
+
+TableCell5 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_aad8487f0eaefdcb616cdc3d2cc21245e}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell6@{TableCell6}}
+\index{TableCell6@{TableCell6}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell6}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell6}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_aad8487f0eaefdcb616cdc3d2cc21245e}
+
+
+TableCell6 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_ac0d184d5ba7688ee9b13fd5baa0758a9}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell7@{TableCell7}}
+\index{TableCell7@{TableCell7}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell7}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell7}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_ac0d184d5ba7688ee9b13fd5baa0758a9}
+
+
+TableCell7 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a8bb9079f84e1f6527220772d29f5cca4}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell8@{TableCell8}}
+\index{TableCell8@{TableCell8}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell8}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell8}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a8bb9079f84e1f6527220772d29f5cca4}
+
+
+TableCell8 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a71bd839cd0b72c6908b79ef17d3ab10b}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableCell9@{TableCell9}}
+\index{TableCell9@{TableCell9}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableCell9}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableCell {\bf SistemaRH.tab\_\-default.TableCell9}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a71bd839cd0b72c6908b79ef17d3ab10b}
+
+
+TableCell9 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a0817cbd25c8af6f28f40a2bf0d430c54}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableRow2@{TableRow2}}
+\index{TableRow2@{TableRow2}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableRow2}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableRow {\bf SistemaRH.tab\_\-default.TableRow2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a0817cbd25c8af6f28f40a2bf0d430c54}
+
+
+TableRow2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_aa06e2671b7d9e402a13308f8b34dece2}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableRow3@{TableRow3}}
+\index{TableRow3@{TableRow3}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableRow3}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableRow {\bf SistemaRH.tab\_\-default.TableRow3}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_aa06e2671b7d9e402a13308f8b34dece2}
+
+
+TableRow3 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a107b1ffc0d66d24e04ded294ad6f6af3}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TableRow4@{TableRow4}}
+\index{TableRow4@{TableRow4}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TableRow4}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TableRow {\bf SistemaRH.tab\_\-default.TableRow4}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a107b1ffc0d66d24e04ded294ad6f6af3}
+
+
+TableRow4 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a39fd36375294cf2a913cfb885371f852}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TextBoxDeleteFinal@{TextBoxDeleteFinal}}
+\index{TextBoxDeleteFinal@{TextBoxDeleteFinal}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TextBoxDeleteFinal}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.tab\_\-default.TextBoxDeleteFinal}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a39fd36375294cf2a913cfb885371f852}
+
+
+TextBoxDeleteFinal control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a2a3d69806b2f9a7dc9725ad82fa805b2}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TextBoxDeleteInicio@{TextBoxDeleteInicio}}
+\index{TextBoxDeleteInicio@{TextBoxDeleteInicio}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TextBoxDeleteInicio}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.tab\_\-default.TextBoxDeleteInicio}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a2a3d69806b2f9a7dc9725ad82fa805b2}
+
+
+TextBoxDeleteInicio control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a538e763744e1d0202d6c5bfef2ff3b7f}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!TextBoxDeletePagina@{TextBoxDeletePagina}}
+\index{TextBoxDeletePagina@{TextBoxDeletePagina}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{TextBoxDeletePagina}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.tab\_\-default.TextBoxDeletePagina}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a538e763744e1d0202d6c5bfef2ff3b7f}
+
+
+TextBoxDeletePagina control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1tab__default_a087fd2d5738e05ce1ba4f31207048641}{
+\index{SistemaRH::tab\_\-default@{SistemaRH::tab\_\-default}!UpdatePanel1@{UpdatePanel1}}
+\index{UpdatePanel1@{UpdatePanel1}!SistemaRH::tab_default@{SistemaRH::tab\_\-default}}
+\subsubsection[{UpdatePanel1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.UpdatePanel {\bf SistemaRH.tab\_\-default.UpdatePanel1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1tab__default_a087fd2d5738e05ce1ba4f31207048641}
+
+
+UpdatePanel1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+tab\_\-default.ascx.cs\item 
+tab\_\-default.ascx.designer.cs\end{DoxyCompactItemize}

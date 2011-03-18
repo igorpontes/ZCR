@@ -1,0 +1,344 @@
+﻿body
+{
+	margin: 0;
+	border: 0;
+}
+
+/*-------------------------MASTER PAGE-----------------------------*/
+
+#container
+{
+	width: 100%; /*border: solid 1px black;*/
+}
+#header
+{
+	color: #FFFFFF;
+	width: 100%;
+	height: 60px;
+	background-color: #F3F3F3;
+	top: 0px;
+	position: fixed;
+}
+
+#content
+{
+	position: inherit;
+	width: 100%;
+	float: none;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	
+}
+#footer
+{
+	background-color: #F3F3F3;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	bottom: 0px;
+	vertical-align: baseline;
+	position: fixed;
+}
+
+#tabelaSuperior
+{
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: left;
+	top: 0;
+	left: 0px;
+	height: 60px;
+	border-bottom: 1.4px solid #aec4a6;
+	background-image: url(  "imagens/top_background2.png" );
+	background-repeat: repeat-x;
+}
+
+#tabelaInferior
+{
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	width: 100%;
+	border-top: 1.5px solid #aec4a6;
+	bottom: 0px;
+	background-color: #F3F3F3;
+}
+
+/*--------------------------------MENU-----------------------------------*/
+
+#tabs
+{
+	float: left;
+	width: 100%;
+	font-size: 93%;
+	line-height: normal;
+	font: bold 10px/1.5em Verdana;
+}
+#tabs ul
+{
+	margin: 0;
+	padding: 10px 10px 0 50px;
+	list-style: none;
+}
+#tabs li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#tabs a
+{
+	float: left;
+	background: url(  "imagens/tableft.gif" ) no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 4px;
+	text-decoration: none;
+}
+#tabs a span
+{
+	float: left;
+	display: block;
+	background: url(  "imagens/tabright.gif" ) no-repeat right top;
+	padding: 5px 15px 4px 9px;
+	color: #1a700b;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span
+{
+	float: none;
+}
+/* End IE5-Mac hack */
+#tabs a:hover span
+{
+	color: #1a700b;
+}
+#tabs a:hover
+{
+	background-position: 0% -42px;
+}
+#tabs a:hover span
+{
+	background-position: 100% -42px;
+}
+
+
+
+/*-------------------------BORDAS-----------------------------*/
+
+
+ul#split, ul#split li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+ul#split li#one
+{
+	float: none; /*top: 30%;*/
+	/*position: fixed;*/
+	text-align: center;
+	width: 240px;
+	margin: 0 10px 10px 0;
+	left: 0; /*margin-left: -120px;*/
+}
+ul#split li#cadastro
+{
+	float: none; /*top: 30%;*/
+	/*position: fixed;*/
+	text-align: center;
+	width: 750px;
+	margin: 0 10px 10px 0;
+	left: 0; /*margin-left: -120px;*/
+	
+}
+ul#split li#alteraSenha
+{
+	float: none; /*top: 30%;*/
+	/*position: fixed;*/
+	text-align: center;
+	width: 308px;
+	margin: 0 10px 10px 0;
+	left: 0; /*margin-left: -120px;*/
+}
+ul#split li#pesquisar
+{
+	float: none; /*top: 30%;*/
+	/*position: fixed;*/
+	text-align: center;
+	width: 400px;
+	margin: 0 10px 10px 0;
+	left: 0; /*margin-left: -120px;*/
+}
+
+ul#split h3
+{
+	font-family: Verdana;
+	font-weight: bolder;
+	margin: 0px; /*padding: 5px 5px 3px;*/
+	padding-bottom: 3px;
+	padding-top: 3px;
+	text-align: left;
+	color: #1a700b;
+	width: 240px;
+}
+ul#split p
+{
+	margin: 0;
+	padding: 5px 8px 15px;
+}
+ul#split div
+{
+	background: #F3F3F3;
+	padding-bottom: 7px;
+}
+/*li#one h3
+{
+	background: #E1E1E1;
+}*/
+ul#split li h3
+{
+	background: #E1E1E1;
+}
+
+
+
+/*-----------------------LOGIN-------------------------*/
+
+.cellLabel
+{
+	vertical-align: bottom;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 10px;
+	text-align: justify;
+}
+.cellTxtBox
+{
+	padding-top: 10px;
+	vertical-align: bottom;
+	text-align: justify;
+	padding-bottom: 0px;
+}
+.cellError
+{
+	vertical-align: top;
+	padding: 4px;
+	padding-bottom: 0px;
+}
+
+.cellErrorFieldRequired
+{
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+	height: 2px;
+}
+
+.tablePrincipal
+{
+	font-family:Verdana;
+	background-image: url(imagens/rh_colaboradores.jpeg);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1.8px solid #aec4a6;
+	
+}
+
+
+
+
+/*-------------------------CADASTRAR---------------------------*/
+
+
+#tableDefault
+{
+	text-align:left;
+	font-family:Verdana;
+	font-size:small;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#tableDefault td
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+
+/*-------------------------------TABCONTAINER---------------------------------*/
+
+.tabPanel
+{
+	height:200px;
+	background: gray;
+	border:2px;
+	position:relative;
+	vertical-align:top;
+	
+}
+
+/*-------------------------------FILEUPLOAD---------------------------------*/
+.bkg_input
+{
+    float: left;
+    width: 276px;
+    height: 30px;
+    margin-right: 4px;
+    background: url(imagens/bkg_input.gif) no-repeat;
+}
+
+.file
+{
+    position: absolute;
+    text-align: right;
+    z-index: 1;
+    height: 26px;
+    -moz-opacity: 0;
+    /*filter: alpha(opacity: 0);
+    opacity: 0;*/
+}
+
+.path
+{
+    border-style: none;
+    position: absolute;
+    z-index: 2;
+    width: 190px;
+    font-size: 11px;
+    background-color: White;
+    margin-top: 3px;
+    margin-left: 10px;
+    height: 22px;
+    background: transparent;
+    padding-top: 4px;
+}
+/*
+.content { 
+text-align: left; 
+width: 600px;
+border:solid 5px #CBCAC6;
+background-color:#f9f9f9;
+padding: 20px 20px 40px 20px; 
+font-family:Segoe UI, Arial,Verdana,Helvetica,sans-serif;
+font-size: 80%;
+margin: 0 auto; 
+} 
+*/
+
+.tableArquivos
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}

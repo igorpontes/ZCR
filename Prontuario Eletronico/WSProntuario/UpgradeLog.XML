@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WSProntuario">
+</Property><Property Name="Solution File" Value="C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\WSProntuario.sln">
+</Property><Property Name="User Options File" Value="C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\WSProntuario.suo">
+</Property><Property Name="Date" Value="terça-feira, 5 de outubro de 2010">
+</Property><Property Name="Time" Value="16:49">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WSProntuario.sln" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WSProntuario.suo" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario.suo">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\WSProntuario.csproj" Description="Project file successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\WSProntuario.csproj">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\WSProntuario.csproj.user" Description="Project user file successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\WSProntuario.csproj.user">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Adaptador.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Adaptador.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Authentication.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Authentication.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\AuthenticationSoapHeader.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\AuthenticationSoapHeader.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Endereco.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Endereco.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Equipe.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Equipe.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\IAdaptador.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\IAdaptador.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Medicos.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Medicos.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Prontuario.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Prontuario.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\ServiceProntuario.asmx.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\ServiceProntuario.asmx.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Tecnicos.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Tecnicos.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Telefones.cs" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Telefones.cs">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\ServiceProntuario.asmx" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\ServiceProntuario.asmx">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\Web.config" Description="File successfully backed up as C:\Users\anderson\Documents\Visual Studio 2010\Projects\WSProntuario\Backup\WSProntuario\Web.config">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\WSProntuario.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WSProntuario" Source="WSProntuario\WSProntuario.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WSProntuario.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WSProntuario.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WSProntuario" Source="WSProntuario\WSProntuario.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

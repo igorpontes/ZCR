@@ -1,0 +1,83 @@
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\SistemaRH.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\SistemaRH.pdb
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\AjaxControlToolkit.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\LightInfocon.GoldenAccess.General.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\LightInfocon.GoldenIndex.General.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\AjaxControlToolkit.pdb
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ar\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\cs\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\de\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\es\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\fr\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\he\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\hi\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\it\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ja\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ko\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\nl\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\pt\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\ru\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\obj\Debug\SistemaRH.dll
+C:\Documents and Settings\Igor\Meus documentos\Visual Studio 2008\Projects\SistemaRH\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\bin\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\bin\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\obj\Debug\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao com user control\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao atual\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+E:\Versoes projetos\SistemaRH_versao atual\SistemaRH\obj\Debug\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao atual\SistemaRH\bin\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao atual\SistemaRH\bin\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao atual\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao tentando finalizar sem grid\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+E:\Versoes projetos\SistemaRH_versao tentando finalizar sem grid\SistemaRH\obj\Debug\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao tentando finalizar sem grid\SistemaRH\bin\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao tentando finalizar sem grid\SistemaRH\bin\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao tentando finalizar sem grid\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao_tentando_finalizar_sem_grid\SistemaRH\bin\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao_tentando_finalizar_sem_grid\SistemaRH\bin\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao_tentando_finalizar_sem_grid\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+E:\Versoes projetos\SistemaRH_versao_tentando_finalizar_sem_grid\SistemaRH\obj\Debug\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao_tentando_finalizar_sem_grid\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao_tentando_finalizar_sem_grid\SistemaRH\bin\LightInfocon.GoldenIndex.General.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\LightInfocon.GoldenIndex.General.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\AjaxControlToolkit.pdb
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\ar\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\cs\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\de\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\es\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\fr\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\he\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\hi\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\it\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\ja\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\ko\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\nl\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\pt\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\ru\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\SistemaRH.Properties.Resources.resources
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\SistemaRH.csproj.GenerateResource.Cache
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\SistemaRH.dll
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\Versoes projetos\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\jQueryDatePicker.pdb
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\SistemaRH.dll
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\SistemaRH.pdb
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\LightInfocon.GoldenIndex.General.dll
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\ResolveAssemblyReference.cache
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\SistemaRH.Properties.Resources.resources
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\GenerateResource.read.1.tlog
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\SistemaRH.dll
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\SistemaRH.pdb
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\SistemaRH_versao_dps_2reuniao\SistemaRH\bin\SistemaRH.XML

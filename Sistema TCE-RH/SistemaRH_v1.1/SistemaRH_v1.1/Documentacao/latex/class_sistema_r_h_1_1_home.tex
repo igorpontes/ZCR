@@ -1,0 +1,146 @@
+\hypertarget{class_sistema_r_h_1_1_home}{
+\section{Referência da Classe SistemaRH.Home}
+\label{class_sistema_r_h_1_1_home}\index{SistemaRH::Home@{SistemaRH::Home}}
+}
+
+
+Classe da página inicial do sistema após o usuário se logar.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_sistema_r_h_1_1_home_a880232f3a5dc9e27a71026e0c8c94d9b}{montarComando} (string pComando)
+\begin{DoxyCompactList}\small\item\em Método usado para tratar o comando por cada parâmetro passado. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1_home_a71a594640be18a2c7ee108b3cc1713aa}{Page\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se o usuário está autenticado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_home_ab0dac8f9d434bf637994b34cb683cba3}{ImageButtonPesquisar\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado pelo campo de pesquisa rápida. Transfere para a página que mostra o resultado de pesquisa. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_home_a46f42efda91d1c0554524de498dee67f}{LabelBuscaPorPalavra}
+\begin{DoxyCompactList}\small\item\em LabelBuscaPorPalavra control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_home_ae00e2dc131501fa120640462ce2d7c04}{TextBoxBuscaPorPalavra}
+\begin{DoxyCompactList}\small\item\em TextBoxBuscaPorPalavra control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RequiredFieldValidator \hyperlink{class_sistema_r_h_1_1_home_a263e0b47124122368f614ad28bb3c88b}{RequiredFieldValidatorUsuario}
+\begin{DoxyCompactList}\small\item\em RequiredFieldValidatorUsuario control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_home_a5137ccb0763417f74e241a48eb7ad617}{ImageButtonPesquisar}
+\begin{DoxyCompactList}\small\item\em ImageButtonPesquisar control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe da página inicial do sistema após o usuário se logar. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_home_ab0dac8f9d434bf637994b34cb683cba3}{
+\index{SistemaRH::Home@{SistemaRH::Home}!ImageButtonPesquisar\_\-Click@{ImageButtonPesquisar\_\-Click}}
+\index{ImageButtonPesquisar\_\-Click@{ImageButtonPesquisar\_\-Click}!SistemaRH::Home@{SistemaRH::Home}}
+\subsubsection[{ImageButtonPesquisar\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Home.ImageButtonPesquisar\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_home_ab0dac8f9d434bf637994b34cb683cba3}
+
+
+Método usado pelo campo de pesquisa rápida. Transfere para a página que mostra o resultado de pesquisa. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_home_a880232f3a5dc9e27a71026e0c8c94d9b}{
+\index{SistemaRH::Home@{SistemaRH::Home}!montarComando@{montarComando}}
+\index{montarComando@{montarComando}!SistemaRH::Home@{SistemaRH::Home}}
+\subsubsection[{montarComando}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.Home.montarComando (
+\begin{DoxyParamCaption}
+\item[{string}]{ pComando}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_home_a880232f3a5dc9e27a71026e0c8c94d9b}
+
+
+Método usado para tratar o comando por cada parâmetro passado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em pComando} & string com vários parâmetros a ser usado na busca.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+o comando tratado
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_home_a71a594640be18a2c7ee108b3cc1713aa}{
+\index{SistemaRH::Home@{SistemaRH::Home}!Page\_\-Load@{Page\_\-Load}}
+\index{Page\_\-Load@{Page\_\-Load}!SistemaRH::Home@{SistemaRH::Home}}
+\subsubsection[{Page\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.Home.Page\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_home_a71a594640be18a2c7ee108b3cc1713aa}
+
+
+Método usado para verificar se o usuário está autenticado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1_home_a5137ccb0763417f74e241a48eb7ad617}{
+\index{SistemaRH::Home@{SistemaRH::Home}!ImageButtonPesquisar@{ImageButtonPesquisar}}
+\index{ImageButtonPesquisar@{ImageButtonPesquisar}!SistemaRH::Home@{SistemaRH::Home}}
+\subsubsection[{ImageButtonPesquisar}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.Home.ImageButtonPesquisar}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_home_a5137ccb0763417f74e241a48eb7ad617}
+
+
+ImageButtonPesquisar control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_home_a46f42efda91d1c0554524de498dee67f}{
+\index{SistemaRH::Home@{SistemaRH::Home}!LabelBuscaPorPalavra@{LabelBuscaPorPalavra}}
+\index{LabelBuscaPorPalavra@{LabelBuscaPorPalavra}!SistemaRH::Home@{SistemaRH::Home}}
+\subsubsection[{LabelBuscaPorPalavra}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.Home.LabelBuscaPorPalavra}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_home_a46f42efda91d1c0554524de498dee67f}
+
+
+LabelBuscaPorPalavra control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_home_a263e0b47124122368f614ad28bb3c88b}{
+\index{SistemaRH::Home@{SistemaRH::Home}!RequiredFieldValidatorUsuario@{RequiredFieldValidatorUsuario}}
+\index{RequiredFieldValidatorUsuario@{RequiredFieldValidatorUsuario}!SistemaRH::Home@{SistemaRH::Home}}
+\subsubsection[{RequiredFieldValidatorUsuario}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RequiredFieldValidator {\bf SistemaRH.Home.RequiredFieldValidatorUsuario}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_home_a263e0b47124122368f614ad28bb3c88b}
+
+
+RequiredFieldValidatorUsuario control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_home_ae00e2dc131501fa120640462ce2d7c04}{
+\index{SistemaRH::Home@{SistemaRH::Home}!TextBoxBuscaPorPalavra@{TextBoxBuscaPorPalavra}}
+\index{TextBoxBuscaPorPalavra@{TextBoxBuscaPorPalavra}!SistemaRH::Home@{SistemaRH::Home}}
+\subsubsection[{TextBoxBuscaPorPalavra}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.Home.TextBoxBuscaPorPalavra}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_home_ae00e2dc131501fa120640462ce2d7c04}
+
+
+TextBoxBuscaPorPalavra control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+home.aspx.cs\item 
+home.aspx.designer.cs\end{DoxyCompactItemize}

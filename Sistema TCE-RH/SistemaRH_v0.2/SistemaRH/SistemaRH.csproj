@@ -1,0 +1,282 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7042BD4-5573-476D-8D4A-71D63B4F2C52}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaRH</RootNamespace>
+    <AssemblyName>SistemaRH</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Arquivos de programas\Microsoft Visual Studio 9.0\AjaxControlToolkit.Binary.NET35\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ceTe.DynamicPDF.35, Version=6.0.0.35, Culture=neutral, PublicKeyToken=09b5ce0d5c0a9d8b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ceTe.DynamicPDF.35.dll</HintPath>
+    </Reference>
+    <Reference Include="LightInfocon.Data.LightBaseProvider, Version=4.4.0.0, Culture=neutral, PublicKeyToken=3016ddb54c1a70d5, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Arquivos de programas\LightInfocon\LightBaseDataProvider\LightInfocon.Data.LightBaseProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="LightInfocon.GoldenAccess.General, Version=1.2.3503.19556, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Arquivos de programas\LightInfocon\GoldenAccess\Manager\LightInfocon.GoldenAccess.General.dll</HintPath>
+    </Reference>
+    <Reference Include="LightInfocon.GoldenIndex.General, Version=3.0.3770.32361, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Arquivos de programas\LightInfocon\GoldenIndex\Manager\LightInfocon.GoldenIndex.General.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="estilo.css" />
+    <Content Include="imagens\barrainferior.png" />
+    <Content Include="imagens\barrasuperior.png" />
+    <Content Include="imagens\barra_Divisao.png" />
+    <Content Include="imagens\botao_Abrir.png" />
+    <Content Include="imagens\botao_acessar.png" />
+    <Content Include="imagens\botao_Ajuda.png" />
+    <Content Include="imagens\botao_Alterar.png" />
+    <Content Include="imagens\botao_busca.png" />
+    <Content Include="imagens\botao_busca_avancada.png" />
+    <Content Include="imagens\botao_Cadastrar.png" />
+    <Content Include="imagens\botao_enviar.png" />
+    <Content Include="imagens\botao_Excluir.png" />
+    <Content Include="imagens\botao_Limpar.png" />
+    <Content Include="imagens\botao_Listar.png" />
+    <Content Include="imagens\botao_MudarSenha.png" />
+    <Content Include="imagens\botao_Novo.png" />
+    <Content Include="imagens\botao_pesquisar.png" />
+    <Content Include="imagens\botao_Principal.png" />
+    <Content Include="imagens\botao_Procurar.png" />
+    <Content Include="imagens\botao_sair.png" />
+    <Content Include="imagens\botao_TCE.png" />
+    <Content Include="imagens\botao_todos.png" />
+    <Content Include="imagens\botao_voltar.png" />
+    <Content Include="imagens\botao_zdoc.png" />
+    <Content Include="imagens\botao_zdoc2.png" />
+    <Content Include="imagens\logo_rhdigital.png" />
+    <Content Include="imagens\logo_rhdigital2.png" />
+    <Content Include="imagens\logo_rhdigital3.png" />
+    <Content Include="imagens\rh_principal.jpg" />
+    <Content Include="imagens\tableft.gif" />
+    <Content Include="imagens\tabright.gif" />
+    <Content Include="imagens\TemplateRosto.jpg" />
+    <Content Include="imagens\TextBox_BordaDir.png" />
+    <Content Include="imagens\TextBox_BordaEsq.png" />
+    <Content Include="imagens\top_background.png" />
+    <Content Include="imagens\top_background2.png" />
+    <Content Include="imagens\zdoc.png" />
+    <Content Include="imagens\zdoc_small.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adaptador.cs" />
+    <Compile Include="Arquivo.cs" />
+    <Compile Include="Documento.cs" />
+    <Compile Include="IAdaptador.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tab_default.ascx.cs">
+      <DependentUpon>tab_default.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tab_default.ascx.designer.cs">
+      <DependentUpon>tab_default.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Indexador.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="loginMaster.aspx.cs">
+      <DependentUpon>loginMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loginMaster.aspx.designer.cs">
+      <DependentUpon>loginMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listar.aspx.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listar.aspx.designer.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alterarColaborador.aspx.cs">
+      <DependentUpon>alterarColaborador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="alterarColaborador.aspx.designer.cs">
+      <DependentUpon>alterarColaborador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alterarSenha.aspx.cs">
+      <DependentUpon>alterarSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="alterarSenha.aspx.designer.cs">
+      <DependentUpon>alterarSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Versao.cs" />
+    <Compile Include="cadastroDocs.aspx.cs">
+      <DependentUpon>cadastroDocs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroDocs.aspx.designer.cs">
+      <DependentUpon>cadastroDocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroDefault.aspx.cs">
+      <DependentUpon>cadastroDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroDefault.aspx.designer.cs">
+      <DependentUpon>cadastroDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\botao_pesquisar.psd" />
+    <None Include="imagens\botao_voltar.psd" />
+    <None Include="imagens\logo_rhdigital.psd" />
+    <None Include="imagens\logo_rhdigital2.psd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="imagens\botao_Procurar1.png" />
+    <Content Include="imagens\botao_salvar.png" />
+    <Content Include="imagens\botao_visualizar.png" />
+    <Content Include="imagens\Delete %281%29.png" />
+    <Content Include="imagens\Delete.png" />
+    <Content Include="imagens\Documents.png" />
+    <Content Include="imagens\Preview %281%29.png" />
+    <Content Include="imagens\Preview %282%29.png" />
+    <Content Include="imagens\Preview %283%29.png" />
+    <Content Include="imagens\Preview.png" />
+    <Content Include="imagens\User.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="tab_default.ascx" />
+    <Content Include="imagens\rh_colaboradores.jpeg" />
+    <Content Include="imagens\rh_fotorh.jpg" />
+    <Content Include="imagens\rh_gestao-de-pessoas21.jpg" />
+    <Content Include="imagens\rh_gestao-pessoas.jpg" />
+    <Content Include="imagens\rh_gestao.jpg" />
+    <Content Include="imagens\rh_imgRH.jpg" />
+    <Content Include="imagens\rh_pessoas.jpg" />
+    <Content Include="niftyCorners.css" />
+    <Content Include="niftycube.js" />
+    <Content Include="NiftyLayout.css" />
+    <Content Include="niftyLayout.js" />
+    <Content Include="niftyPrint.css" />
+    <Content Include="Site1.Master" />
+    <Content Include="loginMaster.aspx" />
+    <Content Include="listar.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="alterarColaborador.aspx" />
+    <Content Include="alterarSenha.aspx" />
+    <Content Include="cadastroDocs.aspx" />
+    <Content Include="cadastroDefault.aspx" />
+    <Content Include="WebForm3.aspx" />
+    <Content Include="webtoolkit.aim.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="arquivos\pessoa\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3735</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

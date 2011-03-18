@@ -1,0 +1,870 @@
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs}{
+\section{Referência da Classe SistemaRH.CadastroDocs}
+\label{class_sistema_r_h_1_1_cadastro_docs}\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+}
+
+
+Classe responsável pelo cadastro dos Colaboradores e dos sesus respectivos documentos no banco de dados.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_sistema_r_h_1_1_cadastro_docs_adaa98da56648d5c3594b709073059b6c}{obterIdCadastrado} ()
+\begin{DoxyCompactList}\small\item\em Método usado para obter o último ID cadastrado. \item\end{DoxyCompactList}\item 
+string \hyperlink{class_sistema_r_h_1_1_cadastro_docs_aa3b1733fc1dd88b6c0f5a4178bbaefbd}{montarFormatoGD} (string id, string nome\_\-Arquivo)
+\begin{DoxyCompactList}\small\item\em Montar o formato de nome dos documentos. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ab45ed5324701875b1199c2c5e95954af}{versiona\_\-indexa} (string nome\_\-arquivo)
+\begin{DoxyCompactList}\small\item\em Versiona um arquivo para futura indexação com o GoldenIndex. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Estáticos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_ab215c43480a0dcbcda460ec5032a1e73}{
+static string {\bfseries matricula} = \char`\"{}\char`\"{}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ab215c43480a0dcbcda460ec5032a1e73}
+
+\end{DoxyCompactItemize}
+\subsection*{Métodos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a05c607a06287f55c9dff094b5622cb22}{Page\_\-Init} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Inicia com a inicialização de algumas sessões usadas mais a frente. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ac6987d83c4f8a879cc9b05d436546d1a}{Page\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Verifica se o usuário está autenticado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a78da227c95d9bf41349b941b9705172f}{TabContainer1\_\-ActiveTabChanged} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para atualizar a aba ativa. \item\end{DoxyCompactList}\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a051e23a2b7bc363727d17812a33c5622}{
+void {\bfseries btnDisparaUCPessoais\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_a051e23a2b7bc363727d17812a33c5622}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a5d9b077aa7378b05becd561dad1cbe77}{
+void {\bfseries btnDisparaUCTitulacao\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_a5d9b077aa7378b05becd561dad1cbe77}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a1b524d2744f6541a9f4ab00be2f6db12}{
+void {\bfseries btnDisparaUCPortaria\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_a1b524d2744f6541a9f4ab00be2f6db12}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a7577246458214684679196fe97de5d55}{
+void {\bfseries btnDisparaUCPortariasComProcesso\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_a7577246458214684679196fe97de5d55}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_ab9064f2c6523bb477708406c095b8422}{
+void {\bfseries btnDisparaUCCI\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_ab9064f2c6523bb477708406c095b8422}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_aa439537fe6d90ce46963a66d9f03d01d}{
+void {\bfseries btnDisparaUCAviso\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_aa439537fe6d90ce46963a66d9f03d01d}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a6f1b3febdd7235eb60da8973064fee73}{
+void {\bfseries btnDisparaUCRequerimento\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_a6f1b3febdd7235eb60da8973064fee73}
+
+\item 
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a6b3cb00de5b211e796ce5fd47b9c341e}{
+void {\bfseries btnDisparaUCOutros\_\-Click} (object sender, EventArgs e)}
+\label{class_sistema_r_h_1_1_cadastro_docs_a6b3cb00de5b211e796ce5fd47b9c341e}
+
+\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_abb84b296a44826a1ab2b3f2e9f0a82cc}{TabContainer1\_\-Init} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Inicializa o TabContainer1 control com a primeira aba visível e o resto invisível. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a3f3237b482a0bf7af3d4f73383fc0bae}{TabContainer1\_\-Load} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Carrega o TabContainer1 control dependendo da aba ativa. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a00fa4ed92fd55e137ebba40c622b0c81}{ImageButton1\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Método usado para cadastrar o colaborador e seus respectivos documentos. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_aab7beee6a524f5e16a069cdba2901fb7}{ImageButtonCarregarImagem\_\-Click} (object sender, ImageClickEventArgs e)
+\begin{DoxyCompactList}\small\item\em Carrega a foto do colaborador no sistema. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a77280c5675d3cfcdc500c3dd57c1119e}{TextBoxMatricula\_\-TextChanged} (object sender, EventArgs e)
+\begin{DoxyCompactList}\small\item\em Método que atualiza o atributo matricula assim que o TextBox é editado. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ab2a021a7394f0618da76a8ed2d3e48b7}{CustomValidatorMatricula\_\-ServerValidate} (object source, ServerValidateEventArgs args)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se já existe a matrícula passada. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a1f6b6377443c6dc8d4b7616f98aaef1b}{CustomValidatorCPF\_\-ServerValidate} (object source, ServerValidateEventArgs args)
+\begin{DoxyCompactList}\small\item\em Método usado para verificar se já existe o CPF passado. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a61437f8fee7b34017fcb089f43e0e0aa}{Label2}
+\begin{DoxyCompactList}\small\item\em Label2 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a3713658dee32d47772744bc93a4a9672}{ImageAttention}
+\begin{DoxyCompactList}\small\item\em ImageAttention control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a33caea05605b414e0ea06b9220399f61}{LabelErro}
+\begin{DoxyCompactList}\small\item\em LabelErro control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Image \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a748c60b96b57bea687b23ee1d0645437}{ImageFoto}
+\begin{DoxyCompactList}\small\item\em ImageFoto control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a1d18bcded11290fd597a761a4f1bd9bb}{LabelMatricula}
+\begin{DoxyCompactList}\small\item\em LabelMatricula control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a1a75e3c9e88df9078ea5070b6f6c6beb}{TextBoxMatricula}
+\begin{DoxyCompactList}\small\item\em TextBoxMatricula control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.CustomValidator \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a864fa2442799138c4e79ef11d7660289}{CustomValidatorMatricula}
+\begin{DoxyCompactList}\small\item\em CustomValidatorMatricula control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a5526d44d5d274f837ab5f0847133844c}{LabelCPF}
+\begin{DoxyCompactList}\small\item\em LabelCPF control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a74b78098bf3b6eb0cfafde04d71d0b35}{TextBoxCPF}
+\begin{DoxyCompactList}\small\item\em TextBoxCPF control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.RegularExpressionValidator \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a5e95292e8aec7a971acf5aeec2afef00}{RegularExpressionValidator1}
+\begin{DoxyCompactList}\small\item\em RegularExpressionValidator1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.CustomValidator \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a6eba4bc5c40034a547b489b7bd86e717}{CustomValidatorCPF}
+\begin{DoxyCompactList}\small\item\em CustomValidatorCPF control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a05f83bf0a33b8127a9104de81cf2eebd}{LabelNome\_\-Colaborador}
+\begin{DoxyCompactList}\small\item\em LabelNome\_\-Colaborador control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.TextBox \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a7aed86a72a29957d9e59a7d7a66eddf0}{TextNome\_\-Colaborador}
+\begin{DoxyCompactList}\small\item\em TextNome\_\-Colaborador control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_docs_aa06556274477ad182494a5bed500f69f}{LabelCarregarFoto}
+\begin{DoxyCompactList}\small\item\em LabelCarregarFoto control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.FileUpload \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a6cb09b34eabc565682fdf585b60058c2}{FileUpload1}
+\begin{DoxyCompactList}\small\item\em FileUpload1 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_cadastro_docs_af52f4cd36a77912ec94cbc5a65c73459}{ImageButtonCarregarImagem}
+\begin{DoxyCompactList}\small\item\em ImageButtonCarregarImagem control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Label \hyperlink{class_sistema_r_h_1_1_cadastro_docs_af3a629db4b0544fe42def4930a20fe8f}{LabelDocs}
+\begin{DoxyCompactList}\small\item\em LabelDocs control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.ToolkitScriptManager \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a922507dd551a40cf6df9d74191dbe1f7}{ToolkitScriptManager2}
+\begin{DoxyCompactList}\small\item\em ToolkitScriptManager2 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.UpdatePanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a2f0aad0f94f3bdc6c1047f6fc2509544}{UpdatePanelTabContainer}
+\begin{DoxyCompactList}\small\item\em UpdatePanelTabContainer control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabContainer \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ae16b8fe37c2be10be0e70b2d50292d54}{TabContainer1}
+\begin{DoxyCompactList}\small\item\em TabContainer1 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_af70eb4a83950527be5018dbfbef36fcc}{TabPanelPessoais}
+\begin{DoxyCompactList}\small\item\em TabPanelPessoais control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_aa5743f25e56e06c7f634e9a018c9c353}{btnDisparaUCPessoais}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCPessoais control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ae1b5d8ddeb7251752f78e171a3b7491c}{tab\_\-default1}
+\begin{DoxyCompactList}\small\item\em tab\_\-default1 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a6584da713de60909f4ffaf2129db77ea}{TabPanelTitulacao}
+\begin{DoxyCompactList}\small\item\em TabPanelTitulacao control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_afa84dbdf065cac183b6b3c84949bc0e5}{btnDisparaUCTitulacao}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCTitulacao control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ac813ec9ac8f627e74066746c0733114c}{tab\_\-default2}
+\begin{DoxyCompactList}\small\item\em tab\_\-default2 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a0a4d4ac63fe4a8b43af5c125e94025a7}{TabPanelPortaria}
+\begin{DoxyCompactList}\small\item\em TabPanelPortaria control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ad0ac6383b315acbfc97bb88293db52f8}{btnDisparaUCPortaria}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCPortaria control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_af699a2c2389bdf5e1dcf7a2e8e3c9ce0}{tab\_\-default3}
+\begin{DoxyCompactList}\small\item\em tab\_\-default3 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_acb79f98f49970fb8051bd947de410ef4}{TabPanelPortariaComProcesso}
+\begin{DoxyCompactList}\small\item\em TabPanelPortariaComProcesso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a02b00ab22821e0f99d60c628b6d12d7e}{btnDisparaUCPortariasComProcesso}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCPortariasComProcesso control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a55a5a3ad3248d1048b0f0ea60012059c}{tab\_\-default4}
+\begin{DoxyCompactList}\small\item\em tab\_\-default4 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_af60edc8050fb84b1efce0e996bd0232d}{TabPanelCI}
+\begin{DoxyCompactList}\small\item\em TabPanelCI control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_af2bb49d67866ad385a6f806a07ccd59a}{btnDisparaUCCI}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCCI control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a5012be717fd91c8991567529203d4c50}{tab\_\-default5}
+\begin{DoxyCompactList}\small\item\em tab\_\-default5 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a386a760852dcd8ea7a3e45918086593f}{TabPanelAviso}
+\begin{DoxyCompactList}\small\item\em TabPanelAviso control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a118d786546382312ccaa7eff9a7fdd31}{btnDisparaUCAviso}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCAviso control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ae2f3ab74b04be41fbe19994589186f84}{tab\_\-default6}
+\begin{DoxyCompactList}\small\item\em tab\_\-default6 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a66cbe25e89418a2dcd41996092b51088}{TabPanelRequerimento}
+\begin{DoxyCompactList}\small\item\em TabPanelRequerimento control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a94141c28be0fcc27009e5bb894ca0568}{btnDisparaUCRequerimento}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCRequerimento control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a966849510487a63bb68e107d5d841330}{tab\_\-default7}
+\begin{DoxyCompactList}\small\item\em tab\_\-default7 control. \item\end{DoxyCompactList}\item 
+global::AjaxControlToolkit.TabPanel \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a43cf515093ff1a25c3eeaf873103cd14}{TabPanelOutros}
+\begin{DoxyCompactList}\small\item\em TabPanelOutros control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.Button \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a6bab846c3322d28af670f85a884a48ad}{btnDisparaUCOutros}
+\begin{DoxyCompactList}\small\item\em btnDisparaUCOutros control. \item\end{DoxyCompactList}\item 
+global::SistemaRH.tab\_\-default \hyperlink{class_sistema_r_h_1_1_cadastro_docs_ac30c963cac5d90c4389fa02d973437c8}{tab\_\-default8}
+\begin{DoxyCompactList}\small\item\em tab\_\-default8 control. \item\end{DoxyCompactList}\item 
+global::System.Web.UI.WebControls.ImageButton \hyperlink{class_sistema_r_h_1_1_cadastro_docs_a5362587404827e8c273c3b1be13fc7c5}{ImageButton1}
+\begin{DoxyCompactList}\small\item\em ImageButton1 control. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Classe responsável pelo cadastro dos Colaboradores e dos sesus respectivos documentos no banco de dados. 
+
+\subsection{Métodos}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a1f6b6377443c6dc8d4b7616f98aaef1b}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!CustomValidatorCPF\_\-ServerValidate@{CustomValidatorCPF\_\-ServerValidate}}
+\index{CustomValidatorCPF\_\-ServerValidate@{CustomValidatorCPF\_\-ServerValidate}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{CustomValidatorCPF\_\-ServerValidate}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.CustomValidatorCPF\_\-ServerValidate (
+\begin{DoxyParamCaption}
+\item[{object}]{ source, }
+\item[{ServerValidateEventArgs}]{ args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a1f6b6377443c6dc8d4b7616f98aaef1b}
+
+
+Método usado para verificar se já existe o CPF passado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em source} & The source of the event.\\
+\hline
+{\em args} & The System.Web.UI.WebControls.ServerValidateEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_ab2a021a7394f0618da76a8ed2d3e48b7}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!CustomValidatorMatricula\_\-ServerValidate@{CustomValidatorMatricula\_\-ServerValidate}}
+\index{CustomValidatorMatricula\_\-ServerValidate@{CustomValidatorMatricula\_\-ServerValidate}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{CustomValidatorMatricula\_\-ServerValidate}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.CustomValidatorMatricula\_\-ServerValidate (
+\begin{DoxyParamCaption}
+\item[{object}]{ source, }
+\item[{ServerValidateEventArgs}]{ args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ab2a021a7394f0618da76a8ed2d3e48b7}
+
+
+Método usado para verificar se já existe a matrícula passada. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em source} & The source of the event.\\
+\hline
+{\em args} & The System.Web.UI.WebControls.ServerValidateEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a00fa4ed92fd55e137ebba40c622b0c81}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!ImageButton1\_\-Click@{ImageButton1\_\-Click}}
+\index{ImageButton1\_\-Click@{ImageButton1\_\-Click}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{ImageButton1\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.ImageButton1\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a00fa4ed92fd55e137ebba40c622b0c81}
+
+
+Método usado para cadastrar o colaborador e seus respectivos documentos. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_aab7beee6a524f5e16a069cdba2901fb7}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!ImageButtonCarregarImagem\_\-Click@{ImageButtonCarregarImagem\_\-Click}}
+\index{ImageButtonCarregarImagem\_\-Click@{ImageButtonCarregarImagem\_\-Click}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{ImageButtonCarregarImagem\_\-Click}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.ImageButtonCarregarImagem\_\-Click (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{ImageClickEventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_aab7beee6a524f5e16a069cdba2901fb7}
+
+
+Carrega a foto do colaborador no sistema. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.Web.UI.ImageClickEventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_aa3b1733fc1dd88b6c0f5a4178bbaefbd}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!montarFormatoGD@{montarFormatoGD}}
+\index{montarFormatoGD@{montarFormatoGD}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{montarFormatoGD}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.CadastroDocs.montarFormatoGD (
+\begin{DoxyParamCaption}
+\item[{string}]{ id, }
+\item[{string}]{ nome\_\-Arquivo}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_cadastro_docs_aa3b1733fc1dd88b6c0f5a4178bbaefbd}
+
+
+Montar o formato de nome dos documentos. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em id} & A matrícula do colaborador.\\
+\hline
+{\em nome\_\-Arquivo} & O nome do arquivo.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+o nome já formatado
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_adaa98da56648d5c3594b709073059b6c}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!obterIdCadastrado@{obterIdCadastrado}}
+\index{obterIdCadastrado@{obterIdCadastrado}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{obterIdCadastrado}]{\setlength{\rightskip}{0pt plus 5cm}string SistemaRH.CadastroDocs.obterIdCadastrado (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_cadastro_docs_adaa98da56648d5c3594b709073059b6c}
+
+
+Método usado para obter o último ID cadastrado. 
+
+\begin{DoxyReturn}{Retorna}
+o id
+\end{DoxyReturn}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a05c607a06287f55c9dff094b5622cb22}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!Page\_\-Init@{Page\_\-Init}}
+\index{Page\_\-Init@{Page\_\-Init}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{Page\_\-Init}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.Page\_\-Init (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a05c607a06287f55c9dff094b5622cb22}
+
+
+Inicia com a inicialização de algumas sessões usadas mais a frente. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_ac6987d83c4f8a879cc9b05d436546d1a}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!Page\_\-Load@{Page\_\-Load}}
+\index{Page\_\-Load@{Page\_\-Load}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{Page\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.Page\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ac6987d83c4f8a879cc9b05d436546d1a}
+
+
+Verifica se o usuário está autenticado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a78da227c95d9bf41349b941b9705172f}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabContainer1\_\-ActiveTabChanged@{TabContainer1\_\-ActiveTabChanged}}
+\index{TabContainer1\_\-ActiveTabChanged@{TabContainer1\_\-ActiveTabChanged}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabContainer1\_\-ActiveTabChanged}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.TabContainer1\_\-ActiveTabChanged (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a78da227c95d9bf41349b941b9705172f}
+
+
+Método usado para atualizar a aba ativa. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_abb84b296a44826a1ab2b3f2e9f0a82cc}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabContainer1\_\-Init@{TabContainer1\_\-Init}}
+\index{TabContainer1\_\-Init@{TabContainer1\_\-Init}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabContainer1\_\-Init}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.TabContainer1\_\-Init (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_abb84b296a44826a1ab2b3f2e9f0a82cc}
+
+
+Inicializa o TabContainer1 control com a primeira aba visível e o resto invisível. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a3f3237b482a0bf7af3d4f73383fc0bae}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabContainer1\_\-Load@{TabContainer1\_\-Load}}
+\index{TabContainer1\_\-Load@{TabContainer1\_\-Load}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabContainer1\_\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.TabContainer1\_\-Load (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a3f3237b482a0bf7af3d4f73383fc0bae}
+
+
+Carrega o TabContainer1 control dependendo da aba ativa. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a77280c5675d3cfcdc500c3dd57c1119e}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TextBoxMatricula\_\-TextChanged@{TextBoxMatricula\_\-TextChanged}}
+\index{TextBoxMatricula\_\-TextChanged@{TextBoxMatricula\_\-TextChanged}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TextBoxMatricula\_\-TextChanged}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.TextBoxMatricula\_\-TextChanged (
+\begin{DoxyParamCaption}
+\item[{object}]{ sender, }
+\item[{EventArgs}]{ e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a77280c5675d3cfcdc500c3dd57c1119e}
+
+
+Método que atualiza o atributo matricula assim que o TextBox é editado. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & The System.EventArgs instance containing the event data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_ab45ed5324701875b1199c2c5e95954af}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!versiona\_\-indexa@{versiona\_\-indexa}}
+\index{versiona\_\-indexa@{versiona\_\-indexa}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{versiona\_\-indexa}]{\setlength{\rightskip}{0pt plus 5cm}void SistemaRH.CadastroDocs.versiona\_\-indexa (
+\begin{DoxyParamCaption}
+\item[{string}]{ nome\_\-arquivo}
+\end{DoxyParamCaption}
+)}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ab45ed5324701875b1199c2c5e95954af}
+
+
+Versiona um arquivo para futura indexação com o GoldenIndex. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\_\-arquivo} & nome do arquivo.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Atributos}
+\hypertarget{class_sistema_r_h_1_1_cadastro_docs_a118d786546382312ccaa7eff9a7fdd31}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCAviso@{btnDisparaUCAviso}}
+\index{btnDisparaUCAviso@{btnDisparaUCAviso}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCAviso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCAviso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a118d786546382312ccaa7eff9a7fdd31}
+
+
+btnDisparaUCAviso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_af2bb49d67866ad385a6f806a07ccd59a}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCCI@{btnDisparaUCCI}}
+\index{btnDisparaUCCI@{btnDisparaUCCI}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCCI}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCCI}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_af2bb49d67866ad385a6f806a07ccd59a}
+
+
+btnDisparaUCCI control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a6bab846c3322d28af670f85a884a48ad}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCOutros@{btnDisparaUCOutros}}
+\index{btnDisparaUCOutros@{btnDisparaUCOutros}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCOutros}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCOutros}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a6bab846c3322d28af670f85a884a48ad}
+
+
+btnDisparaUCOutros control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_aa5743f25e56e06c7f634e9a018c9c353}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCPessoais@{btnDisparaUCPessoais}}
+\index{btnDisparaUCPessoais@{btnDisparaUCPessoais}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCPessoais}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCPessoais}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_aa5743f25e56e06c7f634e9a018c9c353}
+
+
+btnDisparaUCPessoais control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_ad0ac6383b315acbfc97bb88293db52f8}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCPortaria@{btnDisparaUCPortaria}}
+\index{btnDisparaUCPortaria@{btnDisparaUCPortaria}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCPortaria}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCPortaria}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ad0ac6383b315acbfc97bb88293db52f8}
+
+
+btnDisparaUCPortaria control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a02b00ab22821e0f99d60c628b6d12d7e}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCPortariasComProcesso@{btnDisparaUCPortariasComProcesso}}
+\index{btnDisparaUCPortariasComProcesso@{btnDisparaUCPortariasComProcesso}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCPortariasComProcesso}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCPortariasComProcesso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a02b00ab22821e0f99d60c628b6d12d7e}
+
+
+btnDisparaUCPortariasComProcesso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a94141c28be0fcc27009e5bb894ca0568}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCRequerimento@{btnDisparaUCRequerimento}}
+\index{btnDisparaUCRequerimento@{btnDisparaUCRequerimento}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCRequerimento}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCRequerimento}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a94141c28be0fcc27009e5bb894ca0568}
+
+
+btnDisparaUCRequerimento control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_afa84dbdf065cac183b6b3c84949bc0e5}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!btnDisparaUCTitulacao@{btnDisparaUCTitulacao}}
+\index{btnDisparaUCTitulacao@{btnDisparaUCTitulacao}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{btnDisparaUCTitulacao}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Button {\bf SistemaRH.CadastroDocs.btnDisparaUCTitulacao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_afa84dbdf065cac183b6b3c84949bc0e5}
+
+
+btnDisparaUCTitulacao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a6eba4bc5c40034a547b489b7bd86e717}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!CustomValidatorCPF@{CustomValidatorCPF}}
+\index{CustomValidatorCPF@{CustomValidatorCPF}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{CustomValidatorCPF}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.CustomValidator {\bf SistemaRH.CadastroDocs.CustomValidatorCPF}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a6eba4bc5c40034a547b489b7bd86e717}
+
+
+CustomValidatorCPF control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a864fa2442799138c4e79ef11d7660289}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!CustomValidatorMatricula@{CustomValidatorMatricula}}
+\index{CustomValidatorMatricula@{CustomValidatorMatricula}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{CustomValidatorMatricula}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.CustomValidator {\bf SistemaRH.CadastroDocs.CustomValidatorMatricula}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a864fa2442799138c4e79ef11d7660289}
+
+
+CustomValidatorMatricula control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a6cb09b34eabc565682fdf585b60058c2}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!FileUpload1@{FileUpload1}}
+\index{FileUpload1@{FileUpload1}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{FileUpload1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.FileUpload {\bf SistemaRH.CadastroDocs.FileUpload1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a6cb09b34eabc565682fdf585b60058c2}
+
+
+FileUpload1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a3713658dee32d47772744bc93a4a9672}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!ImageAttention@{ImageAttention}}
+\index{ImageAttention@{ImageAttention}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{ImageAttention}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.CadastroDocs.ImageAttention}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a3713658dee32d47772744bc93a4a9672}
+
+
+ImageAttention control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a5362587404827e8c273c3b1be13fc7c5}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!ImageButton1@{ImageButton1}}
+\index{ImageButton1@{ImageButton1}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{ImageButton1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.CadastroDocs.ImageButton1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a5362587404827e8c273c3b1be13fc7c5}
+
+
+ImageButton1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_af52f4cd36a77912ec94cbc5a65c73459}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!ImageButtonCarregarImagem@{ImageButtonCarregarImagem}}
+\index{ImageButtonCarregarImagem@{ImageButtonCarregarImagem}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{ImageButtonCarregarImagem}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.ImageButton {\bf SistemaRH.CadastroDocs.ImageButtonCarregarImagem}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_af52f4cd36a77912ec94cbc5a65c73459}
+
+
+ImageButtonCarregarImagem control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a748c60b96b57bea687b23ee1d0645437}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!ImageFoto@{ImageFoto}}
+\index{ImageFoto@{ImageFoto}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{ImageFoto}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Image {\bf SistemaRH.CadastroDocs.ImageFoto}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a748c60b96b57bea687b23ee1d0645437}
+
+
+ImageFoto control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a61437f8fee7b34017fcb089f43e0e0aa}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!Label2@{Label2}}
+\index{Label2@{Label2}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{Label2}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroDocs.Label2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a61437f8fee7b34017fcb089f43e0e0aa}
+
+
+Label2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_aa06556274477ad182494a5bed500f69f}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!LabelCarregarFoto@{LabelCarregarFoto}}
+\index{LabelCarregarFoto@{LabelCarregarFoto}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{LabelCarregarFoto}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroDocs.LabelCarregarFoto}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_aa06556274477ad182494a5bed500f69f}
+
+
+LabelCarregarFoto control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a5526d44d5d274f837ab5f0847133844c}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!LabelCPF@{LabelCPF}}
+\index{LabelCPF@{LabelCPF}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{LabelCPF}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroDocs.LabelCPF}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a5526d44d5d274f837ab5f0847133844c}
+
+
+LabelCPF control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_af3a629db4b0544fe42def4930a20fe8f}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!LabelDocs@{LabelDocs}}
+\index{LabelDocs@{LabelDocs}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{LabelDocs}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroDocs.LabelDocs}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_af3a629db4b0544fe42def4930a20fe8f}
+
+
+LabelDocs control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a33caea05605b414e0ea06b9220399f61}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!LabelErro@{LabelErro}}
+\index{LabelErro@{LabelErro}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{LabelErro}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroDocs.LabelErro}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a33caea05605b414e0ea06b9220399f61}
+
+
+LabelErro control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a1d18bcded11290fd597a761a4f1bd9bb}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!LabelMatricula@{LabelMatricula}}
+\index{LabelMatricula@{LabelMatricula}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{LabelMatricula}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroDocs.LabelMatricula}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a1d18bcded11290fd597a761a4f1bd9bb}
+
+
+LabelMatricula control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a05f83bf0a33b8127a9104de81cf2eebd}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!LabelNome\_\-Colaborador@{LabelNome\_\-Colaborador}}
+\index{LabelNome\_\-Colaborador@{LabelNome\_\-Colaborador}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{LabelNome\_\-Colaborador}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.Label {\bf SistemaRH.CadastroDocs.LabelNome\_\-Colaborador}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a05f83bf0a33b8127a9104de81cf2eebd}
+
+
+LabelNome\_\-Colaborador control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a5e95292e8aec7a971acf5aeec2afef00}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!RegularExpressionValidator1@{RegularExpressionValidator1}}
+\index{RegularExpressionValidator1@{RegularExpressionValidator1}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{RegularExpressionValidator1}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.RegularExpressionValidator {\bf SistemaRH.CadastroDocs.RegularExpressionValidator1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a5e95292e8aec7a971acf5aeec2afef00}
+
+
+RegularExpressionValidator1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_ae1b5d8ddeb7251752f78e171a3b7491c}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default1@{tab\_\-default1}}
+\index{tab\_\-default1@{tab\_\-default1}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default1}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ae1b5d8ddeb7251752f78e171a3b7491c}
+
+
+tab\_\-default1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_ac813ec9ac8f627e74066746c0733114c}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default2@{tab\_\-default2}}
+\index{tab\_\-default2@{tab\_\-default2}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default2}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ac813ec9ac8f627e74066746c0733114c}
+
+
+tab\_\-default2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_af699a2c2389bdf5e1dcf7a2e8e3c9ce0}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default3@{tab\_\-default3}}
+\index{tab\_\-default3@{tab\_\-default3}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default3}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default3}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_af699a2c2389bdf5e1dcf7a2e8e3c9ce0}
+
+
+tab\_\-default3 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a55a5a3ad3248d1048b0f0ea60012059c}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default4@{tab\_\-default4}}
+\index{tab\_\-default4@{tab\_\-default4}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default4}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default4}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a55a5a3ad3248d1048b0f0ea60012059c}
+
+
+tab\_\-default4 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a5012be717fd91c8991567529203d4c50}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default5@{tab\_\-default5}}
+\index{tab\_\-default5@{tab\_\-default5}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default5}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default5}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a5012be717fd91c8991567529203d4c50}
+
+
+tab\_\-default5 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_ae2f3ab74b04be41fbe19994589186f84}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default6@{tab\_\-default6}}
+\index{tab\_\-default6@{tab\_\-default6}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default6}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default6}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ae2f3ab74b04be41fbe19994589186f84}
+
+
+tab\_\-default6 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a966849510487a63bb68e107d5d841330}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default7@{tab\_\-default7}}
+\index{tab\_\-default7@{tab\_\-default7}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default7}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default7}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a966849510487a63bb68e107d5d841330}
+
+
+tab\_\-default7 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_ac30c963cac5d90c4389fa02d973437c8}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!tab\_\-default8@{tab\_\-default8}}
+\index{tab\_\-default8@{tab\_\-default8}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{tab\_\-default8}]{\setlength{\rightskip}{0pt plus 5cm}global::SistemaRH.tab\_\-default {\bf SistemaRH.CadastroDocs.tab\_\-default8}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ac30c963cac5d90c4389fa02d973437c8}
+
+
+tab\_\-default8 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_ae16b8fe37c2be10be0e70b2d50292d54}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabContainer1@{TabContainer1}}
+\index{TabContainer1@{TabContainer1}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabContainer1}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabContainer {\bf SistemaRH.CadastroDocs.TabContainer1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_ae16b8fe37c2be10be0e70b2d50292d54}
+
+
+TabContainer1 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a386a760852dcd8ea7a3e45918086593f}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelAviso@{TabPanelAviso}}
+\index{TabPanelAviso@{TabPanelAviso}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelAviso}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelAviso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a386a760852dcd8ea7a3e45918086593f}
+
+
+TabPanelAviso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_af60edc8050fb84b1efce0e996bd0232d}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelCI@{TabPanelCI}}
+\index{TabPanelCI@{TabPanelCI}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelCI}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelCI}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_af60edc8050fb84b1efce0e996bd0232d}
+
+
+TabPanelCI control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a43cf515093ff1a25c3eeaf873103cd14}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelOutros@{TabPanelOutros}}
+\index{TabPanelOutros@{TabPanelOutros}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelOutros}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelOutros}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a43cf515093ff1a25c3eeaf873103cd14}
+
+
+TabPanelOutros control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_af70eb4a83950527be5018dbfbef36fcc}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelPessoais@{TabPanelPessoais}}
+\index{TabPanelPessoais@{TabPanelPessoais}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelPessoais}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelPessoais}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_af70eb4a83950527be5018dbfbef36fcc}
+
+
+TabPanelPessoais control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a0a4d4ac63fe4a8b43af5c125e94025a7}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelPortaria@{TabPanelPortaria}}
+\index{TabPanelPortaria@{TabPanelPortaria}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelPortaria}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelPortaria}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a0a4d4ac63fe4a8b43af5c125e94025a7}
+
+
+TabPanelPortaria control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_acb79f98f49970fb8051bd947de410ef4}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelPortariaComProcesso@{TabPanelPortariaComProcesso}}
+\index{TabPanelPortariaComProcesso@{TabPanelPortariaComProcesso}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelPortariaComProcesso}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelPortariaComProcesso}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_acb79f98f49970fb8051bd947de410ef4}
+
+
+TabPanelPortariaComProcesso control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a66cbe25e89418a2dcd41996092b51088}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelRequerimento@{TabPanelRequerimento}}
+\index{TabPanelRequerimento@{TabPanelRequerimento}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelRequerimento}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelRequerimento}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a66cbe25e89418a2dcd41996092b51088}
+
+
+TabPanelRequerimento control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a6584da713de60909f4ffaf2129db77ea}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TabPanelTitulacao@{TabPanelTitulacao}}
+\index{TabPanelTitulacao@{TabPanelTitulacao}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TabPanelTitulacao}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.TabPanel {\bf SistemaRH.CadastroDocs.TabPanelTitulacao}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a6584da713de60909f4ffaf2129db77ea}
+
+
+TabPanelTitulacao control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a74b78098bf3b6eb0cfafde04d71d0b35}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TextBoxCPF@{TextBoxCPF}}
+\index{TextBoxCPF@{TextBoxCPF}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TextBoxCPF}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.CadastroDocs.TextBoxCPF}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a74b78098bf3b6eb0cfafde04d71d0b35}
+
+
+TextBoxCPF control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a1a75e3c9e88df9078ea5070b6f6c6beb}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TextBoxMatricula@{TextBoxMatricula}}
+\index{TextBoxMatricula@{TextBoxMatricula}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TextBoxMatricula}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.CadastroDocs.TextBoxMatricula}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a1a75e3c9e88df9078ea5070b6f6c6beb}
+
+
+TextBoxMatricula control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a7aed86a72a29957d9e59a7d7a66eddf0}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!TextNome\_\-Colaborador@{TextNome\_\-Colaborador}}
+\index{TextNome\_\-Colaborador@{TextNome\_\-Colaborador}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{TextNome\_\-Colaborador}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.WebControls.TextBox {\bf SistemaRH.CadastroDocs.TextNome\_\-Colaborador}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a7aed86a72a29957d9e59a7d7a66eddf0}
+
+
+TextNome\_\-Colaborador control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a922507dd551a40cf6df9d74191dbe1f7}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!ToolkitScriptManager2@{ToolkitScriptManager2}}
+\index{ToolkitScriptManager2@{ToolkitScriptManager2}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{ToolkitScriptManager2}]{\setlength{\rightskip}{0pt plus 5cm}global::AjaxControlToolkit.ToolkitScriptManager {\bf SistemaRH.CadastroDocs.ToolkitScriptManager2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a922507dd551a40cf6df9d74191dbe1f7}
+
+
+ToolkitScriptManager2 control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \hypertarget{class_sistema_r_h_1_1_cadastro_docs_a2f0aad0f94f3bdc6c1047f6fc2509544}{
+\index{SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}!UpdatePanelTabContainer@{UpdatePanelTabContainer}}
+\index{UpdatePanelTabContainer@{UpdatePanelTabContainer}!SistemaRH::CadastroDocs@{SistemaRH::CadastroDocs}}
+\subsubsection[{UpdatePanelTabContainer}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Web.UI.UpdatePanel {\bf SistemaRH.CadastroDocs.UpdatePanelTabContainer}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_sistema_r_h_1_1_cadastro_docs_a2f0aad0f94f3bdc6c1047f6fc2509544}
+
+
+UpdatePanelTabContainer control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+cadastroDocs.aspx.cs\item 
+cadastroDocs.aspx.designer.cs\end{DoxyCompactItemize}

@@ -1,0 +1,261 @@
+﻿body
+{
+	background-color: #F3F3F3;
+}
+.divDefault
+{
+	position: fixed;
+	margin: 0; /*text-align:center;*/
+	background-color: #F3F3F3;
+	width: 70%;
+	font-family: Verdana;
+	font-size: small;
+}
+
+.tabelaTipos
+{
+	margin: 0;
+	text-align: center;
+	background-color: #F3F3F3;
+	width: 100%;
+	top: 75px;
+	font-family: Verdana;
+	font-size: small;
+}
+
+.tabelaTiposPainel
+{
+	background-color: #F3F3F3;
+	width: 99%; /*padding-left: 7px;*/
+}
+
+.tabelaAlterarSenha
+{
+	width:99%;
+	top:100px;
+	font-family: Verdana;
+	font-size: small;
+}
+
+.tabelaBuscaAvancada
+{
+	width:99%;
+	top:100px;
+	font-family: Verdana;
+	font-size: small;
+	vertical-align: middle;
+}
+
+.tabelaListar
+{
+	width:99%;
+	top:30px;
+	font-family: Verdana;
+	font-size: small;
+	vertical-align: middle;
+}
+
+.tabelaTiposPainel.leftCell
+{
+	width: 230px;
+	text-align: left;
+	float: left;
+}
+
+.tabelaTiposPainel.middleCell
+{
+	width: 300px;
+	text-align: left;
+	float: none;
+}
+
+.tabelaTiposPainel.rightCell
+{
+	/*width="70px"*/
+	width: 100px;
+	float: right;
+}
+
+#tabelaSuperior
+{
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	width: 99%;
+	text-align: left;
+	top: 0;
+	background-color: #F3F3F3;
+}
+
+
+
+#tabelaCentral
+{
+	top: 20%;
+	position: fixed;
+	width: 550px;
+	margin: 0 auto;
+	left: 10px;
+}
+
+#tabelaInferior
+{
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	width: 99%;
+	text-align: left;
+	background-color: #F3F3F3;
+	bottom: 0;
+}
+
+#lbModulos
+{
+	width: 99%;
+	position: fixed;
+	top: 15%; /*margin-left:auto; 	margin-right:auto;*/
+	background-color: #F3F3F3;
+}
+
+#panelCentral
+{
+	position: fixed;
+	width: 99%;
+	top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F3F3F3;
+	text-align: center;
+}
+
+/*
+.bordaBox { background: transparent; width:500px; margin: 0 auto; top:30%; position:fixed;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b4, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b, .bordaBox .b4b {display:block; overflow:hidden; font-size:1px;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b {height:1px;}
+.bordaBox .b2, .bordaBox .b3, .bordaBox .b4 {background:#FFCC33; border-left:1px solid #FFCC33; border-right:1px solid #FFCC33;}
+.bordaBox .b1 {margin:0 5px; background:#FFCC33;}
+.bordaBox .b2 {margin:0 3px; border-width:0 2px;}
+.bordaBox .b3 {margin:0 2px;}
+.bordaBox .b4 {height:2px; margin:0 1px;}
+.bordaBox .conteudo {padding:5px;display:block; background:#FFCC33; border-left:1px solid #FFCC33; border-right:1px solid #FFCC33;}
+*/
+
+.fieldsetLogin
+{
+	margin-bottom: 10px;
+	top: 30%;
+	position: fixed;
+	text-align: left;
+	width: 240px;
+	left: 50%;
+	margin-left: -120px;
+}
+
+.fieldsetLogin.cellLabel
+{
+	vertical-align: bottom;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 10px;
+	text-align: justify;
+}
+.fieldsetLogin.cellTxtBox
+{
+	padding-top: 10px;
+	vertical-align: bottom;
+	text-align: justify;
+	padding-bottom: 0px;
+}
+.fieldsetLogin.cellError
+{
+	vertical-align: top;
+	padding: 4px;
+	padding-bottom: 0px;
+}
+
+.fieldsetLogin.cellErrorFieldRequired
+{
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+	height: 2px;
+}
+
+.fieldsetCadastrar
+{
+	margin-bottom: 10px;
+	top: 18%;
+	position: fixed;
+	text-align: left;
+	width: 458px;
+	left: 50%;
+	margin-left: -229px;
+	height: 380px;
+}
+
+.fieldsetAlterarSenha
+{
+	margin-bottom: 10px;
+	top: 18%;
+	position: fixed;
+	text-align: left;
+	width: 360px;
+	left: 50%;
+	margin-left: -180px;
+	height: 225px;
+}
+
+.fieldsetBuscaAvancada
+{
+	margin-bottom: 10px;
+	top: 18%;
+	position: fixed;
+	text-align: left;
+	width: 650px;
+	left: 50%;
+	margin-left: -300px;
+	height: 300px;
+}
+
+.fieldsetDefault
+{
+	margin-bottom: 10px;
+	position: fixed;
+	width: 650px;
+	text-align: left;
+	left: 50%;
+	margin-left: -325px;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+legend
+{
+	padding: 0 2px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	text-align: left;
+	font-family: Verdana;
+	color: #000000;
+}
+
+fieldset fieldset
+{
+	border: none;
+	margin: 3px 0 0;
+}
+fieldset fieldset legend
+{
+	padding: 0 0 5px;
+	font-weight: normal;
+}
+
+em
+{
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+
+
+

@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site_Master.master.cs"
+    Inherits="PEP.Site_Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sistema de Prontuário Eletrônico</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formMaster" runat="server">
+    <%--DIV with the header of Application--%>
+    <div>
+        <table id="tabelaSuperior" cellspacing="0" cellpadding="0">
+            <tr>
+                <td colspan="4">
+                    <asp:Image ID="ImageBarraSuperior" runat="server" ImageUrl="~/imagens/barrasuperior.png"
+                        Width="100%" />
+                </td>
+            </tr>
+            <tr style="padding-bottom:0px;">
+                <td style="width:33% ; padding-left:10px ; padding-top:3px ; padding-bottom:0px;">
+                    <asp:Image ID="ImageGED" runat="server" ImageUrl="~/imagens/SPE.png" />
+                </td>
+                <td align="center" style="width:33%" valign="middle">
+                    <asp:ImageButton ID="ImageButtonPrincipal" runat="server" 
+                        ImageUrl="~/imagens/botao_Principal.png" 
+                        onclick="ImageButtonPrincipal_Click" />
+                    <asp:ImageButton ID="ImageButtonCadastrar" runat="server" 
+                        ImageUrl="~/imagens/botao_Cadastrar.png" onclick="ImageButtonCadastrar_Click"
+                         />
+                    <asp:ImageButton ID="ImageButtonListar" runat="server" 
+                        ImageUrl="~/imagens/botao_Listar.png" onclick="ImageButtonListar_Click"
+                         />
+                    <asp:ImageButton ID="ImageButtonAlterarSenha" runat="server" 
+                        ImageUrl="~/imagens/botao_MudarSenha.png" onclick="ImageButtonAlterarSenha_Click"
+                        />
+                    <asp:ImageButton ID="ImageButtonAjuda" runat="server" 
+                        ImageUrl="~/imagens/botao_Ajuda.png" onclick="ImageButtonAjuda_Click"
+                         />
+                </td>
+                <td align="right" valign="top" style="width:33%">
+                    <asp:ImageButton ID="ImageButtonSair" runat="server" 
+                        ImageUrl="~/imagens/botao_Sair0.png" onclick="ImageButtonSair_Click"
+                         />
+                </td>
+               
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <asp:Image ID="ImageDivisaoSuperior" runat="server" Height="2px" ImageUrl="~/imagens/barra_Divisao.png"
+                        Width="100%" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <%--DIV with the body of Application--%>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 <p>
+                        <br />
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+        </asp:ContentPlaceHolder>
+    </div>
+    <%--DIV with the footer of Application--%>
+    <div>
+        <table id="tabelaInferior" cellspacing="0">
+            <tr>
+                <td colspan="3" valign="top">
+                    <asp:Image ID="ImageDivisaoInferior" runat="server" Height="2px" ImageUrl="~/imagens/barra_Divisao.png"
+                        Width="100%" BorderWidth="0px" />
+                </td>
+            </tr>
+            <tr class="bodyMaster">
+                <td>
+                    &nbsp;</td>
+                <td align="center">
+                    <asp:Image ID="ImageZDoc" runat="server" ImageUrl="~/imagens/botao_zdoc.png" />
+                </td>
+                <td align="right">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" >
+                    <asp:Image ID="ImageBarraInferior" runat="server" ImageUrl="~/imagens/barrainferior.png"
+                        Width="100%" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

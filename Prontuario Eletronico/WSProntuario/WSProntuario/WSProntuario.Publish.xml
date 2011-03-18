@@ -1,0 +1,8 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\anderson\Desktop\WSProntuario\">
+    <file relUrl="bin/WSProntuario.pdb" publishTime="09/13/2010 16:26:19" />
+    <file relUrl="ServiceProntuario.asmx" publishTime="09/08/2010 10:14:25" />
+    <file relUrl="bin/WSProntuario.dll" publishTime="09/13/2010 16:26:19" />
+    <file relUrl="Web.config" publishTime="09/09/2010 14:43:56" />
+  </publishTarget>
+</publishData>
